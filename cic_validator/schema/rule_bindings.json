@@ -1,0 +1,3492 @@
+[
+  {
+    "error_code": "10-002",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Role",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: RoleDomain"
+    },
+    "description": "FIELD 'ROLE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Role table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-004",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Gender",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: GENDER DOMAIN"
+    },
+    "description": "FIELD 'GENDER' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Gender table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-005",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Date of Birth",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE OF BIRTH' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-007",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: Address Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: Address Type"
+    },
+    "description": "FIELD 'ADDRESS TYPE' IS NOT CORRECT OR NOT ALLOWED FOR THE SPECIFIC SUBJECT TYPE",
+    "fix": "For Individual (ID) records:\n* Address 1 Type must always be MI\n* Address 2 Type must always be AI\n\nFor Business (BD) records:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-014",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader 1: Contact Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: ContactTypeDomain"
+    },
+    "description": "FIELD 'CONTACT TYPE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Contact Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-015",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: OccupationStatus",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: OccupationStatusDomain"
+    },
+    "description": "FIELD 'OCCUPATION STATUS' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Occupation Status table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-002",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Role",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: RoleDomain"
+    },
+    "description": "FIELD 'ROLE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Role table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-021",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Legal Form",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "BD - Business Data :: LegalFormDomain"
+    },
+    "description": "FIELD 'LEGAL FORM' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Legal Form Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-022",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ContractTypeDomain (CorrectedFull)"
+    },
+    "description": "FIELD 'CONTRACT TYPE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Contract Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-023",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Type",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT TYPE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-024",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Phase",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT PHASE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-027",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Currency",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CURRENCY' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-028",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Currency",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: CurrencyDomain"
+    },
+    "description": "FIELD 'CURRENCY' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Currency table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-029",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Payment Periodicity",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: PaymentPeriodicityDomain"
+    },
+    "description": "FIELD 'PAYMENT PERIODICITY' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Payment Periodicity table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-003",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Provider Subject No",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 38
+    },
+    "description": "FIELD 'PROVIDER SUBJECT NO' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 38 characters."
+  },
+  {
+    "error_code": "10-030",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-031",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CREDIT LIMIT' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-032",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Trade Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'TRADE NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-034",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-035",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-036",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-037",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Place of Birth",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 100
+    },
+    "description": "FIELD 'PLACE OF BIRTH' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 100 characters."
+  },
+  {
+    "error_code": "10-038",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 400
+    },
+    "description": "FIELD 'FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 400 characters."
+  },
+  {
+    "error_code": "1-004",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Gender",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: GENDER DOMAIN"
+    },
+    "description": "FIELD 'GENDER' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Gender table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-043",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader 1: Identification Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 20 characters."
+  },
+  {
+    "error_code": "10-046",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: GrossIncome",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 15 characters."
+  },
+  {
+    "error_code": "10-047",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Occupation",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'OCCUPATION' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "10-049",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader: TradeName",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'SOLE TRADER TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 120 characters."
+  },
+  {
+    "error_code": "1-005",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Date of Birth",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE OF BIRTH' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-057",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Trade Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 120 characters."
+  },
+  {
+    "error_code": "10-058",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Financed Amount",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-059",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 3
+    },
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 3 characters. Additionally, the values must be numeric only."
+  },
+  {
+    "error_code": "10-060",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Monthly Payment Amount",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-061",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-062",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Provider Contract No",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 38
+    },
+    "description": "FIELD 'PROVIDER CONTRACT NO' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 38 characters."
+  },
+  {
+    "error_code": "1-007",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: Address Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: Address Type"
+    },
+    "description": "FIELD 'ADDRESS TYPE' IS NOT CORRECT OR NOT ALLOWED FOR THE SPECIFIC SUBJECT TYPE",
+    "fix": "For Individual (ID) records:\n* Address 1 Type must always be MI\n* Address 2 Type must always be AI\n\nFor Business (BD) records:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-076",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: PostalCode",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'POSTAL CODE' IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "10-102",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Phase",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ContractPhaseDomain"
+    },
+    "description": "FIELD 'CONTRACT PHASE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Contract Phase table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-109",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Subject Reference Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-110",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Subject Reference Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-117",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "Provider Code",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'PROVIDERCODE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-118",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "Provider Code",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 8
+    },
+    "description": "FIELD 'PROVIDER CODE' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 8 characters."
+  },
+  {
+    "error_code": "10-119",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Branch Code",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 3
+    },
+    "description": "FIELD 'BRANCH CODE' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 5 characters."
+  },
+  {
+    "error_code": "10-121",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "File Reference Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'FILEREFERENCE DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-122",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "File Reference Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'FILEREFERENCE DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-014",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader 1: Contact Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: ContactTypeDomain"
+    },
+    "description": "FIELD 'CONTACT TYPE' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Contact Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-149",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Reference Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT REFERENCE DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-015",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: OccupationStatus",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: OccupationStatusDomain"
+    },
+    "description": "FIELD 'OCCUPATION STATUS' IS NOT CORRECT",
+    "fix": "The value reported in this field must be consistent with the values available in the Occupation Status table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-150",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Reference Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT REFERENCE DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-152",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Role",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'ROLE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-153",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Status",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ContractStatusDomain"
+    },
+    "description": "FIELD 'CONTRACT STATUS' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-154",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Original Currency",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'ORIGINAL CURRENCY' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-155",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Start Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT START DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-156",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Request Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-157",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract End Planned Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT END PLANNED DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-158",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract End Actual Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT END ACTUAL DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-159",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Last Payment Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'LAST PAYMENT DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-160",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Reorganized Credit Code",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ReorganizedCreditDomain"
+    },
+    "description": "FIELD 'REORGANIZED CREDIT CODE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-161",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Financed Amount",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'FINANCED AMOUNT' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-163",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Payment Periodicity",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'PAYMENT PERIODICITY' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-164",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Payment Method",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: PaymentMethodDomain"
+    },
+    "description": "FIELD 'PAYMENT METHOD' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-165",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "First Payment Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'FIRST PAYMENT DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-166",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Next Payment Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'NEXT PAYMENT DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-167",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Next Payment",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'NEXT PAYMENT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-168",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Outstanding Payments Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'OUTSTANDING PAYMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The Outstanding Payments Number represents the number of outstanding payments (remaining installments). It will include any overdue installment if known. In some cases, this number could contain an overdue installment even if it was not yet known at the date of data extraction, due to some grace period for the payment. The format of the number should be Integer: no decimal, no comma/s, and no dot/s. And the length of the integer must not be greater than 3 digits. There are 1,185 occurrences for this error, kindly check and correct."
+  },
+  {
+    "error_code": "10-169",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Outstanding Balance",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'OUTSTANDING BALANCE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "Amount must be a whole number, no comma, no decimal point. It must be rounded off to the nearest peso. The outstanding balance length is up to fifteen (15) digits only."
+  },
+  {
+    "error_code": "10-170",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Overdue Payments Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'OVERDUEPAYMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The Overdue Payments Number represents the number of overdue payments including the number of installments for which the SE is certain that the customer/client missed its payment in reference to the contract with the SE (i.e. after also grace period is expired). The format for the value should be whole numbers only (integer without the decimal), no commas and no dot. The length of the Overdue Payments Number should not be greater than 3 digits."
+  },
+  {
+    "error_code": "10-171",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Overdue Payments Amount",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'OVERDUEPAYMENTS AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "This field represents the overdue balance (amount of overdue installments). It includes any interest or fee accrued on the amount if applied."
+  },
+  {
+    "error_code": "10-172",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Overdue Days",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: OverdueDaysDomain"
+    },
+    "description": "FIELD 'OVERDUE DAYS' IS NOT CORRECT",
+    "fix": "The value reported to this field should be consistent with the OverdueDays domain table below. Any other value aside from the ones listed below will not be accepted by the system."
+  },
+  {
+    "error_code": "10-173",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Good Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: GoodTypeDomain"
+    },
+    "description": "FIELD 'GOOD TYPE' IS NOT CORRECT",
+    "fix": "Good Type Field is asset under the lease contract, which is borrowed by the customer. Please note the value reported should be consistent with \"GoodTypeDomain\" list"
+  },
+  {
+    "error_code": "10-174",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Good Value",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'GOOD VALUE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": "The format for the value should be whole numbers only (integer without the decimal), no commas and no dot. Max length is 15."
+  },
+  {
+    "error_code": "10-175",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "New/Used Code",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: NewUsedDomain"
+    },
+    "description": "FIELD 'NEW/USED CODE' IS NOT CORRECT",
+    "fix": "The value reported should be consistent with \"NewUsedDomain\" list"
+  },
+  {
+    "error_code": "10-176",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Good Brand",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'GOOD BRAND' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-177",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Manufacturing Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'MANUFACTURING DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-178",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Registration Number",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'REGISTRATION NUMBER' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-181",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Installment Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: InstallmentTypeDomain"
+    },
+    "description": "FIELD 'INSTALLMENT TYPE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-183",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Last Charge Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'LASTCHARGE DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-184",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Flag Card Used",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'FLAGCARD USED' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-185",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Times Card Used",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 10
+    },
+    "description": "FIELD 'TIMES CARD USED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-186",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Min Payment Indicator",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'MIN PAYMENT INDICATOR' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-187",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Min Payment Percentage",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 5
+    },
+    "description": "FIELD 'MIN PAYMENT PERCENTAGE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-198",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Negative Event Reference Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD ' NEGATIVE EVENT REFERENCE DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-199",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Negative Event Reference Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'NEGATIVE EVENT REFERENCE DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-200",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Code",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'EVENT CODE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-201",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Code",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "NE - Negative Events :: SubjectInfoTypeDomain"
+    },
+    "description": "FIELD 'EVENT CODE' IS NOT CORRECT",
+    "fix": "The value reported should be consistent with \"Event Code\" list"
+  },
+  {
+    "error_code": "10-202",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Detail",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'EVENT DETAIL' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-203",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'EVENT DATE' IS NOT CORRECT",
+    "fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-021",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Legal Form",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "BD - Business Data :: LegalFormDomain"
+    },
+    "description": "FIELD 'LEGAL FORM' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-211",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "Submission Type",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'SUBMISSION TYPE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-212",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "Submission Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'SUBMISSION TYPE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-022",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Type",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ContractTypeDomain (CorrectedFull)"
+    },
+    "description": "FIELD 'CONTRACT TYPE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-023",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Type",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT TYPE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-024",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Phase",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT PHASE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-025",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Request Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-026",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Request Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-027",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Currency",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CURRENCY' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-028",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Currency",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: CurrencyDomain"
+    },
+    "description": "FIELD 'CURRENCY' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-029",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Payment Periodicity",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: PaymentPeriodicityDomain"
+    },
+    "description": "FIELD 'PAYMENT PERIODICITY' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "10-297",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Flag Card Used",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'FLAG CARD USED' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-030",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-031",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'CREDIT LIMIT' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-032",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Trade Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'TRADE NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-034",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-035",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-036",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-037",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Place of Birth",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 100
+    },
+    "description": "FIELD 'PLACE OF BIRTH' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-038",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 400
+    },
+    "description": "FIELD 'FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-043",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader 1: Identification Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-046",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: GrossIncome",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-047",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Occupation",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'OCCUPATION' LENGTH IS NOT CORRECT",
+    "fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "1-049",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Sole Trader: TradeName",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'SOLE TRADER TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-057",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Trade Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-058",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Financed Amount",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-059",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 3
+    },
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-061",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-062",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Provider Contract No",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 38
+    },
+    "description": "FIELD 'PROVIDER CONTRACT NO' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-076",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: PostalCode",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'POSTAL CODE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-102",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Phase",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: ContractPhaseDomain"
+    },
+    "description": "FIELD 'CONTRACT PHASE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-109",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Subject Reference Date",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-110",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Subject Reference Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-113",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CREDIT LIMIT' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-114",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-115",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Financed Amount",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-116",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Monthly Payment Amount",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "1-118",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "Provider Code",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 8
+    },
+    "description": "FIELD 'PROVIDER CODE' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-001",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Gender",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'GENDER' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-002",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "First Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'FIRST NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-003",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Last Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'LAST NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-006",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Car/s Owned",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 3
+    },
+    "description": "FIELD 'CARS OWNED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-007",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Suffix",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SUFFIX' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-008",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Nickname",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 40
+    },
+    "description": "FIELD 'NICKNAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-001",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Gender",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'GENDER' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-010",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-011",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-012",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-016",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-017",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-018",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-019",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Suffix",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 40
+    },
+    "description": "FIELD 'FATHER SUFFIX' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-002",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "First Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'FIRST NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-026",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Phone Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 100
+    },
+    "description": "FIELD 'PHONE NUMBER' LENGTH IS NOT CORRECT",
+    "fix": "The phone number has a length up to 100 digits only."
+  },
+  {
+    "error_code": "20-027",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredFrom",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE HIRED FROM' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-028",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE HIRED TO' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-003",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Last Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'LAST NAME' IS MANDATORY",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-033",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Term of Existence",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'TERM OF EXISTENCE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-034",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Registration Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'REGISTRATION DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-035",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Number of Employees",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 9
+    },
+    "description": "FIELD 'NUMBER OF EMPLOYEES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-036",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: GrossIncome",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-037",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Monthly Expenses",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'MONTHLY EXPENSES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-038",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Net Taxable Income",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'NET TAXABLE INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-039",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Official Registered Trade Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'OFFICIAL REGISTERED TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-040",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Nationality",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: COUNTRY"
+    },
+    "description": "FIELD 'NATIONALITY' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-041",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Resident",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: YesNoDomain"
+    },
+    "description": "FIELD 'RESIDENT' IS NOT CORRECT",
+    "fix": "The value must be either 0 or 1 only. Please check the YesNo domain for the description. This field is not mandatory."
+  },
+  {
+    "error_code": "20-042",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Civil Status",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: CivilStatusDomain"
+    },
+    "description": "FIELD 'CIVIL STATUS' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-043",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Title",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: TITLE DOMAIN"
+    },
+    "description": "FIELD 'TITLE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-045",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: PSIC",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: PSICDomain"
+    },
+    "description": "FIELD 'PSIC' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-046",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Annual/Monthly Indicator",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: AnnualMonthlyDomain"
+    },
+    "description": "FIELD 'ANNUAL MONTHLY INDICATOR' IS NOT CORRECT",
+    "fix": "The value reported should be consistent with \"AnnualMonthlyDomain\" list."
+  },
+  {
+    "error_code": "20-049",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Firm Size",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "BD - Business Data :: Firm Size"
+    },
+    "description": "FIELD 'FIRM SIZE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-060",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Board Resolution Flag",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'BOARD RESOLUTION FLAG' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-062",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Purpose of credit",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'PURPOSE OF CREDIT' IS NOT CORRECT",
+    "fix": "The value reported should be consistent with CreditPurposeDomain"
+  },
+  {
+    "error_code": "20-063",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Premium Card",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CC- Credit Card :: CardPremiumDomain"
+    },
+    "description": "FIELD 'PREMIUM CARD' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-064",
+    "record_types": [
+      "CS"
+    ],
+    "field_name": "Holder Liability",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'HOLDER LIABILITY' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-067",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Last payment amount",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'LAST PAYMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-068",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Cancellation Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'CANCELLATION DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-007",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Suffix",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SUFFIX' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-073",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Outstanding Balance - Unbilled",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'OUTSTANDING BALANCE UNBILLED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-074",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Outstanding Balance",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'OUTSTANDING BALANCE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-008",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Nickname",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 40
+    },
+    "description": "FIELD 'NICKNAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-085",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Overall Credit Limit",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": null
+    },
+    "description": "FIELD 'OVERALL CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-086",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Status Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'EVENT STATUS DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-087",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Status Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'EVENT STATUS DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-095",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Status",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "NE - Negative Events :: EventStatusDomain"
+    },
+    "description": "FIELD 'EVENT STATUS' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-010",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-107",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredFrom",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED FROM' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-108",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-109",
+    "record_types": [
+      "HD"
+    ],
+    "field_name": "File Reference Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'FILEREFERENCEDATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-011",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-111",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Registration Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'REGISTRATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-113",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 'DATE HIRED FROM'",
+    "fix": ""
+  },
+  {
+    "error_code": "2-012",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Spouse Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'SPOUSE MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-126",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "ID 1: IssueDate",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'ISSUE DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-127",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "ID 1: ExpiryDate",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'EXPIRY DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-131",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF) OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-132",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-139",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-141",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-016",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father First Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER FIRST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-017",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Last Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER LAST NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-018",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Middle Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 70
+    },
+    "description": "FIELD 'FATHER MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-019",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Father Suffix",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 40
+    },
+    "description": "FIELD 'FATHER SUFFIX' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "20-208",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Manufacturing Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'MANUFACTURING DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-210",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'EVENT DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-211",
+    "record_types": [
+      "CC"
+    ],
+    "field_name": "Cancellation Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'CANCELLATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "20-230",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Contract Start Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'CONTRACT START DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-026",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Phone Number",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 100
+    },
+    "description": "FIELD 'PHONE NUMBER' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-027",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredFrom",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE HIRED FROM' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-028",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'DATE HIRED TO' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-033",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Term of Existence",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'TERM OF EXISTENCE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-034",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Registration Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'REGISTRATION DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-035",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Number of Employees",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 9
+    },
+    "description": "FIELD 'NUMBER OF EMPLOYEES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-036",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: GrossIncome",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-037",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Monthly Expenses",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'MONTHLY EXPENSES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-038",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Net Taxable Income",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 15
+    },
+    "description": "FIELD 'NET TAXABLE INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-039",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Official Registered Trade Name",
+    "field_names": null,
+    "primitive": "max_length",
+    "params": {
+      "max_length": 120
+    },
+    "description": "FIELD 'OFFICIAL REGISTERED TRADE NAME' LENGTH IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-040",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Nationality",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: COUNTRY"
+    },
+    "description": "FIELD 'NATIONALITY' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-041",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Resident",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: YesNoDomain"
+    },
+    "description": "FIELD 'RESIDENT' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-042",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Civil Status",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: CivilStatusDomain"
+    },
+    "description": "FIELD 'CIVIL STATUS' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-043",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Title",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: TITLE DOMAIN"
+    },
+    "description": "FIELD 'TITLE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-045",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: PSIC",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: PSICDomain"
+    },
+    "description": "FIELD 'PSIC' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-046",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Annual/Monthly Indicator",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "ID - Individual :: AnnualMonthlyDomain"
+    },
+    "description": "FIELD 'ANNUAL MONTHLY INDICATOR' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-049",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Firm Size",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "BD - Business Data :: Firm Size"
+    },
+    "description": "FIELD 'FIRM SIZE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-050",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Payment Method",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "CI - Installment Contract :: PaymentMethodDomain"
+    },
+    "description": "FIELD 'PAYMENT METHOD' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "2-107",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredFrom",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED FROM' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-108",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-111",
+    "record_types": [
+      "BD"
+    ],
+    "field_name": "Registration Date",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'REGISTRATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-113",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: DateHiredTo",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 'DATE HIRED FROM'",
+    "fix": ""
+  },
+  {
+    "error_code": "2-126",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "ID 1: IssueDate",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'ISSUE DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-127",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "ID 1: ExpiryDate",
+    "field_names": null,
+    "primitive": "date_min",
+    "params": {},
+    "description": "FIELD 'EXPIRY DATE' MUST BE GREATER THAN 01-01-1900",
+    "fix": ""
+  },
+  {
+    "error_code": "2-131",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'CREDIT LIMIT' CAN HAVE ONLY A >0 VALUE",
+    "fix": ""
+  },
+  {
+    "error_code": "2-132",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Monthly Payment Amount",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "fix": ""
+  },
+  {
+    "error_code": "2-133",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Financed Amount",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'FINANCED AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "fix": ""
+  },
+  {
+    "error_code": "2-134",
+    "record_types": [
+      "CI"
+    ],
+    "field_name": "Installments Number",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'INSTALLMENTS NUMBER' CAN ONLY HAVE A > 0 VALUE",
+    "fix": ""
+  },
+  {
+    "error_code": "2-136",
+    "record_types": [
+      "CS"
+    ],
+    "field_name": "Billed Amount",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'BILLED AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "fix": ""
+  },
+  {
+    "error_code": "2-139",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-141",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-145",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF) OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-146",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF), OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-148",
+    "record_types": [
+      "CN"
+    ],
+    "field_name": "Credit Limit",
+    "field_names": null,
+    "primitive": "numeric_min",
+    "params": {},
+    "description": "FIELD 'CREDIT LIMIT' CAN HAVE ONLY A VALUE >0 or =0",
+    "fix": ""
+  },
+  {
+    "error_code": "2-150",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('STREET NO' OR 'SUBDIVISION','CITY','PROVINCE') OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-151",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Address 1: FullAddress",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREET NO' OR 'SUBDIVISION','CITY','PROVINCE') , OR ONLY THE FIELD 'FULLADDRESS'",
+    "fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "30-002",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "FILENAME FORMAT IS NOT VALID (IT SHOULD BE [ProviderCode]_CSDF_[yyyymmddhh24miss].txt)",
+    "fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt). \n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "30-003",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "'PROVIDER CODE' SPECIFIED INTO FILENAME IS NOT VALID",
+    "fix": "The Provider Code in the filename must match the Provider Code assigned to your institution by CIC."
+  },
+  {
+    "error_code": "30-004",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "'TIMESTAMP' SPECIFIED INTO FILENAME IS NOT VALID",
+    "fix": "The format of the timestamp in the filename must be YYYYMMDDhhmmss."
+  },
+  {
+    "error_code": "30-005",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "ANOTHER FILE WITH THE SAME TIMESTAMP OR MORE RECENT TIMESTAMP HAS BEEN ALREADY ELABORATED",
+    "fix": "avoid this error, please note that every submitted file must carry a new/unique timestamp in its filename. If the submitted file is a correction/historical file, please make sure that the 'Submission Type' in the Header portion is set to '1'."
+  },
+  {
+    "error_code": "30-006",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "'PROVIDER CODE' INSIDE THE FILE IS NOT VALID OR DIFFERENT FROM THE PROVIDER SPECIFIED INTO FILENAME",
+    "fix": ""
+  },
+  {
+    "error_code": "30-010",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "field_count",
+    "params": {},
+    "description": "NUMBER OF FIELDS IS NOT VALID FOR THE SPECIFIED 'RECORD TYPE'",
+    "fix": "Each record type has a specific number of fields, as listed below. The pipelines in the report represent the fields, which means a missing pipeline is a missing field. Pipelines can be more than the specified but cannot be less. Please double check as well if there are columns that are hidden and unhide it."
+  },
+  {
+    "error_code": "30-013",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "header_footer",
+    "params": {},
+    "description": "HEADER IS NOT PRESENT",
+    "fix": ""
+  },
+  {
+    "error_code": "30-014",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "header_footer",
+    "params": {},
+    "description": "FOOTER IS NOT PRESENT",
+    "fix": "Record Types HD (header) and FT (footer) must always be present."
+  },
+  {
+    "error_code": "30-015",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "version",
+    "params": {},
+    "description": "FIELD 'VERSION' OR 'SUBMISSION TYPE' IS NOT VALID OR MISSING",
+    "fix": ""
+  },
+  {
+    "error_code": "30-017",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "encoding",
+    "params": {},
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8",
+    "fix": ""
+  },
+  {
+    "error_code": "30-018",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "encoding",
+    "params": {},
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8 OR CHAR NOT UTF-8 IS PRESENT",
+    "fix": "error occurs if there are special characters (,.-/ etc.) in fields that only accept alphanumeric characters or if the file is not properly converted into UTF8 without BOM before saving it as a text (.txt) file. You may check the detailed result in your FTP folder's Submission/Output for the specific row numbers of records that encountered this error. Please make sure that there are no special characters in the fields like Monthly Payment Amount, Financed Amount, etc. Please make sure as well that you have selected \"Convert to UTF-8\" in the Encoding tab in Notepad++ before saving your file into text (TXT.)"
+  },
+  {
+    "error_code": "3-002",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "FILENAME FORMAT IS NOT VALID",
+    "fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt). \n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "30-026",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "header_footer",
+    "params": {},
+    "description": "MORE THAN ONE HEADER ROW FOUND",
+    "fix": ""
+  },
+  {
+    "error_code": "3-003",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "'PROVIDER CODE' SPECIFIED INTO FILENAME IS NOT VALID",
+    "fix": "The Provider Code in the filename must match the Provider Code assigned to your institution by CIC."
+  },
+  {
+    "error_code": "3-004",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "'TIMESTAMP' SPECIFIED INTO FILENAME IS NOT VALID",
+    "fix": "The format of the timestamp in the filename must be YYYYMMDDhhmmss."
+  },
+  {
+    "error_code": "3-005",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "filename_format",
+    "params": {},
+    "description": "ANOTHER FILE WITH THE SAME TIMESTAMP",
+    "fix": ""
+  },
+  {
+    "error_code": "3-006",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "'PROVIDER CODE' INSIDE THE FILE IS NOT VALID OR DIFFERENT FROM THE PROVIDER SPECIFIED INTO FILENAME",
+    "fix": ""
+  },
+  {
+    "error_code": "3-008",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {},
+    "description": "FIELD 'SERVICE CODE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "3-010",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "field_count",
+    "params": {},
+    "description": "NUMBER OF FIELDS IS NOT VALID FOR THE SPECIFIED 'RECORD TYPE'",
+    "fix": ""
+  },
+  {
+    "error_code": "3-013",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "header_footer",
+    "params": {},
+    "description": "HEADER IS NOT PRESENT",
+    "fix": ""
+  },
+  {
+    "error_code": "3-014",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {},
+    "description": "FIELD 'SERVICE CODE' IN THE HEADER RECORD IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "3-015",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "version",
+    "params": {},
+    "description": "FIELD 'VERSION' IS NOT VALID OR MISSING",
+    "fix": ""
+  },
+  {
+    "error_code": "3-017",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "encoding",
+    "params": {},
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8",
+    "fix": ""
+  },
+  {
+    "error_code": "3-018",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "encoding",
+    "params": {},
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8 OR CHAR NOT UTF-8 IS PRESENT",
+    "fix": ""
+  },
+  {
+    "error_code": "3-026",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "header_footer",
+    "params": {},
+    "description": "MORE THAN ONE HEADER ROW FOUND",
+    "fix": ""
+  },
+  {
+    "error_code": "3-029",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "PROVIDER CODE INSIDE THE FILE IS DIFFERENT FROM THE PROVIDER OF THE SELECTED 'ENQUIRY USER'",
+    "fix": ""
+  },
+  {
+    "error_code": "40-006",
+    "record_types": [
+      "*"
+    ],
+    "field_name": null,
+    "field_names": null,
+    "primitive": "provider_code_consistency",
+    "params": {},
+    "description": "THE PROVIDER CODE WITHIN THE FILENAME IS NOT CONSISTENT WITH THE SUBMITTING PROVIDER",
+    "fix": ""
+  },
+  {
+    "error_code": "50-012",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Date",
+    "field_names": null,
+    "primitive": "date_format",
+    "params": {
+      "domain": null
+    },
+    "description": "FIELD 'EVENT DATE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "50-013",
+    "record_types": [
+      "NE"
+    ],
+    "field_name": "Event Code",
+    "field_names": null,
+    "primitive": "domain_lookup",
+    "params": {
+      "domain": "NE - Negative Events :: SubjectInfoTypeDomain"
+    },
+    "description": "FIELD 'EVENT CODE' IS NOT CORRECT",
+    "fix": ""
+  },
+  {
+    "error_code": "60-001",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "First Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'FIRST NAME' IS MANDATORY TO PROVIDE",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-002",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Last Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'LAST NAME' IS MANDATORY TO PROVIDE",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-003",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Gender",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'GENDER' IS MANDATORY TO PROVIDE",
+    "fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-007",
+    "record_types": [
+      "ID"
+    ],
+    "field_name": "Employment: Trade Name",
+    "field_names": null,
+    "primitive": "required",
+    "params": {},
+    "description": "FIELD 'TRADE NAME' IS MANDATORY TO PROVIDE",
+    "fix": "This field needs to have a value as it is required."
+  }
+]

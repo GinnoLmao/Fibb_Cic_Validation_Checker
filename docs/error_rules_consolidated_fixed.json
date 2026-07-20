@@ -1,0 +1,4923 @@
+[
+  {
+    "error_code": "10-002",
+    "category_prefix": "10",
+    "description": "FIELD 'ROLE' IS NOT CORRECT",
+    "solution": "The values for ROLE must belong from the values provided in the Role domain list/look-up table. The acceptable values are: B = Borrower, C = Co Borrower and G = Guarantor.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Role table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-003",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER' LENGTH IS NOT CORRECT",
+    "solution": "The Provider Subject Number has a length up to 38 digits.",
+    "rephrased_fix": "The Provider Subject Number must not exceed 38 characters."
+  },
+  {
+    "error_code": "10-004",
+    "category_prefix": "10",
+    "description": "FIELD 'GENDER' IS NOT CORRECT",
+    "solution": "Acceptable values for the field 'Gender' is M and F only.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Gender table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-005",
+    "category_prefix": "10",
+    "description": "FIELD 'DATE OF BIRTH' IS NOT CORRECT",
+    "solution": "Please note that all dates within a file must be in DDMMYYYY format, with no dashes, commas, etc.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-006",
+    "category_prefix": "10",
+    "description": "FIELD 'COUNTRY OF BIRTH' IS NOT CORRECT",
+    "solution": "Values reported must be consistent with the 'CountryofBirth' domain table.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-007",
+    "category_prefix": "10",
+    "description": "FIELD 'ADDRESS TYPE' IS NOT CORRECT OR NOT ALLOWED FOR THE SPECIFIC SUBJECT TYPE",
+    "solution": "For the Individual (ID) records Address 1 type must be 'MI' and Address 2 type must always be 'AI'. and for Business Data (BD) records Address 1 Type must always be ‘MT’ while Address 2 Type must always be ‘AT’.",
+    "rephrased_fix": "For Individual (ID) records:\n* Address 1 Type must always be MI\n* Address 2 Type must always be AI\n\nFor Business (BD) records:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-008",
+    "category_prefix": "10",
+    "description": "FIELD 'COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Country domain table or list.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-009",
+    "category_prefix": "10",
+    "description": "FIELD 'TYPE OF IDENTIFICATION CODE' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Identification Type domain table or list. In addition, if this field is provided, then the corresponding field for the Identification Number must also be provided.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Identification Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-001",
+    "category_prefix": "1",
+    "description": "FIELDS 'ROLE' AND 'COMPANY ROLE' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": "If the Role field is filled-in, the Company Role field must be empty/blank. \nIf the Company Role is filled-in, the Role field must be empty/blank."
+  },
+  {
+    "error_code": "10-010",
+    "category_prefix": "10",
+    "description": "FIELD 'ID TYPE' IS NOT CORRECT",
+    "solution": "Please check also the acceptable values for the field 'IDType' in the 'IDTypeDomain'. The acceptable values are 10-39 only. Please see the inline image below.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the ID Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-011",
+    "category_prefix": "10",
+    "description": "FIELD 'ID ISSUE DATE' IS NOT CORRECT",
+    "solution": "Please that all dates within a file must be in DDMMYYYY format, with no dashes, commas, etc.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-012",
+    "category_prefix": "10",
+    "description": "FIELD 'ID ISSUE COUNTRY' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Country domain table or list.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-013",
+    "category_prefix": "10",
+    "description": "FIELD 'ID EXPIRY DATE' IS NOT CORRECT",
+    "solution": "Please that all dates within a file must be in DDMMYYYY format, with no dashes, commas, etc.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-014",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTACT TYPE' IS NOT CORRECT",
+    "solution": "Values reported must be consistent with the 'ContactType' domain table.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Contact Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-015",
+    "category_prefix": "10",
+    "description": "FIELD 'OCCUPATION STATUS' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Occupation Status domain table or list",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Occupation Status table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-017",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER ADDRESS TYPE' IS NOT CORRECT",
+    "solution": "For Business Address, domain value for main address is MT while for additional address its AT.",
+    "rephrased_fix": "For Sole Trader Address:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-018",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Country domain table or list.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-019",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION TYPE' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with the Identification Type domain table or list.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Identification Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-002",
+    "category_prefix": "1",
+    "description": "FIELD 'ROLE' IS NOT CORRECT",
+    "solution": "The values for ROLE must belong from the values provided in the Role domain list/look-up table.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Role table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-020",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER CONTACT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Contact Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-021",
+    "category_prefix": "10",
+    "description": "FIELD 'LEGAL FORM' IS NOT CORRECT",
+    "solution": "Kindly check acceptable domain values in the Data Format.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Legal Form Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-022",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Contract Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-023",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-024",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT PHASE' IS MANDATORY",
+    "solution": "Please fill in 'Contract Phase' ; Phase of Contract: Requested, Refused/Renounced, Active, Closed , Closed in Advance, also value reported should be consistent with \"ContractPhaseDomain\" list.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-027",
+    "category_prefix": "10",
+    "description": "FIELD 'CURRENCY' IS MANDATORY",
+    "solution": "Field Currency is a mandatory field. The values for this field must be consistent with the values on the currency domain table. Please choose PHP for the currency since all amounts reported should be in peso.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-028",
+    "category_prefix": "10",
+    "description": "FIELD 'CURRENCY' IS NOT CORRECT",
+    "solution": "Currency must only contain PHP value (Philippine Peso).",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Currency table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-029",
+    "category_prefix": "10",
+    "description": "FIELD 'PAYMENT PERIODICITY' IS NOT CORRECT",
+    "solution": "Please note Payment Periodicity is mandatory field, also value reported should be consistent with \"PaymentPeriodicityDomain\" list",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Payment Periodicity table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-003",
+    "category_prefix": "1",
+    "description": "FIELD 'PROVIDER SUBJECT NO' LENGTH IS NOT CORRECT",
+    "solution": "The Provider Subject Number has a length up to 38 digits. Please double check.",
+    "rephrased_fix": "The value reported in this field must not exceed 38 characters."
+  },
+  {
+    "error_code": "10-030",
+    "category_prefix": "10",
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS MANDATORY",
+    "solution": "Total number of Installments. It is related to the Payment Periodicity.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-031",
+    "category_prefix": "10",
+    "description": "FIELD 'CREDIT LIMIT' IS MANDATORY",
+    "solution": "The maximum amount of credit that the Provider will extend for the particular line of credit. In the case of OMNIBUS LINE, this represents the sub-facility credit limit (sub-limit) of each single sub-facility. The format of the number should be Integer (no decimal). No comma, no dot.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-032",
+    "category_prefix": "10",
+    "description": "FIELD 'TRADE NAME' IS MANDATORY",
+    "solution": "TRADE NAME is mandatory, this field contains the Company Name/Employer Name where individual is employed.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-034",
+    "category_prefix": "10",
+    "description": "FIELD 'FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-035",
+    "category_prefix": "10",
+    "description": "FIELD 'MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-036",
+    "category_prefix": "10",
+    "description": "FIELD 'LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 70 characters."
+  },
+  {
+    "error_code": "10-037",
+    "category_prefix": "10",
+    "description": "FIELD 'PLACE OF BIRTH' LENGTH IS NOT CORRECT",
+    "solution": "For the Individual borrowers, it is a requirement that he/she must be 18 years old and not more than 100 years old.",
+    "rephrased_fix": "The value reported in this field must not exceed 100 characters."
+  },
+  {
+    "error_code": "10-038",
+    "category_prefix": "10",
+    "description": "FIELD 'FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 400 characters."
+  },
+  {
+    "error_code": "10-039",
+    "category_prefix": "10",
+    "description": "FIELD 'STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "solution": "The Street Number field only allows a maximum of 100 characters.",
+    "rephrased_fix": "The value reported in this field must ot exceed 100 characters."
+  },
+  {
+    "error_code": "1-004",
+    "category_prefix": "1",
+    "description": "FIELD 'GENDER' IS NOT CORRECT",
+    "solution": "Acceptable values for the field 'Gender' is M and F only.",
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Gender table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-040",
+    "category_prefix": "10",
+    "description": "FIELD 'ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 50 characters."
+  },
+  {
+    "error_code": "10-043",
+    "category_prefix": "10",
+    "description": "FIELD 'IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "solution": "For the Identification Number, the length allows up to 20 digits only, excluding the dashes.",
+    "rephrased_fix": "The value reported in this field must not exceed 20 characters."
+  },
+  {
+    "error_code": "10-044",
+    "category_prefix": "10",
+    "description": "FIELD 'ID NUMBER' LENGTH IS NOT CORRECT",
+    "solution": "ID number should not be greater than 20 in length",
+    "rephrased_fix": "The value reported in this field must not exceed 40 characters."
+  },
+  {
+    "error_code": "10-045",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTACT' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must ot exceed 100 characters."
+  },
+  {
+    "error_code": "10-046",
+    "category_prefix": "10",
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "The format of the number should be Integer (no decimal). No comma, no dot. Max length is 15.",
+    "rephrased_fix": "The value reported in this field must not exceed 15 characters."
+  },
+  {
+    "error_code": "10-047",
+    "category_prefix": "10",
+    "description": "FIELD 'OCCUPATION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "10-048",
+    "category_prefix": "10",
+    "description": "FIELD 'EMPLOYER TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 120 characters."
+  },
+  {
+    "error_code": "10-049",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 120 characters."
+  },
+  {
+    "error_code": "1-005",
+    "category_prefix": "1",
+    "description": "FIELD 'DATE OF BIRTH' IS NOT CORRECT",
+    "solution": "Please note that all dates within a file must be in DDMMYYYY format, with no dashes, commas, etc.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-050",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 400 characters."
+  },
+  {
+    "error_code": "10-051",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must ot exceed 100 characters."
+  },
+  {
+    "error_code": "10-052",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 50 characters."
+  },
+  {
+    "error_code": "10-055",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value repored in this field must not exceed 20 characters."
+  },
+  {
+    "error_code": "10-056",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER CONTACT' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must ot exceed 100 characters."
+  },
+  {
+    "error_code": "10-057",
+    "category_prefix": "10",
+    "description": "FIELD 'TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 120 characters."
+  },
+  {
+    "error_code": "10-058",
+    "category_prefix": "10",
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "Please note that all amounts should be rounded off to the nearest peso with no commas and no decimal points.",
+    "rephrased_fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-059",
+    "category_prefix": "10",
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "For field 'Installment Number' value should be in numeric only.",
+    "rephrased_fix": "The value reported in this field must not exceed 3 characters. Additionally, the values must be numeric only."
+  },
+  {
+    "error_code": "1-006",
+    "category_prefix": "1",
+    "description": "FIELD 'COUNTRY OF BIRTH' IS NOT CORRECT",
+    "solution": "Values reported must be consistent with the 'CountryofBirth' domain table",
+    "rephrased_fix": "The value reported in this field must not exceed 2 characters."
+  },
+  {
+    "error_code": "10-060",
+    "category_prefix": "10",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "Please note that all amounts within a file should be whole numbers only. No commas, no periods, and centavo data. Rounding-off rules apply.",
+    "rephrased_fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-061",
+    "category_prefix": "10",
+    "description": "FIELD 'CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 15 characters. Additionally, the values must be numeric only; commas and decimals are not allowed."
+  },
+  {
+    "error_code": "10-062",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER CONTRACT NO' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 38 characters."
+  },
+  {
+    "error_code": "10-063",
+    "category_prefix": "10",
+    "description": "'SUBJECT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "solution": null,
+    "rephrased_fix": "To illustrate, if your submission's File Reference Date is January 31, 2022, the Subject Reference Date of the records within your submission must not be after January 31, 2022."
+  },
+  {
+    "error_code": "10-065",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "For Individual (ID) records:\n* Address 1 Type must always be MI\n* Address 2 Type must always be AI\n\nFor Business (BD) records:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-066",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'SOLE TRADER ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "For Sole Trader Address:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-067",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "A specific Identification Type value must not be used multiple times in a single record. Identification Types, 1, 2, and/or 3 must have different values."
+  },
+  {
+    "error_code": "10-068",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'SOLE TRADER IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "A specific Sole Trader Identification Type values must not be used multiple times in a single record. Sole Trader Identification Types, 1, 2, and/or 3 must have different values."
+  },
+  {
+    "error_code": "10-069",
+    "category_prefix": "10",
+    "description": "FIELDS 'IDENTIFICATION TYPE' AND 'IDENTIFICATION CODE' MUST BE EITHER EMPTY OR FILLED IN",
+    "solution": "If the Identification number has no value, don't put any value on the Identification type. If you have selected a value in the Identification Type field, the corresponding information must be provided in the Identification Code field and vice versa.",
+    "rephrased_fix": "If the Identification Type field is filled-in, the field Identification Number must be filled-in as well. Both fields must either be empty or filled-in."
+  },
+  {
+    "error_code": "1-007",
+    "category_prefix": "1",
+    "description": "FIELD 'ADDRESS TYPE' IS NOT CORRECT OR NOT ALLOWED FOR THE SPECIFIC SUBJECT TYPE",
+    "solution": null,
+    "rephrased_fix": "For Individual (ID) records:\n* Address 1 Type must always be MI\n* Address 2 Type must always be AI\n\nFor Business (BD) records:\n* Address 1 Type must always be MT\n* Address 2 Type must always be AT"
+  },
+  {
+    "error_code": "10-070",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'ID TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": "you may have used an ID Type domain value twice, kindly double-check.",
+    "rephrased_fix": "ID Type values must not be used multiple times in a single record. ID Types, 1, 2, and/or 3 must have different values."
+  },
+  {
+    "error_code": "10-071",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "A specific Contact Type value must not be used multiple times in a single record. Contact Types 1 and 2 must have different values."
+  },
+  {
+    "error_code": "10-072",
+    "category_prefix": "10",
+    "description": "MORE THAN ONE 'SOLE TRADER CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": "A specific Sole Trader Contact Type value must not be used multiple times in a single record. Contact Types 1 and 2 must have different values."
+  },
+  {
+    "error_code": "10-073",
+    "category_prefix": "10",
+    "description": "FIELDS 'SOLE TRADER IDENTIFICATION TYPE' AND 'SOLE TRADER IDENTIFICATION CODE' MUST BE EITHER EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": "If the Sole Trader Identification Type field is filled-in, the field Sole Trader Identification Number must be filled-in as well. Both fields must either be empty or filled-in."
+  },
+  {
+    "error_code": "10-074",
+    "category_prefix": "10",
+    "description": "FIELDS 'CONTACT TYPE' AND 'CONTACT VALUE' MUST BE EITHER EMPTY OR FILLED IN",
+    "solution": "If there is an indicated Contact Type, there must also be a corresponding Contact Value or vice versa. These fields must be both filled in.",
+    "rephrased_fix": "If the Contact Type field is filled-in, the field Contac Value must be filled-in as well. Both fields must either be empty or filled-in."
+  },
+  {
+    "error_code": "10-075",
+    "category_prefix": "10",
+    "description": "FIELDS 'SOLE TRADER CONTACT TYPE' AND 'SOLE TRADER CONTACT VALUE' MUST BE EITHER EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": "If the Sole Trader Contact Type field is filled-in, the field Sole Trader Contact Value must be filled-in as well. Both fields must either be empty or filled-in."
+  },
+  {
+    "error_code": "10-076",
+    "category_prefix": "10",
+    "description": "FIELD 'POSTAL CODE' IS NOT CORRECT",
+    "solution": "Kindly check acceptable domain values in the Data Format.",
+    "rephrased_fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "10-077",
+    "category_prefix": "10",
+    "description": "FIELD 'SOLE TRADER POSTAL CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "10-078",
+    "category_prefix": "10",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE GROSS INCOME IS EMPTY (INDIVIDUAL)",
+    "solution": "The system removed the value provided in the Currency field as Gross Income is not provided. If you wish to provide information on this, both of these fields should have a value. If the Gross Income is not available, kindly leave both fields blank.",
+    "rephrased_fix": "The system removed the value in the Currency field as the Gross Income field is empty."
+  },
+  {
+    "error_code": "1-008",
+    "category_prefix": "1",
+    "description": "FIELD 'COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "1-009",
+    "category_prefix": "1",
+    "description": "FIELD 'TYPE OF IDENTIFICATION CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Identification Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-090",
+    "category_prefix": "10",
+    "description": "THE SAME 'PROVIDER SUBJECT NO' IS ALREADY ASSIGNED TO ANOTHER SUBJECT",
+    "solution": "means that the Provider Subject Number you have assigned for a specific subject has already been assigned to another subject. Or you are trying to edit/modify its subject information (i.e Last Name, First Name, Middle Name, Birthdate and Identification number) that is previously loaded in the CIS database. Please be informed that we have limited viewing of your submitted files. We cannot check on the system how it happens. Kindly check your submitted files if there are changes in the details of the borrower compared to the previously loaded subject data",
+    "rephrased_fix": "To illustrate, if you have assigned 123ABC as the Provider Subject Number of Juan dela Cruz and is successfully loaded in the database, you cannot use the same Provider Subject Number again for another subject."
+  },
+  {
+    "error_code": "1-010",
+    "category_prefix": "1",
+    "description": "FIELD 'ID TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the ID Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-102",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT PHASE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Contract Phase table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-109",
+    "category_prefix": "10",
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-011",
+    "category_prefix": "1",
+    "description": "FIELD 'ID ISSUE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-110",
+    "category_prefix": "10",
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-111",
+    "category_prefix": "10",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Company Role table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-117",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDERCODE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-118",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER CODE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 8 characters."
+  },
+  {
+    "error_code": "10-119",
+    "category_prefix": "10",
+    "description": "FIELD 'BRANCH CODE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 5 characters."
+  },
+  {
+    "error_code": "1-012",
+    "category_prefix": "1",
+    "description": "FIELD 'ID ISSUE COUNTRY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value in this field must be consistent with the values available in the Country table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-120",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-121",
+    "category_prefix": "10",
+    "description": "FIELD 'FILEREFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-122",
+    "category_prefix": "10",
+    "description": "FIELD 'FILEREFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-013",
+    "category_prefix": "1",
+    "description": "FIELD 'ID EXPIRY DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-130",
+    "category_prefix": "10",
+    "description": "WARNING - FIELDS 'ID TYPE' AND 'ID NUMBER' MUST BE EITHER EMPTY OR FILLED IN: FIELD HAS BEEN CLEANED",
+    "solution": "If the field ID Type is provided with a value, then the field ID Number must have a value as well, or vice versa. If any of these information is not available, kidly leave both fields blank.",
+    "rephrased_fix": "The system removed the value in either the ID Type or ID Number. Both of these fields must either have a value or none."
+  },
+  {
+    "error_code": "1-014",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTACT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Contact Type table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-149",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT REFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-015",
+    "category_prefix": "1",
+    "description": "FIELD 'OCCUPATION STATUS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must be consistent with the values available in the Occupation Status table in the Fields in Excel template."
+  },
+  {
+    "error_code": "10-150",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT REFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-151",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER CONTRACT NUMBER' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-152",
+    "category_prefix": "10",
+    "description": "FIELD 'ROLE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-153",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT STATUS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-154",
+    "category_prefix": "10",
+    "description": "FIELD 'ORIGINAL CURRENCY' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-155",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT START DATE' IS NOT CORRECT",
+    "solution": "Note that all dates within your file must be in the format DDMMYYYY. No spaces, dashes.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-156",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-157",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT END PLANNED DATE' IS NOT CORRECT",
+    "solution": "Note that all dates within your file must be in the format DDMMYYYY. No spaces, dashes.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-158",
+    "category_prefix": "10",
+    "description": "FIELD 'CONTRACT END ACTUAL DATE' IS NOT CORRECT",
+    "solution": "Note that all dates within your file must be in the format DDMMYYYY. No spaces, dashes.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-159",
+    "category_prefix": "10",
+    "description": "FIELD 'LAST PAYMENT DATE' IS NOT CORRECT",
+    "solution": "Note that all dates within your file must be in the format DDMMYYYY. No spaces, dashes.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "1-016",
+    "category_prefix": "1",
+    "description": "FIELD 'HIRE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-160",
+    "category_prefix": "10",
+    "description": "FIELD 'REORGANIZED CREDIT CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-161",
+    "category_prefix": "10",
+    "description": "FIELD 'FINANCED AMOUNT' IS MANDATORY",
+    "solution": "Finance amount is a mandatory need to fill-up",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-163",
+    "category_prefix": "10",
+    "description": "FIELD 'PAYMENT PERIODICITY' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-164",
+    "category_prefix": "10",
+    "description": "FIELD 'PAYMENT METHOD' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-165",
+    "category_prefix": "10",
+    "description": "FIELD 'FIRST PAYMENT DATE' IS NOT CORRECT",
+    "solution": "Note that all dates within your file must be in the format DDMMYYYY. No spaces, dashes.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-166",
+    "category_prefix": "10",
+    "description": "FIELD 'NEXT PAYMENT DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-167",
+    "category_prefix": "10",
+    "description": "FIELD 'NEXT PAYMENT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-168",
+    "category_prefix": "10",
+    "description": "FIELD 'OUTSTANDING PAYMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "The Outstanding Payments Number represents the number of outstanding payments (remaining installments). It will include any overdue installment if known. In some cases, this number could contain an overdue installment even if it was not yet known at the date of data extraction, due to some grace period for the payment. The format of the number should be Integer: no decimal, no comma/s, and no dot/s. And the length of the integer must not be greater than 3 digits. There are 1,185 occurrences for this error, kindly check and correct.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-169",
+    "category_prefix": "10",
+    "description": "FIELD 'OUTSTANDING BALANCE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "Amount must be a whole number, no comma, no decimal point. It must be rounded off to the nearest peso. The outstanding balance length is up to fifteen (15) digits only.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-017",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER ADDRESS TYPE' IS NOT CORRECT",
+    "solution": "For Business Address, domain value for main address is MT while for additional address its AT.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-170",
+    "category_prefix": "10",
+    "description": "FIELD 'OVERDUEPAYMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "The Overdue Payments Number represents the number of overdue payments including the number of installments for which the SE is certain that the customer/client missed its payment in reference to the contract with the SE (i.e. after also grace period is expired). The format for the value should be whole numbers only (integer without the decimal), no commas and no dot. The length of the Overdue Payments Number should not be greater than 3 digits.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-171",
+    "category_prefix": "10",
+    "description": "FIELD 'OVERDUEPAYMENTS AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "This field represents the overdue balance (amount of overdue installments). It includes any interest or fee accrued on the amount if applied.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-172",
+    "category_prefix": "10",
+    "description": "FIELD 'OVERDUE DAYS' IS NOT CORRECT",
+    "solution": "The value reported to this field should be consistent with the OverdueDays domain table below. Any other value aside from the ones listed below will not be accepted by the system.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-173",
+    "category_prefix": "10",
+    "description": "FIELD 'GOOD TYPE' IS NOT CORRECT",
+    "solution": "Good Type Field is asset under the lease contract, which is borrowed by the customer. Please note the value reported should be consistent with \"GoodTypeDomain\" list",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-174",
+    "category_prefix": "10",
+    "description": "FIELD 'GOOD VALUE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "The format for the value should be whole numbers only (integer without the decimal), no commas and no dot. Max length is 15.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-175",
+    "category_prefix": "10",
+    "description": "FIELD 'NEW/USED CODE' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with \"NewUsedDomain\" list",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-176",
+    "category_prefix": "10",
+    "description": "FIELD 'GOOD BRAND' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-177",
+    "category_prefix": "10",
+    "description": "FIELD 'MANUFACTURING DATE' IS NOT CORRECT",
+    "solution": "The format of this date should be DDMMYYYY.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-178",
+    "category_prefix": "10",
+    "description": "FIELD 'REGISTRATION NUMBER' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-179",
+    "category_prefix": "10",
+    "description": "FIELD 'UTILIZATION AMOUNT' IS MANDATORY IF PHASE IS ACTIVE, CLOSED OR CLOSED IN ADVANCE",
+    "solution": "Utilization Amount must not be left blank if the Contract Phase is Active, Closed or Closed in Advance.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-018",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "solution": "The value entered is not consistent with the Country Domain list",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-180",
+    "category_prefix": "10",
+    "description": "FIELD 'UTILIZATION AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "Amount must be a whole number, no comma, no decimal point. It must be round-off to the nearest peso",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-181",
+    "category_prefix": "10",
+    "description": "FIELD 'INSTALLMENT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-182",
+    "category_prefix": "10",
+    "description": "FIELD 'CHARGED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-183",
+    "category_prefix": "10",
+    "description": "FIELD 'LASTCHARGE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-184",
+    "category_prefix": "10",
+    "description": "FIELD 'FLAGCARD USED' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-185",
+    "category_prefix": "10",
+    "description": "FIELD 'TIMES CARD USED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-186",
+    "category_prefix": "10",
+    "description": "FIELD 'MIN PAYMENT INDICATOR' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-187",
+    "category_prefix": "10",
+    "description": "FIELD 'MIN PAYMENT PERCENTAGE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-188",
+    "category_prefix": "10",
+    "description": "FIELD 'CUSTOMER TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-189",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER GUARANTEE NUMBER' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-019",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER ID TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-190",
+    "category_prefix": "10",
+    "description": "FIELD 'GUARANTOR NAME' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-191",
+    "category_prefix": "10",
+    "description": "FIELD 'GUARANTEED AMOUNT' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-192",
+    "category_prefix": "10",
+    "description": "FIELD 'GUARANTEED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-193",
+    "category_prefix": "10",
+    "description": "FIELD 'VALIDITY START DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-194",
+    "category_prefix": "10",
+    "description": "FIELD 'VALIDITY END DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-195",
+    "category_prefix": "10",
+    "description": "FIELD 'GUARANTEE CODE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-196",
+    "category_prefix": "10",
+    "description": "FIELD 'GUARANTEE CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-197",
+    "category_prefix": "10",
+    "description": "FIELD 'ASSET CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-198",
+    "category_prefix": "10",
+    "description": "FIELD ' NEGATIVE EVENT REFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-199",
+    "category_prefix": "10",
+    "description": "FIELD 'NEGATIVE EVENT REFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-020",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER CONTACT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-200",
+    "category_prefix": "10",
+    "description": "FIELD 'EVENT CODE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-201",
+    "category_prefix": "10",
+    "description": "FIELD 'EVENT CODE' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with \"Event Code\" list",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-202",
+    "category_prefix": "10",
+    "description": "FIELD 'EVENT DETAIL' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-203",
+    "category_prefix": "10",
+    "description": "FIELD 'EVENT DATE' IS NOT CORRECT",
+    "solution": "Please note that the format of the Dates within the file is DDMMYYYY.",
+    "rephrased_fix": "The accepted format of the date(s) within the report is DDMMYYYY only."
+  },
+  {
+    "error_code": "10-204",
+    "category_prefix": "10",
+    "description": "FIELD 'COMPANY LINK REFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-205",
+    "category_prefix": "10",
+    "description": "FIELD 'COMPANY LINK REFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-206",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (CHILD)' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-207",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (CHILD)' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-208",
+    "category_prefix": "10",
+    "description": "FIELD 'COMPANY ROLE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-209",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (PARENT)' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-021",
+    "category_prefix": "1",
+    "description": "FIELD 'LEGAL FORM' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-210",
+    "category_prefix": "10",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (PARENT)' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-211",
+    "category_prefix": "10",
+    "description": "FIELD 'SUBMISSION TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-212",
+    "category_prefix": "10",
+    "description": "FIELD 'SUBMISSION TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-213",
+    "category_prefix": "10",
+    "description": "FIELD 'ASSET DESCRIPTION' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-022",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT TYPE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-023",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-024",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT PHASE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-247",
+    "category_prefix": "10",
+    "description": "WARNING - 'GUARANTEE CODE' IS EMPTY: 'ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE', 'ASSET REGISTRY EXTERNAL LINK' AND 'CUSTOMER TYPE' HAVE BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value/s in the Asset Code, Asset Code Description, Asset Location, Asset Appraised Value, Asset Registry External Link, and/or Customer Type fields as the Guarantee Code field is empty."
+  },
+  {
+    "error_code": "10-248",
+    "category_prefix": "10",
+    "description": "WARNING - 'GUARANTEE CODE' IS 'REAL' AND 'CUSTOMER TYPE' IS FILLED: 'CUSTOMER TYPE' HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Customer Type field as the value in the Guarantee Code field is 'REAL'."
+  },
+  {
+    "error_code": "10-249",
+    "category_prefix": "10",
+    "description": "WARNING - 'GUARANTEE CODE' IS 'PERSONAL' AND AT LEAST ONE BETWEEN ('ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE' AND 'ASSET REGISTRY EXTERNAL LINK') IS FILLED: 'ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE' AND 'ASSET REGISTRY EXTERNAL LINK' HAVE BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value/s in the Asset Code, Asset Code Description, Asset Location, Asset Appraised Value, Asset Registry External Link as the value in the Guarantee Code field is 'PERSONAL'."
+  },
+  {
+    "error_code": "1-025",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-250",
+    "category_prefix": "10",
+    "description": "'CONTRACT REFERENCE DATE' IS LESS THAN 'LAST PAYMENT DATE'",
+    "solution": "Contract Reference Date pertains to what reporting month you are submitting to the CIS. The Contract Reference Date must be greater than the Last Payment Date. Normally, Contract Reference Date is the last business day of the month. Also, within your submission file, Contract Reference Date, File Reference Date and Subject Reference Date are of the same values.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-251",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT START DATE' IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-252",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT END PLANNED DATE' IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-253",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (CL,CA) AND 'CONTRACT END ACTUAL DATE' IS EMPTY",
+    "solution": "The Contract End Actual Date is a dependent field to the Contract Phase. It becomes mandatory when the Contract Phase is tagged as 'Closed' or 'Closed in Advance'. It may be equal to or less than the Contract End Planned Date. There are only 12 occurrences for this error, kindly check and correct it.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-254",
+    "category_prefix": "10",
+    "description": "'CONTRACT REQUEST DATE' HAS BEEN SET EQUAL TO 'CONTRACT START DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-255",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'CONTRACT END PLANNED DATE'",
+    "solution": "The Contract Start Date is the actual start date of the contract and it should not be greater than the Contract End Planned and Contract End Actual Dates.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-256",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'CONTRACT END ACTUAL DATE'",
+    "solution": "Contract start date (date loan was approved/granted) must always be less than Contract end actual date (date loan was fully paid).",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-257",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'LAST PAYMENT DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-258",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'FIRST PAYMENT DATE'",
+    "solution": "Contract Start Date is the starting date of the contract while First Payment Date refers to the date of the first installment as agreed between Bank and Customer. The First Payment Date must be greater than the Contract Start Date.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-259",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (CL,CA) AND NEXTPAYMENTDATE IS NOT EMPTY'",
+    "solution": "Next Payment Date should be left empty if the Contract Phase=Closed or Closed in advance.",
+    "rephrased_fix": "Next Payment Date should be left empty if the Contract Phase=Closed or Closed in advance."
+  },
+  {
+    "error_code": "1-026",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT REQUEST DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-260",
+    "category_prefix": "10",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-261",
+    "category_prefix": "10",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "solution": "The Next Payment Date must be greater than Contract Start Date; but it should be less then the Contract End Planned Date and Contract End Actual Date.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-262",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'NEXT PAYMENT DATE'",
+    "solution": "Contract Start Date must be greater than the Next Payment Date.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-263",
+    "category_prefix": "10",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "solution": "Contract End Actual Date it can be less than Next Payment Date.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-264",
+    "category_prefix": "10",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-265",
+    "category_prefix": "10",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'LAST CHARGE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-266",
+    "category_prefix": "10",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'LAST CHARGE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-267",
+    "category_prefix": "10",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'LAST CHARGE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-268",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'MONTHLY PAYMENT AMOUNT' IS EMPTY OR 0",
+    "solution": "Please be reminded that the field Monthly Payment Amount is mandatory if the Contract Phase is active, closed, or closed in advance. This field shows the monthly amortization of the borrower.",
+    "rephrased_fix": "Please be reminded that the field Monthly Payment Amount is mandatory if the Contract Phase is active, closed, or closed in advance. This field shows the monthly amortization of the borrower."
+  },
+  {
+    "error_code": "10-269",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN ('CL','CA') AND 'NEXT PAYMENT' IS NOT (EMPTY OR 0)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-027",
+    "category_prefix": "1",
+    "description": "FIELD 'CURRENCY' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-270",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING PAYMENTS NUMBER' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "solution": "Outstanding payment number must not be empty if the Contract Phase is active.",
+    "rephrased_fix": "Outstanding payment number must not be empty if the Contract Phase is active and it should be less than the Contract End Planned Date."
+  },
+  {
+    "error_code": "10-272",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING BALANCE' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-274",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING PAYMENTS NUMBER' = (0 OR EMPTY) AND 'OUTSTANDING BALANCE' > 0 OR 'OUTSTANDING PAYMENTS NUMBER' > 0 AND 'OUTSTANDING BALANCE' = (0 OR EMPTY)",
+    "solution": "For active contracts, if there is an Outstanding Payments Number then there must be a corresponding value in the Outstanding Balance and vice versa. Outstanding Payments Number is the remaining number of installments the borrower still has to pay.",
+    "rephrased_fix": "For active contracts, if there is an Outstanding Payments Number then there must be a corresponding value in the Outstanding Balance and vice versa. Outstanding Payments Number is the remaining number of installments the borrower still has to pay."
+  },
+  {
+    "error_code": "10-275",
+    "category_prefix": "10",
+    "description": "'CONTRACT TYPE IS CREDIT CARD AND INSTALLMENT TYPE IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-276",
+    "category_prefix": "10",
+    "description": "'CONTRACT TYPE IS CREDIT CARD AND PAYMENT PERIODICITY IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-277",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (RQ,RF,RN) AND 'OVERDUE PAYMENTS NUMBER' > 0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-278",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (RQ,RF,RN) AND 'OVERDUE PAYMENTS AMOUNT' > 0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-028",
+    "category_prefix": "1",
+    "description": "FIELD 'CURRENCY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-280",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OVERDUE PAYMENTS NUMBER' = (0 OR EMPTY) AND 'OVERDUE PAYMENTS AMOUNT' > 0 OR 'OVERDUE PAYMENTS NUMBER' > 0 AND 'OVERDUE PAYMENTS AMOUNT' = (0 OR EMPTY)",
+    "solution": "If there is an Overdue Payments Number, the corresponding value must be provided in the Overdue Payments Amount and vice versa. There are 2 occurrences for this error, kindly check and correct it.",
+    "rephrased_fix": "If there is an Overdue Payments Number, the corresponding value must be provided in the Overdue Payments Amount field and vice versa. There are 5 occurrences for this error, kindly check and correct."
+  },
+  {
+    "error_code": "10-281",
+    "category_prefix": "10",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT TYPE' IS CREDIT CARD AND 'OVERDUE PAYMENTS NUMBER' IS (0 OR EMPTY) AND 'OVERDUE PAYMENTS AMOUNT' > 0, OR 'OVERDUE PAYMENTS NUMBER' > 0 AND 'OVERDUE PAYMENTS AMOUNT' IS (0 OR EMPTY)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-282",
+    "category_prefix": "10",
+    "description": "'CONTRACTTYPE' IS (CREDIT CARD) AND 'FLAG CARD USED' IS 0 AND 'TIMES CARD USED' > 0, OR 'FLAG CARD USED' > 0 AND 'TIMES CARD USED' IS 0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-283",
+    "category_prefix": "10",
+    "description": "'VALIDITY START DATE' IS GREATER THAN 'VALIDITY END DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-284",
+    "category_prefix": "10",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MIN PAYMENT PERCENTAGE IS NOT EMPTY AND MIN PAYMENT PERCENTAGE IS NOT EQUAL TO 100%",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-285",
+    "category_prefix": "10",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MONTHLY PAYMENT AMOUNT IS NOT EMPTY, THEN MONTHLY PAYMENT AMOUNT HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-286",
+    "category_prefix": "10",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND OVERDUE PAYMENTS NUMBER IS NOT EMPTY, THEN OVERDUE PAYMENTS NUMBER HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-287",
+    "category_prefix": "10",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MIN PAYMENT INDICATOR IS NOT EMPTY, THEN MIN PAYMENT INDICATOR HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-288",
+    "category_prefix": "10",
+    "description": "WARNING - 'CONTRACT TYPE' IS CREDIT CARD, INSTALLMENTS TYPE IS FIXED AND 'MIN PAYMENT INDICATOR' IS NOT EMPTY, THEN 'MIN PAYMENT INDICATOR' HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Minimum Payment Indicator field as the value in the Contract Type field is Credit Card and the value in the Installments Type field is 'Fixed'."
+  },
+  {
+    "error_code": "10-289",
+    "category_prefix": "10",
+    "description": "WARNING - 'CONTRACT TYPE' IS CREDIT CARD, INSTALLMENTS TYPE IS FIXED AND 'MIN PAYMENT PERCENTAGE' IS NOT EMPTY, THEN 'MIN PAYMENT PERCENTAGE' HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Minimum Payment Percentage field as the value in the Contract Type field is Credit Card and the value in the Installments Type field is 'Fixed'."
+  },
+  {
+    "error_code": "1-029",
+    "category_prefix": "1",
+    "description": "FIELD 'PAYMENT PERIODICITY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-290",
+    "category_prefix": "10",
+    "description": "'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT START DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-291",
+    "category_prefix": "10",
+    "description": "'CONTRACT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-292",
+    "category_prefix": "10",
+    "description": "'NEGATIVE EVENT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-293",
+    "category_prefix": "10",
+    "description": "'COMPANY LINK REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-294",
+    "category_prefix": "10",
+    "description": "IF 'GUARANTEE CODE' IS NOT EMPTY, THEN AT LEAST ONE BETWEEN 'PROVIDER SUBJECT NO' OR 'GUARANTOR NAME 'SHOULD BE PROVIDED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-295",
+    "category_prefix": "10",
+    "description": "'GUARANTEED AMOUNT' IS NOT EMPTY, AND 'CURRENCY' IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-296",
+    "category_prefix": "10",
+    "description": "('GUARANTEED AMOUNT' IS (EMPTY) AND 'GUARANTEE CODE' IS NOT EMPTY) OR ('GUARANTEED AMOUNT' IS NOT EMPTY AND 'GUARANTEE CODE' IS EMPTY)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-297",
+    "category_prefix": "10",
+    "description": "FIELD 'FLAG CARD USED' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-298",
+    "category_prefix": "10",
+    "description": "SUBMISSION TYPE - HISTORICAL (1): CONTRACT CANNOT BE REORGANIZED WITH SUBMISSION TYPE = 1",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-299",
+    "category_prefix": "10",
+    "description": "WARNING - 'PROVIDER SUBJECT NO' AND 'GUARANTOR NAME' CANNOT BE BOTH FILLED IN: 'GUARANTOR NAME' HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Guarantor Name field as the Guarantor Name and Provider Subject Number fields cannot be both filled-in."
+  },
+  {
+    "error_code": "1-030",
+    "category_prefix": "1",
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-300",
+    "category_prefix": "10",
+    "description": "STANDALONE SUBJECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-301",
+    "category_prefix": "10",
+    "description": "SUBMISSION TYPE - STANDARD (0): CONTRACT WITH MORE RECENT REFERENCE DATE ALREADY IN DB, IT IS NOT POSSIBLE TO UPDATE IT",
+    "solution": "This error occurs if there is an existing contract in the Production database with a Contract Reference Date earlier than the Contract Reference Date indicated in your latest report. If this latest report is simply a correction file, kindly use the submission type \"1 - Correction/Historical.\" Otherwise, kindly double check the Contract Reference Dates of the records included in your latest report.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-302",
+    "category_prefix": "10",
+    "description": "CONTRACT IS ALREADY IN DATABASE WITH PHASE CLOSED OR CLOSED IN ADVANCE",
+    "solution": "If a contract is already reported previously as closed or closed in advance, you do not need to include these records in your succeeding reports.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-303",
+    "category_prefix": "10",
+    "description": "CONTRACT IS ALREADY IN DATABASE WITH A DIFFERENT CONTRACT CATEGORY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-304",
+    "category_prefix": "10",
+    "description": "CONTRACT REORGANIZED: CONTRACT IN INPUT SHOULD BE ACTIVE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-305",
+    "category_prefix": "10",
+    "description": "CONTRACT REORGANIZED: THE CONTRACT TO BE REORGANIZED DOESN’T EXIST IN DATABASE AND WITH ACTIVE PHASE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-306",
+    "category_prefix": "10",
+    "description": "CONTRACT REORGANIZED: CONTRACT IS ALREADY IN DATABASE WITH A DIFFERENT CONTRACT CATEGORY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-307",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS LINKED SUBJECT DOESN’T EXIST",
+    "solution": "note that all linked Provider Subject Number to a Contract record must have a corresponding Subject record. This Linked Subject may refer to the Borrower, Co-Borrower, and or Guarantor.",
+    "rephrased_fix": "This error occurs when the Provider Subject Number in the contract record is either not listed in the ID/BD records or is not existing in the database. Please make sure that the contract records in this submission have corresponding subject records."
+  },
+  {
+    "error_code": "10-308",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS LINKED SUBJECTS (BORROWER OR CO-BORROWER) HAS ERRORS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-309",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE THE SAME SUBJECT IS LINKED MORE THAN ONCE TO IT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-031",
+    "category_prefix": "1",
+    "description": "FIELD 'CREDIT LIMIT' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-310",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES OF THE SAME CONTRACT WITH NOT CONSISTENT VALUES",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-311",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS GUARANTEE IS LINKED TO A NOT EXISTING SUBJECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-312",
+    "category_prefix": "10",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS GUARANTEE IS LINKED TO A SUBJECT WITH ERRORS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-314",
+    "category_prefix": "10",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES WITH THE SAME EVENTTYPE FOR THE SAME SUBJECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-315",
+    "category_prefix": "10",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE THE SUBJECT LINKED DOESN’T EXIST",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-316",
+    "category_prefix": "10",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE ITS LINKED SUBJECT HAS ERRORS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-317",
+    "category_prefix": "10",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES FOR THE SAME PARENT-CHILD",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-318",
+    "category_prefix": "10",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE AT LEAST ONE BETWEEN PARENT AND CHILD SUBJECT DOESN’T EXIST",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "10-319",
+    "category_prefix": "10",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE AT LEAST ONE BETWEEN PARENT AND CHILD SUBJECT HAS ERRORS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-032",
+    "category_prefix": "1",
+    "description": "FIELD 'TRADE NAME' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "10-320",
+    "category_prefix": "10",
+    "description": "'CHILD PROVIDERSUBJECT NO' - 'PARENT PROVIDERSUBJECT NO' CANNOT BE THE SAME",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-033",
+    "category_prefix": "1",
+    "description": "FIELD 'FULL NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-034",
+    "category_prefix": "1",
+    "description": "FIELD 'FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-035",
+    "category_prefix": "1",
+    "description": "FIELD 'MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-036",
+    "category_prefix": "1",
+    "description": "FIELD 'LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-037",
+    "category_prefix": "1",
+    "description": "FIELD 'PLACE OF BIRTH' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-038",
+    "category_prefix": "1",
+    "description": "FIELD 'FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-039",
+    "category_prefix": "1",
+    "description": "FIELD 'STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-040",
+    "category_prefix": "1",
+    "description": "FIELD 'ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-041",
+    "category_prefix": "1",
+    "description": "FIELD 'ADDRESS DISTRICT' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-042",
+    "category_prefix": "1",
+    "description": "FIELD 'ADDRESS REGION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-043",
+    "category_prefix": "1",
+    "description": "FIELD 'IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-044",
+    "category_prefix": "1",
+    "description": "FIELD 'ID NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-045",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTACT' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-046",
+    "category_prefix": "1",
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-047",
+    "category_prefix": "1",
+    "description": "FIELD 'OCCUPATION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": "The value reported in this field must not exceed 4 characters."
+  },
+  {
+    "error_code": "1-048",
+    "category_prefix": "1",
+    "description": "FIELD 'EMPLOYER TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-049",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-050",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-051",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-052",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-055",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-056",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER CONTACT' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-057",
+    "category_prefix": "1",
+    "description": "FIELD 'TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-058",
+    "category_prefix": "1",
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-059",
+    "category_prefix": "1",
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-060",
+    "category_prefix": "1",
+    "description": "FIELD 'MONTHLY INSTALLMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-061",
+    "category_prefix": "1",
+    "description": "FIELD 'CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-062",
+    "category_prefix": "1",
+    "description": "FIELD 'PROVIDER CONTRACT NO' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-063",
+    "category_prefix": "1",
+    "description": "FIELD 'PROVIDER APPLICATION NO' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-064",
+    "category_prefix": "1",
+    "description": "FIELD 'CIC CONTRACT CODE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-065",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-066",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'SOLE TRADER ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-067",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-068",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'SOLE TRADER IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-069",
+    "category_prefix": "1",
+    "description": "FIELDS 'IDENTIFICATION TYPE' AND 'IDENTIFICATION CODE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-070",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'ID TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-071",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-072",
+    "category_prefix": "1",
+    "description": "MORE THAN ONE 'SOLE TRADER CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-073",
+    "category_prefix": "1",
+    "description": "FIELDS 'SOLE TRADER IDENTIFICATION TYPE' AND 'SOLE TRADER IDENTIFICATION CODE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-074",
+    "category_prefix": "1",
+    "description": "FIELDS 'CONTACT TYPE' AND 'CONTACT VALUE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-075",
+    "category_prefix": "1",
+    "description": "FIELDS 'SOLE TRADER CONTACT TYPE' AND 'SOLE TRADER CONTACT VALUE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-076",
+    "category_prefix": "1",
+    "description": "FIELD 'POSTAL CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-077",
+    "category_prefix": "1",
+    "description": "FIELD 'SOLE TRADER POSTAL CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-078",
+    "category_prefix": "1",
+    "description": "IN 'CONTRACT PHASE' FIELD, ONLY 'RQ' VALUE IS ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-079",
+    "category_prefix": "1",
+    "description": "FIELDS 'FINANCED AMOUNT' AND 'MONTHLY PAYMENT AMOUNT' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-080",
+    "category_prefix": "1",
+    "description": "IF 'CBCONTRACTCODE' IS FILLED IN, THEN BOTH 'PROVIDER APPLICATION NO' AND 'PROVIDER CONTRACT NO' MUST BE EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-081",
+    "category_prefix": "1",
+    "description": "'PROVIDER APPLICATION NO' OR 'PROVIDER CONTRACT NO' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-082",
+    "category_prefix": "1",
+    "description": "THE 'CONTRACT REQUEST DATE' MUST BE MINUS OR EQUAL TO CURRENT DATE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-083",
+    "category_prefix": "1",
+    "description": "THE ENQUIRED 'CONTRACT TYPE' IS NOT ENABLED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-084",
+    "category_prefix": "1",
+    "description": "FIELD 'MESSAGE ID' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-085",
+    "category_prefix": "1",
+    "description": "CONTRACT WITH ENQUIRED ‘PROVIDER CONTRACT CODE’ DOES NOT EXIST OR IS NOT ACCESSIBLE - APPLICATION DATA ARE MANDATORY FOR A NEW APPLICATION ENQUIRY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-086",
+    "category_prefix": "1",
+    "description": "APPLICATION DATA MUST BE CONGRUENT WITH THOSE ALREADY IN DB",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-087",
+    "category_prefix": "1",
+    "description": "CONTRACT WITH ENQUIRED ‘CIC CONTRACT CODE’ DOES NOT EXIST OR IS NOT ACCESSIBLE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-088",
+    "category_prefix": "1",
+    "description": "CONTRACT DOES NOT EXIST OR IS NOT ACCESSIBLE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-089",
+    "category_prefix": "1",
+    "description": "THE SUBJECT IS ALREADY LINKED TO THE CONTRACT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-090",
+    "category_prefix": "1",
+    "description": "PROVIDER SUBJECT NO ALREADY ASSIGNED TO ANOTHER SUBJECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-091",
+    "category_prefix": "1",
+    "description": "SUBJECT NOT ACCESSIBLE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-092",
+    "category_prefix": "1",
+    "description": "THE AMOUNT TO UPDATE IS NOT FILLED IN THE DB APPLICATION",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-093",
+    "category_prefix": "1",
+    "description": "FIELD 'CIC SUBJECT CODE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-094",
+    "category_prefix": "1",
+    "description": "INDIVIDUAL AND COMPANY CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-095",
+    "category_prefix": "1",
+    "description": "ONLY ONE TYPE OF CONTRACT, BETWEEN INSTALLMENT, NON INSTALLMENT AND CREDIT CARD CAN BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-096",
+    "category_prefix": "1",
+    "description": "SUBJECT DATA AND CODES CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-097",
+    "category_prefix": "1",
+    "description": "FIELDS 'PROVIDER SUBJECT NO' AND 'CIC SUBJECT CODE' CANNOT BE BOTH EMPTY OR BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-098",
+    "category_prefix": "1",
+    "description": "MORE SUBJECTS MATCHED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-099",
+    "category_prefix": "1",
+    "description": "ENQUIRED PROVIDER SUBJECT NO DOES NOT EXIST",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-100",
+    "category_prefix": "1",
+    "description": "NO SUBJECT FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-101",
+    "category_prefix": "1",
+    "description": "ENQUIRED CIC SUBJECT CODE DOES NOT EXIST",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-102",
+    "category_prefix": "1",
+    "description": "FIELD 'CONTRACT PHASE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-103",
+    "category_prefix": "1",
+    "description": "FIELD 'CANCELLATION FLAG' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-104",
+    "category_prefix": "1",
+    "description": "IN 'CONTRACT PHASE' FIELD, ONLY 'RQ', 'AC', 'RF', 'RN' VALUE ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-105",
+    "category_prefix": "1",
+    "description": "ONLY ONE, BUT AT LEAST ONE BETWEEN 'PROVIDER CONTRACT NO', 'PROVIDER APPLICATION NO' AND 'CIC CONTRACT CODE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-106",
+    "category_prefix": "1",
+    "description": "THE APPLICATION IS TERMINATED AND IT CANNOT BE UPDATED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-107",
+    "category_prefix": "1",
+    "description": "IF 'CURRENCY' IS FILLED IN, THEN ALSO AMOUNTS SHOULD BE FILLED IN (OTHERWISE LEAVE IT EMPTY)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-108",
+    "category_prefix": "1",
+    "description": "PLEASE INDICATE THE FIELDS TO UPDATE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-109",
+    "category_prefix": "1",
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "1-110",
+    "category_prefix": "1",
+    "description": "FIELD 'SUBJECT REFERENCE DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-111",
+    "category_prefix": "1",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-112",
+    "category_prefix": "1",
+    "description": "THE SUBJECT CANNOT BE ENQUIRED WITH THE SET ROLE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-113",
+    "category_prefix": "1",
+    "description": "FIELD 'CREDIT LIMIT' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-114",
+    "category_prefix": "1",
+    "description": "FIELD 'INSTALLMENTS NUMBER' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-115",
+    "category_prefix": "1",
+    "description": "FIELD 'FINANCED AMOUNT' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-116",
+    "category_prefix": "1",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-118",
+    "category_prefix": "1",
+    "description": "FIELD 'PROVIDER CODE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-119",
+    "category_prefix": "1",
+    "description": "FIELDS 'CIC CONTRACT CODE' AND 'PROVIDER CODE' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-120",
+    "category_prefix": "1",
+    "description": "WHEN 'PROVIDER CONTRACT NO' IS FILLED IN ALSO THE 'PROVIDER CODE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-121",
+    "category_prefix": "1",
+    "description": "WHEN 'PROVIDER APPLICATION NO' IS FILLED IN ALSO THE 'PROVIDER CODE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-122",
+    "category_prefix": "1",
+    "description": "FIELD 'FUNCTION CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-123",
+    "category_prefix": "1",
+    "description": "FIELD 'FLAG TO BE MERGED FLAG' IS MISSING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-124",
+    "category_prefix": "1",
+    "description": "FIELD 'FLAG TO BE MERGED FLAG' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-125",
+    "category_prefix": "1",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CANNOT BE UPDATED FOR THE SPECIFIED CONTRACT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-128",
+    "category_prefix": "1",
+    "description": "'PROVIDER SUBJECT NUMBER' AND 'PROVIDER CODE' MUST BE BOTH FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "1-999",
+    "category_prefix": "1",
+    "description": "PROCESS RAISED AN EXCEPTION",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-001",
+    "category_prefix": "20",
+    "description": "FIELD 'GENDER' IS MANDATORY",
+    "solution": "All Mandatory fields should be FILLED IN.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-002",
+    "category_prefix": "20",
+    "description": "FIELD 'FIRST NAME' IS MANDATORY",
+    "solution": "All Mandatory fields should be FILLED IN.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-003",
+    "category_prefix": "20",
+    "description": "FIELD 'LAST NAME' IS MANDATORY",
+    "solution": "All Mandatory fields should be FILLED IN.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-004",
+    "category_prefix": "20",
+    "description": "FIELD 'BIRTH DATE' IS MANDATORY",
+    "solution": "Birth date is a mandatory field and must be provided with a value. In case this information is unavailable in your records, kindly advise us immediately so we can expect that this error will result after validation.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-005",
+    "category_prefix": "20",
+    "description": "FIELD 'NUMBER OF DEPENDANTS' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": "All Mandatory fields should be FILLED IN.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-006",
+    "category_prefix": "20",
+    "description": "FIELD 'CARS OWNED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-007",
+    "category_prefix": "20",
+    "description": "FIELD 'SUFFIX' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-008",
+    "category_prefix": "20",
+    "description": "FIELD 'NICKNAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-009",
+    "category_prefix": "20",
+    "description": "FIELD 'FORMER LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-001",
+    "category_prefix": "2",
+    "description": "FIELD 'GENDER' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-010",
+    "category_prefix": "20",
+    "description": "FIELD 'SPOUSE FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-011",
+    "category_prefix": "20",
+    "description": "FIELD 'SPOUSE LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-012",
+    "category_prefix": "20",
+    "description": "FIELD 'SPOUSE MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-013",
+    "category_prefix": "20",
+    "description": "FIELD 'MOTHER MAIDEN FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-014",
+    "category_prefix": "20",
+    "description": "FIELD 'MOTHER MAIDEN LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-015",
+    "category_prefix": "20",
+    "description": "FIELD 'MOTHER MAIDEN MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-016",
+    "category_prefix": "20",
+    "description": "FIELD 'FATHER FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-017",
+    "category_prefix": "20",
+    "description": "FIELD 'FATHER LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-018",
+    "category_prefix": "20",
+    "description": "FIELD 'FATHER MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-019",
+    "category_prefix": "20",
+    "description": "FIELD 'FATHER SUFFIX' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-002",
+    "category_prefix": "2",
+    "description": "FIELD 'FIRST NAME' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-020",
+    "category_prefix": "20",
+    "description": "FIELD 'ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-021",
+    "category_prefix": "20",
+    "description": "FIELD 'ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-022",
+    "category_prefix": "20",
+    "description": "FIELD 'ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-023",
+    "category_prefix": "20",
+    "description": "FIELD 'ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-024",
+    "category_prefix": "20",
+    "description": "FIELD 'ID ISSUED BY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-025",
+    "category_prefix": "20",
+    "description": "FIELD 'EMPLOYMENT TIN' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": "For TIN/Employment TIN: numbers only, 9-12 digits, excluding the dashes.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-026",
+    "category_prefix": "20",
+    "description": "FIELD 'PHONE NUMBER' LENGTH IS NOT CORRECT",
+    "solution": "The phone number has a length up to 100 digits only.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-027",
+    "category_prefix": "20",
+    "description": "FIELD 'DATE HIRED FROM' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-028",
+    "category_prefix": "20",
+    "description": "FIELD 'DATE HIRED TO' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-029",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLE TRADER ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-003",
+    "category_prefix": "2",
+    "description": "FIELD 'LAST NAME' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-030",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLE TRADER ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-031",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLE TRADER ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-032",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLE TRADER ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-033",
+    "category_prefix": "20",
+    "description": "FIELD 'TERM OF EXISTENCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-034",
+    "category_prefix": "20",
+    "description": "FIELD 'REGISTRATION DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-035",
+    "category_prefix": "20",
+    "description": "FIELD 'NUMBER OF EMPLOYEES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-036",
+    "category_prefix": "20",
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-037",
+    "category_prefix": "20",
+    "description": "FIELD 'MONTHLY EXPENSES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-038",
+    "category_prefix": "20",
+    "description": "FIELD 'NET TAXABLE INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-039",
+    "category_prefix": "20",
+    "description": "FIELD 'OFFICIAL REGISTERED TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-004",
+    "category_prefix": "2",
+    "description": "FIELD 'BIRTH DATE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-040",
+    "category_prefix": "20",
+    "description": "FIELD 'NATIONALITY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-041",
+    "category_prefix": "20",
+    "description": "FIELD 'RESIDENT' IS NOT CORRECT",
+    "solution": "The value must be either 0 or 1 only. Please check the YesNo domain for the description. This field is not mandatory.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-042",
+    "category_prefix": "20",
+    "description": "FIELD 'CIVIL STATUS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-043",
+    "category_prefix": "20",
+    "description": "FIELD 'TITLE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-044",
+    "category_prefix": "20",
+    "description": "FIELD 'ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with \"HouseOwnerLesseeTypeDomain\" list.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-045",
+    "category_prefix": "20",
+    "description": "FIELD 'PSIC' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-046",
+    "category_prefix": "20",
+    "description": "FIELD 'ANNUAL MONTHLY INDICATOR' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with \"AnnualMonthlyDomain\" list.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-047",
+    "category_prefix": "20",
+    "description": "FIELD 'PSOC' IS NOT CORRECT",
+    "solution": "Kindly check acceptable domain values in Data Format.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-048",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-049",
+    "category_prefix": "20",
+    "description": "FIELD 'FIRM SIZE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-005",
+    "category_prefix": "2",
+    "description": "FIELD 'NUMBER OF DEPENDANTS' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-050",
+    "category_prefix": "20",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": "For TIN, the length must either be 9 or 12 only. It becomes 12 digits if you include the three 0s at the end. Dashes and/or spaces must be omitted as well.",
+    "rephrased_fix": "Kindly check & correct the TIN number, the length must be >=9 & <=12 digits and only numbers are allowed."
+  },
+  {
+    "error_code": "20-051",
+    "category_prefix": "20",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'SSS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =10, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": "For SSS: numbers only, 10 digits, excluding the dashes.",
+    "rephrased_fix": "TIN/Employment TIN: numbers only, 9-12 digits, excluding the dashes. \nFor SSS: numbers only, 10 digits, excluding the dashes.\nFor GSIS: numbers only, 11 digits, excluding the dashes."
+  },
+  {
+    "error_code": "20-052",
+    "category_prefix": "20",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'GSIS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =11, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": "For GSIS numbers, the length must either be 10 or 11 only. Dashed and/or spaces must be omitted.\nError 20-104: Please be advised that it is mandatory to provide at least one (1) contact information for subjects. In case this information is unavailable in your records, kindly advise us immediately so we can expect that this error will result after validation.",
+    "rephrased_fix": "TIN/Employment TIN: numbers only, 9-12 digits, excluding the dashes. \nFor SSS: numbers only, 10 digits, excluding the dashes.\nFor GSIS: numbers only, 11 digits, excluding the dashes."
+  },
+  {
+    "error_code": "20-053",
+    "category_prefix": "20",
+    "description": "IF FIELD 'SOLE TRADER IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-006",
+    "category_prefix": "2",
+    "description": "FIELD 'CARS OWNED NO' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-060",
+    "category_prefix": "20",
+    "description": "FIELD 'BOARD RESOLUTION FLAG' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-061",
+    "category_prefix": "20",
+    "description": "FIELD 'TYPE OF TRANSACTION' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-062",
+    "category_prefix": "20",
+    "description": "FIELD 'PURPOSE OF CREDIT' IS NOT CORRECT",
+    "solution": "The value reported should be consistent with CreditPurposeDomain",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-063",
+    "category_prefix": "20",
+    "description": "FIELD 'PREMIUM CARD' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-064",
+    "category_prefix": "20",
+    "description": "FIELD 'HOLDER LIABILITY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-065",
+    "category_prefix": "20",
+    "description": "FIELD 'TYPE OF TRANSACTION' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-066",
+    "category_prefix": "20",
+    "description": "FIELD BILLED AMOUNT IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-067",
+    "category_prefix": "20",
+    "description": "FIELD 'LAST PAYMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-068",
+    "category_prefix": "20",
+    "description": "FIELD 'CANCELLATION DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-069",
+    "category_prefix": "20",
+    "description": "FIELD 'SERVICE LINE NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-007",
+    "category_prefix": "2",
+    "description": "FIELD 'SUFFIX' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-070",
+    "category_prefix": "20",
+    "description": "FIELD 'ASSET LOCATION' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-071",
+    "category_prefix": "20",
+    "description": "FIELD 'ASSET APPRAISED VALUE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-072",
+    "category_prefix": "20",
+    "description": "FIELD 'ASSET REGISTRY EXTERNAL LINK' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-073",
+    "category_prefix": "20",
+    "description": "FIELD 'OUTSTANDING BALANCE UNBILLED' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-074",
+    "category_prefix": "20",
+    "description": "FIELD 'OUTSTANDING BALANCE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-008",
+    "category_prefix": "2",
+    "description": "FIELD 'NICKNAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-080",
+    "category_prefix": "20",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE ALL AMOUNTS ARE EMPTY (COMPANY)",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Currency field as all the amounts in the record is empty."
+  },
+  {
+    "error_code": "20-081",
+    "category_prefix": "20",
+    "description": "FIELD CURRENCY CANNOT BE FILLED IF THE NET TAXABLE INCOME IS EMPTY - FIELD CLEANED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-082",
+    "category_prefix": "20",
+    "description": "FIELD 'REFERENCE NUMBER' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-083",
+    "category_prefix": "20",
+    "description": "FIELD 'PROVIDER TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-084",
+    "category_prefix": "20",
+    "description": "FIELD 'PROVIDER TYPE' IS NOT CORECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-085",
+    "category_prefix": "20",
+    "description": "FIELD 'OVERALL CREDIT LIMIT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-086",
+    "category_prefix": "20",
+    "description": "FIELD 'EVENT STATUS DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-087",
+    "category_prefix": "20",
+    "description": "FIELD 'EVENT STATUS DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-088",
+    "category_prefix": "20",
+    "description": "NEGATIVE EVENT REFERENCE DATE' SHOULD BE GREATER THAN 'EVENT STATUS DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-089",
+    "category_prefix": "20",
+    "description": "IF 'CONTRACT PHASE' IN (AC,CL,CA), 'LAST PAYMENT AMOUNT' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "2-009",
+    "category_prefix": "2",
+    "description": "FIELD 'FORMER LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-090",
+    "category_prefix": "20",
+    "description": "IF 'CONTRACT PHASE' IN (AC,CL,CA), 'OVERDUE DAYS' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-092",
+    "category_prefix": "20",
+    "description": "IF 'CONTRACT PHASE' IN (AC), 'NEXT PAYMENT AMOUNT' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-093",
+    "category_prefix": "20",
+    "description": "IF 'CONTRACT TYPE' IS CREDITCARD OR UTILITY, THE 'ROLE' = 'G' IS NOT ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-094",
+    "category_prefix": "20",
+    "description": "FIELD 'FULLADDRESS' REPLACED WITH 'SINGLE' ADDRESS FIELDS CONCATENATION IF IN ADDRESS THE SINGLE FIELDS ARE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-095",
+    "category_prefix": "20",
+    "description": "FIELD 'EVENT STATUS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-096",
+    "category_prefix": "20",
+    "description": "FIELD 'LINKED SUBJECT NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-097",
+    "category_prefix": "20",
+    "description": "IF 'PROVIDER SUBJECT NO' OR 'LINKED SUBJECTY NAME' FIELDS ARE PROVIDED, ALSO 'ROLE' FIELD SHOULD BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-098",
+    "category_prefix": "20",
+    "description": "IF 'ROLE' FIELD IS FILLED IN, THE FIELD 'PROVIDER SUBJECT NO' SHOULD BE FILLED, OR THE FIELD 'LINKED SUBJECTY NAME' IN CASE ALL REQUIRED SUBJECT DATA ARE NOT AVAILABLE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-099",
+    "category_prefix": "20",
+    "description": "WARNING - FIELD 'PROVIDER SUBJECT NO' AND 'LINKED SUBJECT NAME' CANNOT BE BOTH FILLED IN: FIELD 'LINKED SUBJECT NAME' HAS BEEN CLEANED",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Linked Subject Name field as the Provider Subject Number and Linked Subject Name fields cannot be both filled-in."
+  },
+  {
+    "error_code": "2-010",
+    "category_prefix": "2",
+    "description": "FIELD 'SPOUSE FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-100",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE PAIR OF FIELDS 'PROVIDER SUBJECT NO'-'ROLE' BETWEEN ALL PAIRS MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-101",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'SOLETRADER IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-102",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "solution": "IdentificationCode is mandatory. For the ID records, accepted Identifications are TIN, SSS, or GSIS; for BD records, it is only TIN. If data is not available for TIN, SSS or GSIS: please leave the field blank. But do provide whatever was presented by the borrower and report it accordingly to the correct fields. Please be guided by the domain/look-up table for Identification Types (primary/non-expiry IDs) and ID Types (secondary/with expiry IDs).",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-103",
+    "category_prefix": "20",
+    "description": "FIELD 'CURRENCY' MUST HAVE PHP DOMAIN-VALUE",
+    "solution": "Currency must only contain PHP value (Philippine Peso).",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-104",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'CONTACT:TYPE' SHOULD BE FILLED IN",
+    "solution": "Please be informed that it is mandatory to provide at least one contact data for each individual. Kindly check the domain/look-up table for the accepted values for the Contact Type. And of course, corresponding Contact value must be provided, too.",
+    "rephrased_fix": "Please be informed that it is mandatory to provide at least one contact data for each individual. Kindly check the domain/look-up table for the accepted values for the Contact Type. And of course, corresponding Contact value must be provided, too."
+  },
+  {
+    "error_code": "20-105",
+    "category_prefix": "20",
+    "description": "THE PROVIDERTYPE IS NOT MFI,BUT NO ONE BETWEEN CONTRACT 1: TYPE AND CONTRACT 2: TYPEIS FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-106",
+    "category_prefix": "20",
+    "description": "FIELD 'OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-107",
+    "category_prefix": "20",
+    "description": "FIELD 'DATE HIRED FROM' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-108",
+    "category_prefix": "20",
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-109",
+    "category_prefix": "20",
+    "description": "FIELD 'FILEREFERENCEDATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-011",
+    "category_prefix": "2",
+    "description": "FIELD 'SPOUSE LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-110",
+    "category_prefix": "20",
+    "description": "FIELD 'EXISTENCE TERM' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-111",
+    "category_prefix": "20",
+    "description": "FIELD 'REGISTRATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-112",
+    "category_prefix": "20",
+    "description": "FIELD 'SUBJECTREFDATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-113",
+    "category_prefix": "20",
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 'DATE HIRED FROM'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-114",
+    "category_prefix": "20",
+    "description": "FIELD 'GROSS INCOME' CAN'T NOT HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-116",
+    "category_prefix": "20",
+    "description": "FIELD 'MONTHLY EXPENSES' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-117",
+    "category_prefix": "20",
+    "description": "FIELD 'NET TAXABLE INCOME' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-118",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN (FOR MF)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-119",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-012",
+    "category_prefix": "2",
+    "description": "FIELD 'SPOUSE MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-120",
+    "category_prefix": "20",
+    "description": "FIELD 'SOLETRADERDATA/OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-123",
+    "category_prefix": "20",
+    "description": "THE FIELD BIRTHDATA_PLACE MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-124",
+    "category_prefix": "20",
+    "description": "THE FIELD GENERALDATAINDIVIDUAL_NATIONALITY MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-125",
+    "category_prefix": "20",
+    "description": "FIELD 'BIRTH DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": "For the Individual borrowers, it is a requirement that he/she must be 18 years old and not more than 100 years old. Also please avoid providing default values such as 01011900 for the Date of Birth. As of today, with 01011900, the individual is already 121 years old. If data/exact date is unknown, please leave the field/s blank.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-126",
+    "category_prefix": "20",
+    "description": "FIELD 'ISSUE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-127",
+    "category_prefix": "20",
+    "description": "FIELD 'EXPIRY DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-128",
+    "category_prefix": "20",
+    "description": "IN SUBJECT_INDIVIDUAL_ADDRESS, IF THE PROVIDERTYPE IS NOT MFI, THEN THE FIELD STREETNO MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-129",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' OR 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-013",
+    "category_prefix": "2",
+    "description": "FIELD 'MOTHER MAIDEN FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-130",
+    "category_prefix": "20",
+    "description": "ALL 'ADDRESS:TYPE' MUST BE FILLED IN. TWO ADDRESSES MUST BE PROVIDED.",
+    "solution": "Please note that it is mandatory to provide two addresses. You may fill in only the FULL Address or the SEPARATED fields for the addresses. If in case the individual provided only one address, you may copy the Address 1 to Address 2.",
+    "rephrased_fix": "Please note that it is mandatory to provide two addresses. You may fill in only the FULL Address or the SEPARATED fields for the addresses. If in case the individual provided only one address, you may copy the Address 1 to Address 2."
+  },
+  {
+    "error_code": "20-131",
+    "category_prefix": "20",
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF) OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-132",
+    "category_prefix": "20",
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-137",
+    "category_prefix": "20",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "solution": "For the Individual borrowers, it is a requirement that he/she must be 18 years old and not more than 100 years old.",
+    "rephrased_fix": "For the Individual borrowers, it is a requirement that he/she must be 18 years old and not more than 100 years old."
+  },
+  {
+    "error_code": "20-138",
+    "category_prefix": "20",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "solution": "Individual (ID) records, two addresses must be provided. Address 1 Type must always be ‘MI’ and Address 2 Type must always be ‘AI’. Corresponding address value must be provided, too. If only one address is available, simply copy paste Address 1 value to Address 2. Also, if the Full Address is provided, there is no need to supply the concatenated addresses. If you opt to provide the concatenated Address fields: Street No, Barangay, Subdivision, City, Province, Country becomes mandatory.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-139",
+    "category_prefix": "20",
+    "description": "IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": "For Individual (ID) records, two addresses must be provided. Address 1 Type must always be ‘MI’ and Address 2 Type must always be ‘AI’. Corresponding address value must be provided, too. If only one address is available, simply copy-paste Address 1 value to Address 2. Also, if the Full Address is provided, there is no need to supply the concatenated addresses. If you opt to provide the concatenated Address fields: Street No, Barangay, Subdivision, City, Province, Country becomes mandatory.",
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-014",
+    "category_prefix": "2",
+    "description": "FIELD 'MOTHER MAIDEN LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-140",
+    "category_prefix": "20",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'SOLETRADER ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-141",
+    "category_prefix": "20",
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": "If you already fill up the fields of SOLE TRADER FULL ADDRESS 1, just keep the fields of ('STREETNO','POSTALCODE','SUBDIVISION','BARANGAY','CITY','PROVINCE','COUNTRY') blank.",
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "20-142",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL INDIVIDUAL ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "solution": "Individual (ID) records, two addresses must be provided. Address 1 Type must always be ‘MI’ and Address 2 Type must always be ‘AI’",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-143",
+    "category_prefix": "20",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL COMPANY ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-015",
+    "category_prefix": "2",
+    "description": "FIELD 'MOTHER MAIDEN MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-016",
+    "category_prefix": "2",
+    "description": "FIELD 'FATHER FIRST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-017",
+    "category_prefix": "2",
+    "description": "FIELD 'FATHER LAST NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-018",
+    "category_prefix": "2",
+    "description": "FIELD 'FATHER MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-019",
+    "category_prefix": "2",
+    "description": "FIELD 'FATHER SUFFIX' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-020",
+    "category_prefix": "2",
+    "description": "FIELD 'ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-200",
+    "category_prefix": "20",
+    "description": "FIELD 'ASSET APPRAISED VALUE' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-201",
+    "category_prefix": "20",
+    "description": "FIELD 'LASTPAYMENTAMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-203",
+    "category_prefix": "20",
+    "description": "FIELD 'NEXT PAYMENT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-204",
+    "category_prefix": "20",
+    "description": "FIELD 'BILLED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-205",
+    "category_prefix": "20",
+    "description": "FIELD 'OUTSTANDING BALANCE' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-206",
+    "category_prefix": "20",
+    "description": "FIELD 'OVERDUE PAYMENTS AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-207",
+    "category_prefix": "20",
+    "description": "FIELD 'OVERDUE PAYMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-208",
+    "category_prefix": "20",
+    "description": "FIELD 'MANUFACTURING DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-209",
+    "category_prefix": "20",
+    "description": "FIELD 'NEGATIVE EVENT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-021",
+    "category_prefix": "2",
+    "description": "FIELD 'ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-210",
+    "category_prefix": "20",
+    "description": "FIELD 'EVENT DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-211",
+    "category_prefix": "20",
+    "description": "FIELD 'CANCELLATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-212",
+    "category_prefix": "20",
+    "description": "FIELD 'COMPANY LINK REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-213",
+    "category_prefix": "20",
+    "description": "FIELD 'CHARGED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-214",
+    "category_prefix": "20",
+    "description": "FIELD 'CREDITLIMIT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-215",
+    "category_prefix": "20",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-216",
+    "category_prefix": "20",
+    "description": "FIELD 'OUTSTANDING PAYMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-217",
+    "category_prefix": "20",
+    "description": "FIELD 'TIMES CARD USED' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-218",
+    "category_prefix": "20",
+    "description": "FIELD 'GUARANTEED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-219",
+    "category_prefix": "20",
+    "description": "FIELD 'UTILIZATION' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-022",
+    "category_prefix": "2",
+    "description": "FIELD 'ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-220",
+    "category_prefix": "20",
+    "description": "FIELD 'GOODVALUE' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-221",
+    "category_prefix": "20",
+    "description": "FIELD 'MIN PAYMENT PERCENTAGE' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-222",
+    "category_prefix": "20",
+    "description": "FIELD 'FINANCED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-223",
+    "category_prefix": "20",
+    "description": "FIELD 'INSTALLMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-224",
+    "category_prefix": "20",
+    "description": "FIELD 'CONTRACT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-225",
+    "category_prefix": "20",
+    "description": "FIELD 'SERVICES-LINES NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-226",
+    "category_prefix": "20",
+    "description": "FIELD OUTSTANDING BALANCE UNBILLED IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "20-227",
+    "category_prefix": "20",
+    "description": "FIELD 'OUTSTANDING BALANCE UNBILLED' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-228",
+    "category_prefix": "20",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OUSTANDINGPAYMENTSNUMBER' >0 AND 'OUTSTANDINGPAYMENTSNUMBER' > 'INSTALLMENTSNUMBER'",
+    "solution": "Outstanding Payments Number is a dependent field that becomes mandatory if the Contract Phase is Active (AC), Closed (CL), or Closed in Advance (CA). Outstanding Payments Number pertains to the remaining amortizations to be paid by the borrower; must be a diminishing value. Installments Number pertains to the total number of amortizations to be made by the borrower within the contract term. And the Installments Number must always be greater than the Outstanding Payments Number.",
+    "rephrased_fix": "Outstanding Payments Number is a dependent field that becomes mandatory if the Contract Phase is Active (AC), Closed (CL), or Closed in Advance (CA). Outstanding Payments Number pertains to the remaining amortizations to be paid by the borrower; must be a diminishing value. Installments Number pertains to the total number of amortizations to be made by the borrower within the contract term. And the Installments Number must always be greater than the Outstanding Payments Number."
+  },
+  {
+    "error_code": "20-229",
+    "category_prefix": "20",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OVERDUEPAYMENTSNUMBER' >0 AND 'OVERDUEPAYMENTSNUMBER' > 'INSTALLMENTSNUMBER'",
+    "solution": "Please be advised that the Overdue Payments Number should not be greater than the Installments Number. There are three (3) occurrences for this error, please check and correct.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-023",
+    "category_prefix": "2",
+    "description": "FIELD 'ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-230",
+    "category_prefix": "20",
+    "description": "FIELD 'CONTRACT START DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-231",
+    "category_prefix": "20",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'BILLED AMOUNT' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-024",
+    "category_prefix": "2",
+    "description": "FIELD 'ID ISSUED BY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-025",
+    "category_prefix": "2",
+    "description": "FIELD 'EMPLOYMENT TIN' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-026",
+    "category_prefix": "2",
+    "description": "FIELD 'PHONE NUMBER' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-027",
+    "category_prefix": "2",
+    "description": "FIELD 'DATE HIRED FROM' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-028",
+    "category_prefix": "2",
+    "description": "FIELD 'DATE HIRED TO' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-029",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-030",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-031",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "20-310",
+    "category_prefix": "20",
+    "description": "MORE THAN ONE CONTRACT WITH THE SAME PROVIDER CONTRACT NUMBER AND REFERENCE DATE IS PRESENT",
+    "solution": "Please note that the Provider Contract Number is a unique number assigned to every contract with one or more subject data. These 14 occurrences may be duplicates.",
+    "rephrased_fix": "Please note that the Provider Contract Number is a unique number assigned to every contract with one or more subject data."
+  },
+  {
+    "error_code": "2-032",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-033",
+    "category_prefix": "2",
+    "description": "FIELD 'TERM OF EXISTENCE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-034",
+    "category_prefix": "2",
+    "description": "FIELD 'REGISTRATION DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-035",
+    "category_prefix": "2",
+    "description": "FIELD 'NUMBER OF EMPLOYEES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-036",
+    "category_prefix": "2",
+    "description": "FIELD 'GROSS INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-037",
+    "category_prefix": "2",
+    "description": "FIELD 'MONTHLY EXPENSES' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-038",
+    "category_prefix": "2",
+    "description": "FIELD 'NET TAXABLE INCOME' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-039",
+    "category_prefix": "2",
+    "description": "FIELD 'OFFICIAL REGISTERED TRADE NAME' LENGTH IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-040",
+    "category_prefix": "2",
+    "description": "FIELD 'NATIONALITY' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-041",
+    "category_prefix": "2",
+    "description": "FIELD 'RESIDENT' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-042",
+    "category_prefix": "2",
+    "description": "FIELD 'CIVIL STATUS' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-043",
+    "category_prefix": "2",
+    "description": "FIELD 'TITLE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-044",
+    "category_prefix": "2",
+    "description": "FIELD 'ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-045",
+    "category_prefix": "2",
+    "description": "FIELD 'PSIC' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-046",
+    "category_prefix": "2",
+    "description": "FIELD 'ANNUAL MONTHLY INDICATOR' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-047",
+    "category_prefix": "2",
+    "description": "FIELD 'PSOC' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-048",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-049",
+    "category_prefix": "2",
+    "description": "FIELD 'FIRM SIZE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-050",
+    "category_prefix": "2",
+    "description": "FIELD 'PAYMENT METHOD' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-051",
+    "category_prefix": "2",
+    "description": "FIELD 'PROVIDER TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "2-052",
+    "category_prefix": "2",
+    "description": "FIELD 'PROVIDER TYPE' IS NOT CORECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-053",
+    "category_prefix": "2",
+    "description": "FIELD 'FULLADDRESS' REPLACED WITH 'SINGLE' ADDRESS FIELDS CONCATENATION IF IN ADDRESS THE SINGLE FIELDS ARE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-060",
+    "category_prefix": "2",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-061",
+    "category_prefix": "2",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'SSS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =10, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-062",
+    "category_prefix": "2",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'GSIS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =11, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-063",
+    "category_prefix": "2",
+    "description": "IF FIELD 'SOLE TRADER IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-100",
+    "category_prefix": "2",
+    "description": "AT LEAST FIELDS 'ID TYPE' AND 'ID NUMBER' MUST BE BOTH FILLED IN - FIELDS CLEANED",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-101",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'SOLETRADER IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-102",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-103",
+    "category_prefix": "2",
+    "description": "FIELD 'CURRENCY' MUST HAVE PHP DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-104",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'CONTACT:TYPE' SHOULD BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-105",
+    "category_prefix": "2",
+    "description": "PROVIDER TYPE IS NOT MFI,BUT NO ONE BETWEEN CONTRACT 1: TYPE AND CONTRACT 2: TYPEIS FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-106",
+    "category_prefix": "2",
+    "description": "FIELD 'OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-107",
+    "category_prefix": "2",
+    "description": "FIELD 'DATE HIRED FROM' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-108",
+    "category_prefix": "2",
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-110",
+    "category_prefix": "2",
+    "description": "FIELD 'EXISTENCE TERM' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-111",
+    "category_prefix": "2",
+    "description": "FIELD 'REGISTRATION DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-112",
+    "category_prefix": "2",
+    "description": "FIELD 'SUBJECT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-113",
+    "category_prefix": "2",
+    "description": "FIELD 'DATE HIRED TO' MUST BE GREATER THAN 'DATE HIRED FROM'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-114",
+    "category_prefix": "2",
+    "description": "FIELD 'GROSS INCOME' CAN'T NOT HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-116",
+    "category_prefix": "2",
+    "description": "FIELD 'MONTHLY EXPENSES' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-117",
+    "category_prefix": "2",
+    "description": "FIELD 'NET TAXABLE INCOME' CAN'T HAVE A NEGATIVE VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-118",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN (FOR MF)",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-119",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-120",
+    "category_prefix": "2",
+    "description": "FIELD 'SOLE TRADER OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-123",
+    "category_prefix": "2",
+    "description": "THE FIELD BIRTH DATA_PLACE MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-124",
+    "category_prefix": "2",
+    "description": "THE FIELD GENERAL DATA INDIVIDUAL_NATIONALITY MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-125",
+    "category_prefix": "2",
+    "description": "FIELD 'BIRTH DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-126",
+    "category_prefix": "2",
+    "description": "FIELD 'ISSUE DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-127",
+    "category_prefix": "2",
+    "description": "FIELD 'EXPIRY DATE' MUST BE GREATER THAN 01-01-1900",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-128",
+    "category_prefix": "2",
+    "description": "IN 'SUBJECT INDIVIDUAL ADDRESS', IF THE PROVIDERTYPE IS NOT MF, THEN THE FIELD 'STREET NO' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-129",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' or 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-130",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' SHOULD BE 'TIN'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-131",
+    "category_prefix": "2",
+    "description": "FIELD 'CREDIT LIMIT' CAN HAVE ONLY A >0 VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-132",
+    "category_prefix": "2",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-133",
+    "category_prefix": "2",
+    "description": "FIELD 'FINANCED AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-134",
+    "category_prefix": "2",
+    "description": "FIELD 'INSTALLMENTS NUMBER' CAN ONLY HAVE A > 0 VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-135",
+    "category_prefix": "2",
+    "description": "CONTRACT TYPE AND THE PROVIDED CONTRACT SHOULD BE CONGRUENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-136",
+    "category_prefix": "2",
+    "description": "FIELD 'BILLED AMOUNT' CAN HAVE ONLY A >0 VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-137",
+    "category_prefix": "2",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-138",
+    "category_prefix": "2",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-139",
+    "category_prefix": "2",
+    "description": "IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-140",
+    "category_prefix": "2",
+    "description": "IF AT LEAST ONE BETWEEN 'SUBJECT INDIVIDUAL SOLETRADER ADDRESS' FIELDS IS FILLED IN, THEN 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-141",
+    "category_prefix": "2",
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREETNO','CITY','PROVINCE'), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-142",
+    "category_prefix": "2",
+    "description": "IF AT LEAST ONE BETWEEN 'SUBJECT COMPANY ADDRESS' FIELDS IS FILLED IN, THEN 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-143",
+    "category_prefix": "2",
+    "description": "IN SUBJECT_COMPANY_ADDRESS, IF THE FIELD ADDRESS TYPE IS FILLED IN, IF AT LEAST ONE BETWEEN STREETNO,POSTALCODE,SUBDIVISION,BARANGAY,CITY,PROVINCE,COUNTRY FIELDS IS FILLED IN, THEN IT IS MANDATORY TO FILL IN THE FIELDS SUBDIVISION,CITY,PROVINCE (FOR MFI) OR STREETNO,CITY,PROVINCE (FOR NON-MFI), OTHERWISE THE FIELD FULLADDRESS IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-144",
+    "category_prefix": "2",
+    "description": "ALL 'ADDRESS:TYPE' MUST BE FILLED IN. TWO ADDRESSES MUST BE PROVIDED.",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-145",
+    "category_prefix": "2",
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF) OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-146",
+    "category_prefix": "2",
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('SUBDIVISION','CITY','PROVINCE') (FOR MF), OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-147",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL INDIVIDUAL ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-148",
+    "category_prefix": "2",
+    "description": "FIELD 'CREDIT LIMIT' CAN HAVE ONLY A VALUE >0 or =0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-149",
+    "category_prefix": "2",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL COMPANY ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "2-150",
+    "category_prefix": "2",
+    "description": "IT IS MANDATORY TO FILL IN THE FIELDS ('STREET NO' OR 'SUBDIVISION','CITY','PROVINCE') OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "2-151",
+    "category_prefix": "2",
+    "description": "IN 'SOLTRADER ADDRESS', IT IS MANDATORY TO FILL IN AT LEAST THE FIELDS ('STREET NO' OR 'SUBDIVISION','CITY','PROVINCE') , OR ONLY THE FIELD 'FULLADDRESS'",
+    "solution": null,
+    "rephrased_fix": "For address/es, if the separated address fields are filled-in the field Full Address should be left empty, and vice versa."
+  },
+  {
+    "error_code": "30-001",
+    "category_prefix": "30",
+    "description": "FILE SPECIFIED DOES NOT EXIST",
+    "solution": null,
+    "rephrased_fix": "No file of such filename exists."
+  },
+  {
+    "error_code": "30-002",
+    "category_prefix": "30",
+    "description": "FILENAME FORMAT IS NOT VALID (IT SHOULD BE [ProviderCode]_CSDF_[yyyymmddhh24miss].txt)",
+    "solution": null,
+    "rephrased_fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt). \n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "30-003",
+    "category_prefix": "30",
+    "description": "'PROVIDER CODE' SPECIFIED INTO FILENAME IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": "The Provider Code in the filename must match the Provider Code assigned to your institution by CIC."
+  },
+  {
+    "error_code": "30-004",
+    "category_prefix": "30",
+    "description": "'TIMESTAMP' SPECIFIED INTO FILENAME IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": "The format of the timestamp in the filename must be YYYYMMDDhhmmss."
+  },
+  {
+    "error_code": "30-005",
+    "category_prefix": "30",
+    "description": "ANOTHER FILE WITH THE SAME TIMESTAMP OR MORE RECENT TIMESTAMP HAS BEEN ALREADY ELABORATED",
+    "solution": "avoid this error, please note that every submitted file must carry a new/unique timestamp in its filename. If the submitted file is a correction/historical file, please make sure that the 'Submission Type' in the Header portion is set to '1'.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-006",
+    "category_prefix": "30",
+    "description": "'PROVIDER CODE' INSIDE THE FILE IS NOT VALID OR DIFFERENT FROM THE PROVIDER SPECIFIED INTO FILENAME",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-007",
+    "category_prefix": "30",
+    "description": "'FILE REFERENCE DATE' INTO THE HEADER/FOOTER IS NOT VALID OR IT IS GREATER THAN SYSDATE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-008",
+    "category_prefix": "30",
+    "description": "'NO OF RECORDS' SPECIFIED IN THE FOOTER IS NOT VALID",
+    "solution": "Please do note that the 'number of records' is equal to the total number of records (rows) less the Header (HD) and the Footer (FT). Assuming there are a total of 100 rows/records in a submission file.",
+    "rephrased_fix": "The number of records reflecting in the footer must be the total number of subjects and contracts within the file and excluding the header and footer. For example, your report has 10 IDs and 10 CIs, then the number of records in the footer must be 20. Also, kindly check if there are extra rows after the footer, or if there are extra spaces or special characters in the NO OF RECORDS field."
+  },
+  {
+    "error_code": "30-009",
+    "category_prefix": "30",
+    "description": "'RECORD TYPE' IS NOT VALID",
+    "solution": "Note that the record types accepted by the CIS are HD, ID, BD, CI, CN, CC, CS, SL, NE, and FT only. Other than these including excess rows/carriage returns will result in such error. There are 1,262 occurrences for this error. Kindly check row 2 of the report. If this is an excess space/row/carriage return, please delete it.",
+    "rephrased_fix": "This error means that you have placed an invalid Record Type. Please note of the following record types that are only known by the system:"
+  },
+  {
+    "error_code": "3-001",
+    "category_prefix": "3",
+    "description": "FILE SPECIFIED DOES NOT EXIST",
+    "solution": null,
+    "rephrased_fix": "No file of such filename exists."
+  },
+  {
+    "error_code": "30-010",
+    "category_prefix": "30",
+    "description": "NUMBER OF FIELDS IS NOT VALID FOR THE SPECIFIED 'RECORD TYPE'",
+    "solution": "Each record type has a specific number of fields, as listed below. The pipelines in the report represent the fields, which means a missing pipeline is a missing field. Pipelines can be more than the specified but cannot be less. Please double check as well if there are columns that are hidden and unhide it.",
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-011",
+    "category_prefix": "30",
+    "description": "NUMBER OF RECORDS BETWEEN HEADER AND FOOTER IS NOT VALID",
+    "solution": "Assuming that a contribution file consists of 50 records/rows, excluding the Header and the Footer from the count, the 'Number of Records' should be equal to \"48\". This error is also related to Errors 30-009 and 30-014.",
+    "rephrased_fix": "Assuming that a contribution file consists of 50 records/rows, excluding the Header and the Footer from the count, the 'Number of Records' should be equal to \"48\"."
+  },
+  {
+    "error_code": "30-012",
+    "category_prefix": "30",
+    "description": "ANOTHER ELABORATION FROM THE SAME 'PROVIDER CODE' IS RUNNING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-013",
+    "category_prefix": "30",
+    "description": "HEADER IS NOT PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-014",
+    "category_prefix": "30",
+    "description": "FOOTER IS NOT PRESENT",
+    "solution": "Record Types HD (header) and FT (footer) must always be present.",
+    "rephrased_fix": "Record Types HD (header) and FT (footer) must always be present."
+  },
+  {
+    "error_code": "30-015",
+    "category_prefix": "30",
+    "description": "FIELD 'VERSION' OR 'SUBMISSION TYPE' IS NOT VALID OR MISSING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-016",
+    "category_prefix": "30",
+    "description": "FILE SPECIFIED IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-017",
+    "category_prefix": "30",
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-018",
+    "category_prefix": "30",
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8 OR CHAR NOT UTF-8 IS PRESENT",
+    "solution": "CHAR IS PRESENT, occurs if there are special characters (,.-/ñ, etc.) in fields that only accept alphanumeric characters or if the file is not properly converted into UTF-8 without Byte Order Mark (BOM) before saving the file as a text (.txt) file.",
+    "rephrased_fix": "error occurs if there are special characters (,.-/ etc.) in fields that only accept alphanumeric characters or if the file is not properly converted into UTF8 without BOM before saving it as a text (.txt) file. You may check the detailed result in your FTP folder's Submission/Output for the specific row numbers of records that encountered this error. Please make sure that there are no special characters in the fields like Monthly Payment Amount, Financed Amount, etc. Please make sure as well that you have selected \"Convert to UTF-8\" in the Encoding tab in Notepad++ before saving your file into text (TXT.)"
+  },
+  {
+    "error_code": "30-019",
+    "category_prefix": "30",
+    "description": "'FILE REFERENCE DATE' IN THE FOOTER IS DIFFERENT FROM DATE IN THE HEADER",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-002",
+    "category_prefix": "3",
+    "description": "FILENAME FORMAT IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt). \n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "30-020",
+    "category_prefix": "30",
+    "description": "'CONTRACT TYPE' IS MISSING OR INVALID",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-022",
+    "category_prefix": "30",
+    "description": "'PROVIDER SUBJECT NO' IS MANDATORY",
+    "solution": "The Provider Subject No. is a mandatory field. It is the Customer ID or any other unique number assigned by the Provider/Submitting Entity to its clients; either Individual or Company.",
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "30-023",
+    "category_prefix": "30",
+    "description": "'PROVIDER SUBJECT NO (PARENT)' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "30-024",
+    "category_prefix": "30",
+    "description": "'PROVIDER CONTRACT NO' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "30-025",
+    "category_prefix": "30",
+    "description": "'EVENT CODE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "30-026",
+    "category_prefix": "30",
+    "description": "MORE THAN ONE HEADER ROW FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-027",
+    "category_prefix": "30",
+    "description": "MORE THAN ONE FOOTER ROW FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "30-028",
+    "category_prefix": "30",
+    "description": "'PROVIDER TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "30-029",
+    "category_prefix": "30",
+    "description": "'ROLE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "3-003",
+    "category_prefix": "3",
+    "description": "'PROVIDER CODE' SPECIFIED INTO FILENAME IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": "The Provider Code in the filename must match the Provider Code assigned to your institution by CIC."
+  },
+  {
+    "error_code": "30-030",
+    "category_prefix": "30",
+    "description": "'PROVIDER CODE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "3-004",
+    "category_prefix": "3",
+    "description": "'TIMESTAMP' SPECIFIED INTO FILENAME IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": "The format of the timestamp in the filename must be YYYYMMDDhhmmss."
+  },
+  {
+    "error_code": "3-005",
+    "category_prefix": "3",
+    "description": "ANOTHER FILE WITH THE SAME TIMESTAMP",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-006",
+    "category_prefix": "3",
+    "description": "'PROVIDER CODE' INSIDE THE FILE IS NOT VALID OR DIFFERENT FROM THE PROVIDER SPECIFIED INTO FILENAME",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-007",
+    "category_prefix": "3",
+    "description": "FIELD 'ENQUIRY CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-008",
+    "category_prefix": "3",
+    "description": "FIELD 'SERVICE CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-009",
+    "category_prefix": "3",
+    "description": "FIELD 'RECORD TYPE' IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-010",
+    "category_prefix": "3",
+    "description": "NUMBER OF FIELDS IS NOT VALID FOR THE SPECIFIED 'RECORD TYPE'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-011",
+    "category_prefix": "3",
+    "description": "NUMBER OF RECORDS AFTER THE HEADER IS NOT VALID",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-012",
+    "category_prefix": "3",
+    "description": "ANOTHER ELABORATION FROM THE SAME 'PROVIDER CODE' IS RUNNING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-013",
+    "category_prefix": "3",
+    "description": "HEADER IS NOT PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-014",
+    "category_prefix": "3",
+    "description": "FIELD 'SERVICE CODE' IN THE HEADER RECORD IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-015",
+    "category_prefix": "3",
+    "description": "FIELD 'VERSION' IS NOT VALID OR MISSING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-016",
+    "category_prefix": "3",
+    "description": "FILE SPECIFIED IS EMPTY",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-017",
+    "category_prefix": "3",
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-018",
+    "category_prefix": "3",
+    "description": "CHARACTER SET OF FILE IS NOT UTF-8 OR CHAR NOT UTF-8 IS PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-019",
+    "category_prefix": "3",
+    "description": "FIELD OUTPUT TYPE IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "3-020",
+    "category_prefix": "3",
+    "description": "FIELD 'OUTPUT TYPE' IN THE HEADER RECORD IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-026",
+    "category_prefix": "3",
+    "description": "MORE THAN ONE HEADER ROW FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "3-028",
+    "category_prefix": "3",
+    "description": "'PROVIDER TYPE' IS MANDATORY",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "3-029",
+    "category_prefix": "3",
+    "description": "PROVIDER CODE INSIDE THE FILE IS DIFFERENT FROM THE PROVIDER OF THE SELECTED 'ENQUIRY USER'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "40-001",
+    "category_prefix": "40",
+    "description": "THE NAME OF THE COMPRESSED FILE DOES NOT FOLLOW THE NAMING CONVENTION",
+    "solution": null,
+    "rephrased_fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt).\n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "40-002",
+    "category_prefix": "40",
+    "description": "THE EXTENSION OF THE SUBMITTED FILE SHOULD BE .ZIP OR .GPG",
+    "solution": null,
+    "rephrased_fix": "The file to be submitted must have the filename extension .zip.gpg."
+  },
+  {
+    "error_code": "40-003",
+    "category_prefix": "40",
+    "description": "THE CONTENT OF THE COMPRESSED FILE DOES NOT FOLLOW THE NAMING CONVENTION",
+    "solution": null,
+    "rephrased_fix": "The format of the filename of your submission must be <Provider Code>_CSDF_<YYYYMMDDhhmmss>. The format of the file inside the compressed folder (.zip) must also be text (.txt). \n(For example: OT888888_CSDF_20220131153000.txt)"
+  },
+  {
+    "error_code": "40-004",
+    "category_prefix": "40",
+    "description": "THE FILE CANNOT BE PROCESSED",
+    "solution": null,
+    "rephrased_fix": "The possible reason/s for this error are as follows:\n\n1. Wrong filename - the format of the file name should be (ProviderCode_CSDF_YYYYMMDDHHMMSS) \n2. Wrong file type - the required extension of the file should be .zip.gpg only\n3. Wrong data format - the file should be converted to UTF-8 (Encoding >> Convert to UTF-8 in Notepad++) before compressing it\n4. Wrong encryption key - the encryption key you are using is expired or you are using the encryption key for UAT"
+  },
+  {
+    "error_code": "40-005",
+    "category_prefix": "40",
+    "description": "THE NAME OF THE .ZIP FILE AND THE NAME OF THE .TXT FILE ARE DIFFERENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "40-006",
+    "category_prefix": "40",
+    "description": "THE PROVIDER CODE WITHIN THE FILENAME IS NOT CONSISTENT WITH THE SUBMITTING PROVIDER",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-001",
+    "category_prefix": "50",
+    "description": "A SOURCE MUST BE DEFINED. FLAG ONLINE SOURCE AND FLAG BATCH SOURCE CANNOT BE BOTH 0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-002",
+    "category_prefix": "50",
+    "description": "CREDIT PROVIDER AND CREDIT PROVIDER SUBJECT CODES MUST BE UNIQUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-003",
+    "category_prefix": "50",
+    "description": "THERE IS A LINKED CONTRACT FOR SPECIFIC CREDIT PROVIDER, THERE MUST BE AT LEAST ONE PROVIDER SUBJECT LINK FOR IT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-004",
+    "category_prefix": "50",
+    "description": "THERE IS A CONTRACT LINK WITH THE FLAG BATCH SOURCE ACTIVE, THERE MUST BE AT LEAST ONE PROVIDER LINK WITH FLAG BATCH SOURCE ACTIVE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-005",
+    "category_prefix": "50",
+    "description": "THE SUBJECT MUST EXIST IN THE DB AND HE MUST BE COMPLIANT WITH CONTRACT’ CONTRIBUTION SOURCE AND CREDIT PROVIDER",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-006",
+    "category_prefix": "50",
+    "description": "THE CONTRACT MUST EXIST IN THE DB AND IT MUST BE COMPLIANT WITH LINK’ CONTRIBUTION SOURCE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-007",
+    "category_prefix": "50",
+    "description": "DUPLICATED RECORD IN THE TABLE THAT LINK THE SUBJECT TO THE CONTRACT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-008",
+    "category_prefix": "50",
+    "description": "CREDIT PROVIDER CODE NOT FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-009",
+    "category_prefix": "50",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-010",
+    "category_prefix": "50",
+    "description": "COMPANY’S SUBJECT CODE NOT FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-011",
+    "category_prefix": "50",
+    "description": "SUBJECT CODE NOT FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-012",
+    "category_prefix": "50",
+    "description": "FIELD 'EVENT DATE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-013",
+    "category_prefix": "50",
+    "description": "FIELD 'EVENT CODE' IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-014",
+    "category_prefix": "50",
+    "description": "FIELD ‘FIRST REFERENCE DATE’ IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-015",
+    "category_prefix": "50",
+    "description": "FIELD ‘LAST REFERENCE DATE’ IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-016",
+    "category_prefix": "50",
+    "description": "NO CANDIDATES FOUND",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-017",
+    "category_prefix": "50",
+    "description": "INSERTED CIC SUBJECT CODE CORRESPOND TO DIFFERENT SUBJECT TYPES",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-018",
+    "category_prefix": "50",
+    "description": "SUBJECT ALREADY WAITING TO BE MERGED. PLEASE ACCESS TO THE TO BE MERGED REPORT TO PROCEED WITH THE MERGING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-019",
+    "category_prefix": "50",
+    "description": "THE FOLLOWING SUBJECTS: <CBSUBJECTCODE (FROM 1 TO N)> ARE ALREADY WAITING TO BE MERGED. PLEASE ACCESS TO THE TO BE MERGED REPORT TO PROCEED WITH THE MERGING",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-020",
+    "category_prefix": "50",
+    "description": "ONE OF THE SELECTED SUBJECT IS PRESENT MULTIPLE TIME IN THE TO BE MERGED REPORT. ARE YOU SURE YOU WANT TO PROCEED WITH THE MERGING?",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-021",
+    "category_prefix": "50",
+    "description": "SUBJECT <CODESUBJECTCODE> NOT FOUND IN THE DATABASE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-022",
+    "category_prefix": "50",
+    "description": "ONLY ONE FLAG CURRENT=1 CONTRIBUTION IS ALLOWED, BUT AT LEAST ONE MUST BE PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-023",
+    "category_prefix": "50",
+    "description": "ONLY THE MOST RECENT CONTRIBUTION CAN HAVE THE FLAG CURRENT=1",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-024",
+    "category_prefix": "50",
+    "description": "DISCREPANCIES BETEWEEN CONTRACT STATUS AND CONTRACT - SUBJECT LINKS STATUS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-025",
+    "category_prefix": "50",
+    "description": "AT LEAST ONE CREDIT PROVIDER LINK MUST BE PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-026",
+    "category_prefix": "50",
+    "description": "FOR PROVIDER SUBJECT LINK A SOURCE MUST BE DEFINED. FLAG ONLINE SOURCE AND FLAG BATCH SOURCE CANNOT BE BOTH 0",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-027",
+    "category_prefix": "50",
+    "description": "CONTRACT NOT FOUND IN THE DATABASE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-028",
+    "category_prefix": "50",
+    "description": "THERE MUST BE AT LEAST ONE, BUT ONLY ONE RECORD FOR ATTRIBUTE TYPE WITH FLAG CURRENT=1",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-029",
+    "category_prefix": "50",
+    "description": "CONTRACT SUBJECT LINK - SUBJECT ROLE IS NOT CORRECT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-030",
+    "category_prefix": "50",
+    "description": "CBSUBJECTCODE AND GUARANTOR NAME CANNOT BE BOTH EMPTY OR FILLED IN",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-031",
+    "category_prefix": "50",
+    "description": "COMPANY LINK -LINKED SUBJECTS CANNOT BE THE SAME",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-032",
+    "category_prefix": "50",
+    "description": "NEGATIVE EVENT – FIELD 'PROVIDER CODE' MUST BE COMPLIANT WITH PROVIDER SUBJECT LINK",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-033",
+    "category_prefix": "50",
+    "description": "NEGATIVE EVENT – FIELD ‘REFERENCE DATE ' IS NOT CORRECT.",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "50-034",
+    "category_prefix": "50",
+    "description": "GURANTEE - FIELD 'SUBJECT CODE' MUST BE COMPLIANT WITH CONTRACT PROVIDER OWNER CODE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "60-001",
+    "category_prefix": "60",
+    "description": "FIELD 'FIRST NAME' IS MANDATORY TO PROVIDE",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-002",
+    "category_prefix": "60",
+    "description": "FIELD 'LAST NAME' IS MANDATORY TO PROVIDE",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-003",
+    "category_prefix": "60",
+    "description": "FIELD 'GENDER' IS MANDATORY TO PROVIDE",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-005",
+    "category_prefix": "60",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "60-007",
+    "category_prefix": "60",
+    "description": "FIELD 'TRADE NAME' IS MANDATORY TO PROVIDE",
+    "solution": null,
+    "rephrased_fix": "This field needs to have a value as it is required."
+  },
+  {
+    "error_code": "60-008",
+    "category_prefix": "60",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE ALL AMOUNTS ARE EMPTY (COMPANY)",
+    "solution": null,
+    "rephrased_fix": "The system removed the value in the Currency field as all the amounts in the record is empty."
+  },
+  {
+    "error_code": "60-009",
+    "category_prefix": "60",
+    "description": "AT LEAST ONE 'ADDRESS' OCCURRENCE MUST BE THE 'MAIN ADDRESS'",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "60-010",
+    "category_prefix": "60",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' OR 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "60-011",
+    "category_prefix": "60",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' DOMAIN-VALUE",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "60-012",
+    "category_prefix": "60",
+    "description": "AT LEAST ONE 'CONTACT' OCCURRENCE MUST BE PRESENT",
+    "solution": null,
+    "rephrased_fix": null
+  },
+  {
+    "error_code": "99-001",
+    "category_prefix": "99",
+    "description": "STAGE EXCEPTION - UNEXPECTED ERROR",
+    "solution": null,
+    "rephrased_fix": "An unexpected error in the processing of the file has occured. Please contact the CIC Operator in-charge of your institution for assistance."
+  },
+  {
+    "error_code": "99-002",
+    "category_prefix": "99",
+    "description": "GENERIC CONVERSION ERROR",
+    "solution": null,
+    "rephrased_fix": "Please contact the CIC Operator in-charge of your institution for assistance."
+  }
+]

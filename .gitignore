@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+*.pyz
+*.toc
+*.manifest
+*.exp
+*.lib
+*.dll
+*.pdb
+
+# Distribution / packaging
+*.exe
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+
+# Local reports
+*_validation_report.txt
+report.txt
+
+# Editor settings
+.vscode/settings.json
+.idea/
+
+# Windows
+Thumbs.db

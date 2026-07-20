@@ -1,0 +1,2626 @@
+{
+  "HD": {
+    "record_type_code": "HD",
+    "field_count": 6,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "File Reference Date"
+      },
+      {
+        "position": 3,
+        "name": "Version"
+      },
+      {
+        "position": 4,
+        "name": "Submission Type"
+      },
+      {
+        "position": 5,
+        "name": "Provider Comments"
+      }
+    ]
+  },
+  "ID": {
+    "record_type_code": "ID",
+    "field_count": 123,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Subject Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Title"
+      },
+      {
+        "position": 6,
+        "name": "First Name"
+      },
+      {
+        "position": 7,
+        "name": "Last Name"
+      },
+      {
+        "position": 8,
+        "name": "Middle Name"
+      },
+      {
+        "position": 9,
+        "name": "Suffix"
+      },
+      {
+        "position": 10,
+        "name": "Nickname"
+      },
+      {
+        "position": 11,
+        "name": "Previous Last Name"
+      },
+      {
+        "position": 12,
+        "name": "Gender"
+      },
+      {
+        "position": 13,
+        "name": "Date of Birth"
+      },
+      {
+        "position": 14,
+        "name": "Place of Birth"
+      },
+      {
+        "position": 15,
+        "name": "Country of Birth (Code)"
+      },
+      {
+        "position": 16,
+        "name": "Nationality"
+      },
+      {
+        "position": 17,
+        "name": "Resident"
+      },
+      {
+        "position": 18,
+        "name": "Civil Status"
+      },
+      {
+        "position": 19,
+        "name": "Number of Dependents"
+      },
+      {
+        "position": 20,
+        "name": "Car/s Owned"
+      },
+      {
+        "position": 21,
+        "name": "Spouse First Name"
+      },
+      {
+        "position": 22,
+        "name": "Spouse Last Name"
+      },
+      {
+        "position": 23,
+        "name": "Spouse Middle Name"
+      },
+      {
+        "position": 24,
+        "name": "Mother's Maiden First Name"
+      },
+      {
+        "position": 25,
+        "name": "Mother's Maiden Last Name"
+      },
+      {
+        "position": 26,
+        "name": "Mother's Maiden Middle Name"
+      },
+      {
+        "position": 27,
+        "name": "Father First Name"
+      },
+      {
+        "position": 28,
+        "name": "Father Last Name"
+      },
+      {
+        "position": 29,
+        "name": "Father Middle Name"
+      },
+      {
+        "position": 30,
+        "name": "Father Suffix"
+      },
+      {
+        "position": 31,
+        "name": "Address 1: Address Type"
+      },
+      {
+        "position": 32,
+        "name": "Address 1: FullAddress"
+      },
+      {
+        "position": 33,
+        "name": "Address 1: StreetNo"
+      },
+      {
+        "position": 34,
+        "name": "Address 1: PostalCode"
+      },
+      {
+        "position": 35,
+        "name": "Address 1: Subdivision"
+      },
+      {
+        "position": 36,
+        "name": "Address 1: Barangay"
+      },
+      {
+        "position": 37,
+        "name": "Address 1: City"
+      },
+      {
+        "position": 38,
+        "name": "Address 1: Province"
+      },
+      {
+        "position": 39,
+        "name": "Address 1: Country"
+      },
+      {
+        "position": 40,
+        "name": "Address 1: House Owner/Lessee"
+      },
+      {
+        "position": 41,
+        "name": "Address 1: Occupied Since"
+      },
+      {
+        "position": 42,
+        "name": "Address 2: Address Type"
+      },
+      {
+        "position": 43,
+        "name": "Address 2: FullAddress"
+      },
+      {
+        "position": 44,
+        "name": "Address 2: StreetNo"
+      },
+      {
+        "position": 45,
+        "name": "Address 2: PostalCode"
+      },
+      {
+        "position": 46,
+        "name": "Address 2: Subdivision"
+      },
+      {
+        "position": 47,
+        "name": "Address 2: Barangay"
+      },
+      {
+        "position": 48,
+        "name": "Address 2: City"
+      },
+      {
+        "position": 49,
+        "name": "Address 2: Province"
+      },
+      {
+        "position": 50,
+        "name": "Address 2: Country"
+      },
+      {
+        "position": 51,
+        "name": "Address 2: House Owner/Lessee"
+      },
+      {
+        "position": 52,
+        "name": "Address 2: Occupied Since"
+      },
+      {
+        "position": 53,
+        "name": "Identification 1: Type"
+      },
+      {
+        "position": 54,
+        "name": "Identification 1: Number"
+      },
+      {
+        "position": 55,
+        "name": "Identification 2: Type"
+      },
+      {
+        "position": 56,
+        "name": "Identification 2: Number"
+      },
+      {
+        "position": 57,
+        "name": "Identification 3: Type"
+      },
+      {
+        "position": 58,
+        "name": "Identification 3: Number"
+      },
+      {
+        "position": 59,
+        "name": "ID 1: Type"
+      },
+      {
+        "position": 60,
+        "name": "ID 1: Number"
+      },
+      {
+        "position": 61,
+        "name": "ID 1: IssueDate"
+      },
+      {
+        "position": 62,
+        "name": "ID 1: IssueCountry"
+      },
+      {
+        "position": 63,
+        "name": "ID 1: ExpiryDate"
+      },
+      {
+        "position": 64,
+        "name": "ID 1: Issued By"
+      },
+      {
+        "position": 65,
+        "name": "ID 2: Type"
+      },
+      {
+        "position": 66,
+        "name": "ID 2: Number"
+      },
+      {
+        "position": 67,
+        "name": "ID 2: IssueDate"
+      },
+      {
+        "position": 68,
+        "name": "ID 2: IssueCountry"
+      },
+      {
+        "position": 69,
+        "name": "ID 2: ExpiryDate"
+      },
+      {
+        "position": 70,
+        "name": "ID 2: Issued By"
+      },
+      {
+        "position": 71,
+        "name": "ID 3: Type"
+      },
+      {
+        "position": 72,
+        "name": "ID 3: Number"
+      },
+      {
+        "position": 73,
+        "name": "ID 3: IssueDate"
+      },
+      {
+        "position": 74,
+        "name": "ID 3: IssueCountry"
+      },
+      {
+        "position": 75,
+        "name": "ID 3: ExpiryDate"
+      },
+      {
+        "position": 76,
+        "name": "ID 3: Issued By"
+      },
+      {
+        "position": 77,
+        "name": "Contact 1: Type"
+      },
+      {
+        "position": 78,
+        "name": "Contact 1: Value"
+      },
+      {
+        "position": 79,
+        "name": "Contact 2: Type"
+      },
+      {
+        "position": 80,
+        "name": "Contact 2: Value"
+      },
+      {
+        "position": 81,
+        "name": "Employment: Trade Name"
+      },
+      {
+        "position": 82,
+        "name": "Employment: TIN"
+      },
+      {
+        "position": 83,
+        "name": "Employment: Phone Number"
+      },
+      {
+        "position": 84,
+        "name": "Employment: PSIC"
+      },
+      {
+        "position": 85,
+        "name": "Employment: GrossIncome"
+      },
+      {
+        "position": 86,
+        "name": "Employment: Annual/Monthly Indicator"
+      },
+      {
+        "position": 87,
+        "name": "Employment: Currency"
+      },
+      {
+        "position": 88,
+        "name": "Employment: OccupationStatus"
+      },
+      {
+        "position": 89,
+        "name": "Employment: DateHiredFrom"
+      },
+      {
+        "position": 90,
+        "name": "Employment: DateHiredTo"
+      },
+      {
+        "position": 91,
+        "name": "Employment: Occupation"
+      },
+      {
+        "position": 92,
+        "name": "Sole Trader: TradeName"
+      },
+      {
+        "position": 93,
+        "name": "Sole Trader 1: Address Type"
+      },
+      {
+        "position": 94,
+        "name": "Sole Trader 1: FullAddress"
+      },
+      {
+        "position": 95,
+        "name": "Sole Trader 1: StreetNo"
+      },
+      {
+        "position": 96,
+        "name": "Sole Trader 1: PostalCode"
+      },
+      {
+        "position": 97,
+        "name": "Sole Trader 1: Subdivision"
+      },
+      {
+        "position": 98,
+        "name": "Sole Trader 1: Barangay"
+      },
+      {
+        "position": 99,
+        "name": "Sole Trader 1: City"
+      },
+      {
+        "position": 100,
+        "name": "Sole Trader 1: Province"
+      },
+      {
+        "position": 101,
+        "name": "Sole Trader 1: Country"
+      },
+      {
+        "position": 102,
+        "name": "Sole Trader 1: House Owner/Lessee"
+      },
+      {
+        "position": 103,
+        "name": "Sole Trader 1: Occupied Since"
+      },
+      {
+        "position": 104,
+        "name": "Sole Trader 2: Address Type"
+      },
+      {
+        "position": 105,
+        "name": "Sole Trader 2: FullAddress"
+      },
+      {
+        "position": 106,
+        "name": "Sole Trader 2: StreetNo"
+      },
+      {
+        "position": 107,
+        "name": "Sole Trader 2: PostalCode"
+      },
+      {
+        "position": 108,
+        "name": "Sole Trader 2: Subdivision"
+      },
+      {
+        "position": 109,
+        "name": "Sole Trader 2: Barangay"
+      },
+      {
+        "position": 110,
+        "name": "Sole Trader 2: City"
+      },
+      {
+        "position": 111,
+        "name": "Sole Trader 2: Province"
+      },
+      {
+        "position": 112,
+        "name": "Sole Trader 2: Country"
+      },
+      {
+        "position": 113,
+        "name": "Sole Trader 2: House Owner/Lessee"
+      },
+      {
+        "position": 114,
+        "name": "Sole Trader 2: Occupied Since"
+      },
+      {
+        "position": 115,
+        "name": "Sole Trader 1: Identification Type"
+      },
+      {
+        "position": 116,
+        "name": "Sole Trader 1: Identification Number"
+      },
+      {
+        "position": 117,
+        "name": "Sole Trader 2: Identification Type"
+      },
+      {
+        "position": 118,
+        "name": "Sole Trader 2: Identification Number"
+      },
+      {
+        "position": 119,
+        "name": "Sole Trader 1: Contact Type"
+      },
+      {
+        "position": 120,
+        "name": "Sole Trader 1: Contact Value"
+      },
+      {
+        "position": 121,
+        "name": "Sole Trader 2: Contact Type"
+      },
+      {
+        "position": 122,
+        "name": "Sole Trader 2: Contact Value"
+      }
+    ]
+  },
+  "BD": {
+    "record_type_code": "BD",
+    "field_count": 49,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Subject Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Trade Name"
+      },
+      {
+        "position": 6,
+        "name": "Official Registered Trade Name"
+      },
+      {
+        "position": 7,
+        "name": "Nationality"
+      },
+      {
+        "position": 8,
+        "name": "Resident"
+      },
+      {
+        "position": 9,
+        "name": "Legal Form"
+      },
+      {
+        "position": 10,
+        "name": "Term of Existence"
+      },
+      {
+        "position": 11,
+        "name": "PSIC"
+      },
+      {
+        "position": 12,
+        "name": "Registration Date"
+      },
+      {
+        "position": 13,
+        "name": "Number of Employees"
+      },
+      {
+        "position": 14,
+        "name": "Firm Size"
+      },
+      {
+        "position": 15,
+        "name": "Gross Income / Annual Turnover"
+      },
+      {
+        "position": 16,
+        "name": "Net Taxable Income"
+      },
+      {
+        "position": 17,
+        "name": "Monthly Expenses"
+      },
+      {
+        "position": 18,
+        "name": "Currency"
+      },
+      {
+        "position": 19,
+        "name": "Address 1: Address Type"
+      },
+      {
+        "position": 20,
+        "name": "Address 1: FullAddress"
+      },
+      {
+        "position": 21,
+        "name": "Address 1: StreetNo"
+      },
+      {
+        "position": 22,
+        "name": "Address 1: PostalCode"
+      },
+      {
+        "position": 23,
+        "name": "Address 1: Subdivision"
+      },
+      {
+        "position": 24,
+        "name": "Address 1: Barangay"
+      },
+      {
+        "position": 25,
+        "name": "Address 1: City"
+      },
+      {
+        "position": 26,
+        "name": "Address 1: Province"
+      },
+      {
+        "position": 27,
+        "name": "Address 1: Country"
+      },
+      {
+        "position": 28,
+        "name": "Address 1: House Owner/Lessee"
+      },
+      {
+        "position": 29,
+        "name": "Address 1: Occupied Since"
+      },
+      {
+        "position": 30,
+        "name": "Address 2: Address Type"
+      },
+      {
+        "position": 31,
+        "name": "Address 2: FullAddress"
+      },
+      {
+        "position": 32,
+        "name": "Address 2: StreetNo"
+      },
+      {
+        "position": 33,
+        "name": "Address 2: PostalCode"
+      },
+      {
+        "position": 34,
+        "name": "Address 2: Subdivision"
+      },
+      {
+        "position": 35,
+        "name": "Address 2: Barangay"
+      },
+      {
+        "position": 36,
+        "name": "Address 2: City"
+      },
+      {
+        "position": 37,
+        "name": "Address 2: Province"
+      },
+      {
+        "position": 38,
+        "name": "Address 2: Country"
+      },
+      {
+        "position": 39,
+        "name": "Address 2: House Owner/Lessee"
+      },
+      {
+        "position": 40,
+        "name": "Address 2: Occupied Since"
+      },
+      {
+        "position": 41,
+        "name": "Identification 1: Type"
+      },
+      {
+        "position": 42,
+        "name": "Identification 1: Number"
+      },
+      {
+        "position": 43,
+        "name": "Identification 2: Type"
+      },
+      {
+        "position": 44,
+        "name": "Identification 2: Number"
+      },
+      {
+        "position": 45,
+        "name": "Contact 1: Type"
+      },
+      {
+        "position": 46,
+        "name": "Contact 1: Value"
+      },
+      {
+        "position": 47,
+        "name": "Contact 2: Type"
+      },
+      {
+        "position": 48,
+        "name": "Contact 2: Value"
+      }
+    ]
+  },
+  "CI": {
+    "record_type_code": "CI",
+    "field_count": 143,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Contract Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Role"
+      },
+      {
+        "position": 6,
+        "name": "Provider Contract No"
+      },
+      {
+        "position": 7,
+        "name": "Contract Type"
+      },
+      {
+        "position": 8,
+        "name": "Contract Phase"
+      },
+      {
+        "position": 9,
+        "name": "Contract Status"
+      },
+      {
+        "position": 10,
+        "name": "Currency"
+      },
+      {
+        "position": 11,
+        "name": "Original Currency"
+      },
+      {
+        "position": 12,
+        "name": "Contract Start Date"
+      },
+      {
+        "position": 13,
+        "name": "Contract Request Date"
+      },
+      {
+        "position": 14,
+        "name": "Contract End Planned Date"
+      },
+      {
+        "position": 15,
+        "name": "Contract End Actual Date"
+      },
+      {
+        "position": 16,
+        "name": "Last Payment Date"
+      },
+      {
+        "position": 17,
+        "name": "Reorganized Credit Code"
+      },
+      {
+        "position": 18,
+        "name": "Board Resolution Flag"
+      },
+      {
+        "position": 19,
+        "name": "Financed Amount"
+      },
+      {
+        "position": 20,
+        "name": "Installments Number"
+      },
+      {
+        "position": 21,
+        "name": "Transaction Type / Sub-facility"
+      },
+      {
+        "position": 22,
+        "name": "Purpose of credit"
+      },
+      {
+        "position": 23,
+        "name": "Payment Periodicity"
+      },
+      {
+        "position": 24,
+        "name": "Payment Method"
+      },
+      {
+        "position": 25,
+        "name": "Monthly Payment Amount"
+      },
+      {
+        "position": 26,
+        "name": "First Payment Date"
+      },
+      {
+        "position": 27,
+        "name": "Last payment amount"
+      },
+      {
+        "position": 28,
+        "name": "Next Payment Date"
+      },
+      {
+        "position": 29,
+        "name": "Next Payment"
+      },
+      {
+        "position": 30,
+        "name": "Outstanding Payments Number"
+      },
+      {
+        "position": 31,
+        "name": "Outstanding Balance"
+      },
+      {
+        "position": 32,
+        "name": "Overdue Payments Number"
+      },
+      {
+        "position": 33,
+        "name": "Overdue Payments Amount"
+      },
+      {
+        "position": 34,
+        "name": "Overdue Days"
+      },
+      {
+        "position": 35,
+        "name": "Good Type"
+      },
+      {
+        "position": 36,
+        "name": "Good Value"
+      },
+      {
+        "position": 37,
+        "name": "New/Used Code"
+      },
+      {
+        "position": 38,
+        "name": "Good Brand"
+      },
+      {
+        "position": 39,
+        "name": "Manufacturing Date"
+      },
+      {
+        "position": 40,
+        "name": "Registration Number"
+      },
+      {
+        "position": 41,
+        "name": "Provider Guarantee No 1"
+      },
+      {
+        "position": 42,
+        "name": "Provider Subject No (Guarantor 1)"
+      },
+      {
+        "position": 43,
+        "name": "Guarantor Name 1"
+      },
+      {
+        "position": 44,
+        "name": "Guaranteed Amount 1"
+      },
+      {
+        "position": 45,
+        "name": "Currency 1"
+      },
+      {
+        "position": 46,
+        "name": "Validity Start Date 1"
+      },
+      {
+        "position": 47,
+        "name": "Validity End Date 1"
+      },
+      {
+        "position": 48,
+        "name": "Guarantee Type 1"
+      },
+      {
+        "position": 49,
+        "name": "Asset Code 1"
+      },
+      {
+        "position": 50,
+        "name": "Asset Description 1"
+      },
+      {
+        "position": 51,
+        "name": "Asset Location 1"
+      },
+      {
+        "position": 52,
+        "name": "Asset Appraised Value 1"
+      },
+      {
+        "position": 53,
+        "name": "Asset Registry External Link 1"
+      },
+      {
+        "position": 54,
+        "name": "Customer Type 1"
+      },
+      {
+        "position": 55,
+        "name": "Provider Guarantee No 2"
+      },
+      {
+        "position": 56,
+        "name": "Provider Subject No (Guarantor 2)"
+      },
+      {
+        "position": 57,
+        "name": "Guarantor Name 2"
+      },
+      {
+        "position": 58,
+        "name": "Guaranteed Amount 2"
+      },
+      {
+        "position": 59,
+        "name": "Currency 2"
+      },
+      {
+        "position": 60,
+        "name": "Validity Start Date 2"
+      },
+      {
+        "position": 61,
+        "name": "Validity End Date 2"
+      },
+      {
+        "position": 62,
+        "name": "Guarantee Type 2"
+      },
+      {
+        "position": 63,
+        "name": "Asset Code 2"
+      },
+      {
+        "position": 64,
+        "name": "Asset Description 2"
+      },
+      {
+        "position": 65,
+        "name": "Asset Location 2"
+      },
+      {
+        "position": 66,
+        "name": "Asset Appraised Value 2"
+      },
+      {
+        "position": 67,
+        "name": "Asset Registry External Link 2"
+      },
+      {
+        "position": 68,
+        "name": "Customer Type 2"
+      },
+      {
+        "position": 69,
+        "name": "Provider Guarantee No 3"
+      },
+      {
+        "position": 70,
+        "name": "Provider Subject No (Guarantor 3)"
+      },
+      {
+        "position": 71,
+        "name": "Guarantor Name 3"
+      },
+      {
+        "position": 72,
+        "name": "Guaranteed Amount 3"
+      },
+      {
+        "position": 73,
+        "name": "Currency 3"
+      },
+      {
+        "position": 74,
+        "name": "Validity Start Date 3"
+      },
+      {
+        "position": 75,
+        "name": "Validity End Date 3"
+      },
+      {
+        "position": 76,
+        "name": "Guarantee Type 3"
+      },
+      {
+        "position": 77,
+        "name": "Asset Code 3"
+      },
+      {
+        "position": 78,
+        "name": "Asset Description 3"
+      },
+      {
+        "position": 79,
+        "name": "Asset Location 3"
+      },
+      {
+        "position": 80,
+        "name": "Asset Appraised Value 3"
+      },
+      {
+        "position": 81,
+        "name": "Asset Registry External Link 3"
+      },
+      {
+        "position": 82,
+        "name": "Customer Type 3"
+      },
+      {
+        "position": 83,
+        "name": "Provider Guarantee No 4"
+      },
+      {
+        "position": 84,
+        "name": "Provider Subject No (Guarantor 4)"
+      },
+      {
+        "position": 85,
+        "name": "Guarantor Name 4"
+      },
+      {
+        "position": 86,
+        "name": "Guaranteed Amount 4"
+      },
+      {
+        "position": 87,
+        "name": "Currency 4"
+      },
+      {
+        "position": 88,
+        "name": "Validity Start Date 4"
+      },
+      {
+        "position": 89,
+        "name": "Validity End Date 4"
+      },
+      {
+        "position": 90,
+        "name": "Guarantee Type 4"
+      },
+      {
+        "position": 91,
+        "name": "Asset Code 4"
+      },
+      {
+        "position": 92,
+        "name": "Asset Description 4"
+      },
+      {
+        "position": 93,
+        "name": "Asset Location 4"
+      },
+      {
+        "position": 94,
+        "name": "Asset Appraised Value 4"
+      },
+      {
+        "position": 95,
+        "name": "Asset Registry External Link 4"
+      },
+      {
+        "position": 96,
+        "name": "Customer Type 4"
+      },
+      {
+        "position": 97,
+        "name": "Provider Guarantee No 5"
+      },
+      {
+        "position": 98,
+        "name": "Provider Subject No (Guarantor 5)"
+      },
+      {
+        "position": 99,
+        "name": "Guarantor Name 5"
+      },
+      {
+        "position": 100,
+        "name": "Guaranteed Amount 5"
+      },
+      {
+        "position": 101,
+        "name": "Currency 5"
+      },
+      {
+        "position": 102,
+        "name": "Validity Start Date 5"
+      },
+      {
+        "position": 103,
+        "name": "Validity End Date 5"
+      },
+      {
+        "position": 104,
+        "name": "Guarantee Type 5"
+      },
+      {
+        "position": 105,
+        "name": "Asset Code 5"
+      },
+      {
+        "position": 106,
+        "name": "Asset Description 5"
+      },
+      {
+        "position": 107,
+        "name": "Asset Location 5"
+      },
+      {
+        "position": 108,
+        "name": "Asset Appraised Value 5"
+      },
+      {
+        "position": 109,
+        "name": "Asset Registry External Link 5"
+      },
+      {
+        "position": 110,
+        "name": "Customer Type 5"
+      },
+      {
+        "position": 111,
+        "name": "Provider Guarantee No 6"
+      },
+      {
+        "position": 112,
+        "name": "Provider Subject No (Guarantor 6)"
+      },
+      {
+        "position": 113,
+        "name": "Guarantor Name 6"
+      },
+      {
+        "position": 114,
+        "name": "Guaranteed Amount 6"
+      },
+      {
+        "position": 115,
+        "name": "Currency 6"
+      },
+      {
+        "position": 116,
+        "name": "Validity Start Date 6"
+      },
+      {
+        "position": 117,
+        "name": "Validity End Date 6"
+      },
+      {
+        "position": 118,
+        "name": "Guarantee Type 6"
+      },
+      {
+        "position": 119,
+        "name": "Asset Code 6"
+      },
+      {
+        "position": 120,
+        "name": "Asset Description 6"
+      },
+      {
+        "position": 121,
+        "name": "Asset Location 6"
+      },
+      {
+        "position": 122,
+        "name": "Asset Appraised Value 6"
+      },
+      {
+        "position": 123,
+        "name": "Asset Registry External Link 6"
+      },
+      {
+        "position": 124,
+        "name": "Customer Type 6"
+      },
+      {
+        "position": 125,
+        "name": "Provider Subject No (Linked Subject 1)"
+      },
+      {
+        "position": 126,
+        "name": "Role (Linked Subject 1)"
+      },
+      {
+        "position": 127,
+        "name": "Name of the Linked Subject 1"
+      },
+      {
+        "position": 128,
+        "name": "Provider Subject No (Linked Subject 2)"
+      },
+      {
+        "position": 129,
+        "name": "Role (Linked Subject 2)"
+      },
+      {
+        "position": 130,
+        "name": "Name of the Linked Subject 2"
+      },
+      {
+        "position": 131,
+        "name": "Provider Subject No (Linked Subject 3)"
+      },
+      {
+        "position": 132,
+        "name": "Role (Linked Subject 3)"
+      },
+      {
+        "position": 133,
+        "name": "Name of the Linked Subject 3"
+      },
+      {
+        "position": 134,
+        "name": "Provider Subject No (Linked Subject 4)"
+      },
+      {
+        "position": 135,
+        "name": "Role (Linked Subject 4)"
+      },
+      {
+        "position": 136,
+        "name": "Name of the Linked Subject 4"
+      },
+      {
+        "position": 137,
+        "name": "Provider Subject No (Linked Subject 5)"
+      },
+      {
+        "position": 138,
+        "name": "Role (Linked Subject 5)"
+      },
+      {
+        "position": 139,
+        "name": "Name of the Linked Subject 5"
+      },
+      {
+        "position": 140,
+        "name": "Provider Subject No (Linked Subject 6)"
+      },
+      {
+        "position": 141,
+        "name": "Role (Linked Subject 6)"
+      },
+      {
+        "position": 142,
+        "name": "Name of the Linked Subject 6"
+      }
+    ]
+  },
+  "CN": {
+    "record_type_code": "CN",
+    "field_count": 127,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Contract Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Role"
+      },
+      {
+        "position": 6,
+        "name": "Provider Contract No"
+      },
+      {
+        "position": 7,
+        "name": "Contract Type"
+      },
+      {
+        "position": 8,
+        "name": "Contract Phase"
+      },
+      {
+        "position": 9,
+        "name": "Contract Status"
+      },
+      {
+        "position": 10,
+        "name": "Currency"
+      },
+      {
+        "position": 11,
+        "name": "Original Currency"
+      },
+      {
+        "position": 12,
+        "name": "Contract Start Date"
+      },
+      {
+        "position": 13,
+        "name": "Contract Request Date"
+      },
+      {
+        "position": 14,
+        "name": "Contract End Planned Date"
+      },
+      {
+        "position": 15,
+        "name": "Contract End Actual Date"
+      },
+      {
+        "position": 16,
+        "name": "Last Payment Date"
+      },
+      {
+        "position": 17,
+        "name": "Reorganized Credit Code"
+      },
+      {
+        "position": 18,
+        "name": "Board Resolution Flag"
+      },
+      {
+        "position": 19,
+        "name": "Credit Limit"
+      },
+      {
+        "position": 20,
+        "name": "Transaction Type / Sub-facility"
+      },
+      {
+        "position": 21,
+        "name": "Purpose of credit"
+      },
+      {
+        "position": 22,
+        "name": "Utilisation / Outstanding Balance"
+      },
+      {
+        "position": 23,
+        "name": "Overdue Payments Amount"
+      },
+      {
+        "position": 24,
+        "name": "Overall Credit Limit"
+      },
+      {
+        "position": 25,
+        "name": "Provider Guarantee No 1"
+      },
+      {
+        "position": 26,
+        "name": "Provider Subject No (Guarantor 1)"
+      },
+      {
+        "position": 27,
+        "name": "Guarantor Name 1"
+      },
+      {
+        "position": 28,
+        "name": "Guaranteed Amount 1"
+      },
+      {
+        "position": 29,
+        "name": "Currency 1"
+      },
+      {
+        "position": 30,
+        "name": "Validity Start Date 1"
+      },
+      {
+        "position": 31,
+        "name": "Validity End Date 1"
+      },
+      {
+        "position": 32,
+        "name": "Guarantee Type 1"
+      },
+      {
+        "position": 33,
+        "name": "Asset Code 1"
+      },
+      {
+        "position": 34,
+        "name": "Asset Description 1"
+      },
+      {
+        "position": 35,
+        "name": "Asset Location 1"
+      },
+      {
+        "position": 36,
+        "name": "Asset Appraised Value 1"
+      },
+      {
+        "position": 37,
+        "name": "Asset Registry External Link 1"
+      },
+      {
+        "position": 38,
+        "name": "Customer Type 1"
+      },
+      {
+        "position": 39,
+        "name": "Provider Guarantee No 2"
+      },
+      {
+        "position": 40,
+        "name": "Provider Subject No (Guarantor 2)"
+      },
+      {
+        "position": 41,
+        "name": "Guarantor Name 2"
+      },
+      {
+        "position": 42,
+        "name": "Guaranteed Amount 2"
+      },
+      {
+        "position": 43,
+        "name": "Currency 2"
+      },
+      {
+        "position": 44,
+        "name": "Validity Start Date 2"
+      },
+      {
+        "position": 45,
+        "name": "Validity End Date 2"
+      },
+      {
+        "position": 46,
+        "name": "Guarantee Type 2"
+      },
+      {
+        "position": 47,
+        "name": "Asset Code 2"
+      },
+      {
+        "position": 48,
+        "name": "Asset Description 2"
+      },
+      {
+        "position": 49,
+        "name": "Asset Location 2"
+      },
+      {
+        "position": 50,
+        "name": "Asset Appraised Value 2"
+      },
+      {
+        "position": 51,
+        "name": "Asset Registry External Link 2"
+      },
+      {
+        "position": 52,
+        "name": "Customer Type 2"
+      },
+      {
+        "position": 53,
+        "name": "Provider Guarantee No 3"
+      },
+      {
+        "position": 54,
+        "name": "Provider Subject No (Guarantor 3)"
+      },
+      {
+        "position": 55,
+        "name": "Guarantor Name 3"
+      },
+      {
+        "position": 56,
+        "name": "Guaranteed Amount 3"
+      },
+      {
+        "position": 57,
+        "name": "Currency 3"
+      },
+      {
+        "position": 58,
+        "name": "Validity Start Date 3"
+      },
+      {
+        "position": 59,
+        "name": "Validity End Date 3"
+      },
+      {
+        "position": 60,
+        "name": "Guarantee Type 3"
+      },
+      {
+        "position": 61,
+        "name": "Asset Code 3"
+      },
+      {
+        "position": 62,
+        "name": "Asset Description 3"
+      },
+      {
+        "position": 63,
+        "name": "Asset Location 3"
+      },
+      {
+        "position": 64,
+        "name": "Asset Appraised Value 3"
+      },
+      {
+        "position": 65,
+        "name": "Asset Registry External Link 3"
+      },
+      {
+        "position": 66,
+        "name": "Customer Type 3"
+      },
+      {
+        "position": 67,
+        "name": "Provider Guarantee No 4"
+      },
+      {
+        "position": 68,
+        "name": "Provider Subject No (Guarantor 4)"
+      },
+      {
+        "position": 69,
+        "name": "Guarantor Name 4"
+      },
+      {
+        "position": 70,
+        "name": "Guaranteed Amount 4"
+      },
+      {
+        "position": 71,
+        "name": "Currency 4"
+      },
+      {
+        "position": 72,
+        "name": "Validity Start Date 4"
+      },
+      {
+        "position": 73,
+        "name": "Validity End Date 4"
+      },
+      {
+        "position": 74,
+        "name": "Guarantee Type 4"
+      },
+      {
+        "position": 75,
+        "name": "Asset Code 4"
+      },
+      {
+        "position": 76,
+        "name": "Asset Description 4"
+      },
+      {
+        "position": 77,
+        "name": "Asset Location 4"
+      },
+      {
+        "position": 78,
+        "name": "Asset Appraised Value 4"
+      },
+      {
+        "position": 79,
+        "name": "Asset Registry External Link 4"
+      },
+      {
+        "position": 80,
+        "name": "Customer Type 4"
+      },
+      {
+        "position": 81,
+        "name": "Provider Guarantee No 5"
+      },
+      {
+        "position": 82,
+        "name": "Provider Subject No (Guarantor 5)"
+      },
+      {
+        "position": 83,
+        "name": "Guarantor Name 5"
+      },
+      {
+        "position": 84,
+        "name": "Guaranteed Amount 5"
+      },
+      {
+        "position": 85,
+        "name": "Currency 5"
+      },
+      {
+        "position": 86,
+        "name": "Validity Start Date 5"
+      },
+      {
+        "position": 87,
+        "name": "Validity End Date 5"
+      },
+      {
+        "position": 88,
+        "name": "Guarantee Type 5"
+      },
+      {
+        "position": 89,
+        "name": "Asset Code 5"
+      },
+      {
+        "position": 90,
+        "name": "Asset Description 5"
+      },
+      {
+        "position": 91,
+        "name": "Asset Location 5"
+      },
+      {
+        "position": 92,
+        "name": "Asset Appraised Value 5"
+      },
+      {
+        "position": 93,
+        "name": "Asset Registry External Link 5"
+      },
+      {
+        "position": 94,
+        "name": "Customer Type 5"
+      },
+      {
+        "position": 95,
+        "name": "Provider Guarantee No 6"
+      },
+      {
+        "position": 96,
+        "name": "Provider Subject No (Guarantor 6)"
+      },
+      {
+        "position": 97,
+        "name": "Guarantor Name 6"
+      },
+      {
+        "position": 98,
+        "name": "Guaranteed Amount 6"
+      },
+      {
+        "position": 99,
+        "name": "Currency 6"
+      },
+      {
+        "position": 100,
+        "name": "Validity Start Date 6"
+      },
+      {
+        "position": 101,
+        "name": "Validity End Date 6"
+      },
+      {
+        "position": 102,
+        "name": "Guarantee Type 6"
+      },
+      {
+        "position": 103,
+        "name": "Asset Code 6"
+      },
+      {
+        "position": 104,
+        "name": "Asset Description 6"
+      },
+      {
+        "position": 105,
+        "name": "Asset Location 6"
+      },
+      {
+        "position": 106,
+        "name": "Asset Appraised Value 6"
+      },
+      {
+        "position": 107,
+        "name": "Asset Registry External Link 6"
+      },
+      {
+        "position": 108,
+        "name": "Customer Type 6"
+      },
+      {
+        "position": 109,
+        "name": "Provider Subject No (Linked Subject 1)"
+      },
+      {
+        "position": 110,
+        "name": "Role (Linked Subject 1)"
+      },
+      {
+        "position": 111,
+        "name": "Name of the Linked Subject 1"
+      },
+      {
+        "position": 112,
+        "name": "Provider Subject No (Linked Subject 2)"
+      },
+      {
+        "position": 113,
+        "name": "Role (Linked Subject 2)"
+      },
+      {
+        "position": 114,
+        "name": "Name of the Linked Subject 2"
+      },
+      {
+        "position": 115,
+        "name": "Provider Subject No (Linked Subject 3)"
+      },
+      {
+        "position": 116,
+        "name": "Role (Linked Subject 3)"
+      },
+      {
+        "position": 117,
+        "name": "Name of the Linked Subject 3"
+      },
+      {
+        "position": 118,
+        "name": "Provider Subject No (Linked Subject 4)"
+      },
+      {
+        "position": 119,
+        "name": "Role (Linked Subject 4)"
+      },
+      {
+        "position": 120,
+        "name": "Name of the Linked Subject 4"
+      },
+      {
+        "position": 121,
+        "name": "Provider Subject No (Linked Subject 5)"
+      },
+      {
+        "position": 122,
+        "name": "Role (Linked Subject 5)"
+      },
+      {
+        "position": 123,
+        "name": "Name of the Linked Subject 5"
+      },
+      {
+        "position": 124,
+        "name": "Provider Subject No (Linked Subject 6)"
+      },
+      {
+        "position": 125,
+        "name": "Role (Linked Subject 6)"
+      },
+      {
+        "position": 126,
+        "name": "Name of the Linked Subject 6"
+      }
+    ]
+  },
+  "CC": {
+    "record_type_code": "CC",
+    "field_count": 143,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Contract Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Role"
+      },
+      {
+        "position": 6,
+        "name": "Provider Contract No"
+      },
+      {
+        "position": 7,
+        "name": "Contract Type"
+      },
+      {
+        "position": 8,
+        "name": "Contract Phase"
+      },
+      {
+        "position": 9,
+        "name": "Contract Status"
+      },
+      {
+        "position": 10,
+        "name": "Currency"
+      },
+      {
+        "position": 11,
+        "name": "Original Currency"
+      },
+      {
+        "position": 12,
+        "name": "Contract Start Date"
+      },
+      {
+        "position": 13,
+        "name": "Contract Request Date"
+      },
+      {
+        "position": 14,
+        "name": "Contract End Planned Date"
+      },
+      {
+        "position": 15,
+        "name": "Contract End Actual Date"
+      },
+      {
+        "position": 16,
+        "name": "Last Payment Date"
+      },
+      {
+        "position": 17,
+        "name": "Reorganized Credit Code"
+      },
+      {
+        "position": 18,
+        "name": "Credit limit"
+      },
+      {
+        "position": 19,
+        "name": "Transaction Type / Sub-facility"
+      },
+      {
+        "position": 20,
+        "name": "Card Reference Number"
+      },
+      {
+        "position": 21,
+        "name": "Payment Periodicity"
+      },
+      {
+        "position": 22,
+        "name": "Payment Method"
+      },
+      {
+        "position": 23,
+        "name": "Monthly Payment Amount"
+      },
+      {
+        "position": 24,
+        "name": "Next Payment Date"
+      },
+      {
+        "position": 25,
+        "name": "Next Payment / Minimum Payment Due"
+      },
+      {
+        "position": 26,
+        "name": "Last Payment Amount"
+      },
+      {
+        "position": 27,
+        "name": "Outstanding Balance"
+      },
+      {
+        "position": 28,
+        "name": "Outstanding Balance - Unbilled"
+      },
+      {
+        "position": 29,
+        "name": "Overdue Payments Number"
+      },
+      {
+        "position": 30,
+        "name": "Overdue Payments Amount"
+      },
+      {
+        "position": 31,
+        "name": "Overdue Days"
+      },
+      {
+        "position": 32,
+        "name": "Installment Type"
+      },
+      {
+        "position": 33,
+        "name": "Charged / Purchases Amount"
+      },
+      {
+        "position": 34,
+        "name": "Last Charge Date"
+      },
+      {
+        "position": 35,
+        "name": "Flag Card Used"
+      },
+      {
+        "position": 36,
+        "name": "Times Card Used"
+      },
+      {
+        "position": 37,
+        "name": "Min Payment Indicator"
+      },
+      {
+        "position": 38,
+        "name": "Min Payment Percentage"
+      },
+      {
+        "position": 39,
+        "name": "Premium Card"
+      },
+      {
+        "position": 40,
+        "name": "Cancellation Date"
+      },
+      {
+        "position": 41,
+        "name": "Provider Guarantee No 1"
+      },
+      {
+        "position": 42,
+        "name": "Provider Subject No (Guarantor 1)"
+      },
+      {
+        "position": 43,
+        "name": "Guarantor Name 1"
+      },
+      {
+        "position": 44,
+        "name": "Guaranteed Amount 1"
+      },
+      {
+        "position": 45,
+        "name": "Currency 1"
+      },
+      {
+        "position": 46,
+        "name": "Validity Start Date 1"
+      },
+      {
+        "position": 47,
+        "name": "Validity End Date 1"
+      },
+      {
+        "position": 48,
+        "name": "Guarantee Type 1"
+      },
+      {
+        "position": 49,
+        "name": "Asset Code 1"
+      },
+      {
+        "position": 50,
+        "name": "Asset Description 1"
+      },
+      {
+        "position": 51,
+        "name": "Asset Location 1"
+      },
+      {
+        "position": 52,
+        "name": "Asset Appraised Value 1"
+      },
+      {
+        "position": 53,
+        "name": "Asset Registry External Link 1"
+      },
+      {
+        "position": 54,
+        "name": "Customer Type 1"
+      },
+      {
+        "position": 55,
+        "name": "Provider Guarantee No 2"
+      },
+      {
+        "position": 56,
+        "name": "Provider Subject No (Guarantor 2)"
+      },
+      {
+        "position": 57,
+        "name": "Guarantor Name 2"
+      },
+      {
+        "position": 58,
+        "name": "Guaranteed Amount 2"
+      },
+      {
+        "position": 59,
+        "name": "Currency 2"
+      },
+      {
+        "position": 60,
+        "name": "Validity Start Date 2"
+      },
+      {
+        "position": 61,
+        "name": "Validity End Date 2"
+      },
+      {
+        "position": 62,
+        "name": "Guarantee Type 2"
+      },
+      {
+        "position": 63,
+        "name": "Asset Code 2"
+      },
+      {
+        "position": 64,
+        "name": "Asset Description 2"
+      },
+      {
+        "position": 65,
+        "name": "Asset Location 2"
+      },
+      {
+        "position": 66,
+        "name": "Asset Appraised Value 2"
+      },
+      {
+        "position": 67,
+        "name": "Asset Registry External Link 2"
+      },
+      {
+        "position": 68,
+        "name": "Customer Type 2"
+      },
+      {
+        "position": 69,
+        "name": "Provider Guarantee No 3"
+      },
+      {
+        "position": 70,
+        "name": "Provider Subject No (Guarantor 3)"
+      },
+      {
+        "position": 71,
+        "name": "Guarantor Name 3"
+      },
+      {
+        "position": 72,
+        "name": "Guaranteed Amount 3"
+      },
+      {
+        "position": 73,
+        "name": "Currency 3"
+      },
+      {
+        "position": 74,
+        "name": "Validity Start Date 3"
+      },
+      {
+        "position": 75,
+        "name": "Validity End Date 3"
+      },
+      {
+        "position": 76,
+        "name": "Guarantee Type 3"
+      },
+      {
+        "position": 77,
+        "name": "Asset Code 3"
+      },
+      {
+        "position": 78,
+        "name": "Asset Description 3"
+      },
+      {
+        "position": 79,
+        "name": "Asset Location 3"
+      },
+      {
+        "position": 80,
+        "name": "Asset Appraised Value 3"
+      },
+      {
+        "position": 81,
+        "name": "Asset Registry External Link 3"
+      },
+      {
+        "position": 82,
+        "name": "Customer Type 3"
+      },
+      {
+        "position": 83,
+        "name": "Provider Guarantee No 4"
+      },
+      {
+        "position": 84,
+        "name": "Provider Subject No (Guarantor 4)"
+      },
+      {
+        "position": 85,
+        "name": "Guarantor Name 4"
+      },
+      {
+        "position": 86,
+        "name": "Guaranteed Amount 4"
+      },
+      {
+        "position": 87,
+        "name": "Currency 4"
+      },
+      {
+        "position": 88,
+        "name": "Validity Start Date 4"
+      },
+      {
+        "position": 89,
+        "name": "Validity End Date 4"
+      },
+      {
+        "position": 90,
+        "name": "Guarantee Type 4"
+      },
+      {
+        "position": 91,
+        "name": "Asset Code 4"
+      },
+      {
+        "position": 92,
+        "name": "Asset Description 4"
+      },
+      {
+        "position": 93,
+        "name": "Asset Location 4"
+      },
+      {
+        "position": 94,
+        "name": "Asset Appraised Value 4"
+      },
+      {
+        "position": 95,
+        "name": "Asset Registry External Link 4"
+      },
+      {
+        "position": 96,
+        "name": "Customer Type 4"
+      },
+      {
+        "position": 97,
+        "name": "Provider Guarantee No 5"
+      },
+      {
+        "position": 98,
+        "name": "Provider Subject No (Guarantor 5)"
+      },
+      {
+        "position": 99,
+        "name": "Guarantor Name 5"
+      },
+      {
+        "position": 100,
+        "name": "Guaranteed Amount 5"
+      },
+      {
+        "position": 101,
+        "name": "Currency 5"
+      },
+      {
+        "position": 102,
+        "name": "Validity Start Date 5"
+      },
+      {
+        "position": 103,
+        "name": "Validity End Date 5"
+      },
+      {
+        "position": 104,
+        "name": "Guarantee Type 5"
+      },
+      {
+        "position": 105,
+        "name": "Asset Code 5"
+      },
+      {
+        "position": 106,
+        "name": "Asset Description 5"
+      },
+      {
+        "position": 107,
+        "name": "Asset Location 5"
+      },
+      {
+        "position": 108,
+        "name": "Asset Appraised Value 5"
+      },
+      {
+        "position": 109,
+        "name": "Asset Registry External Link 5"
+      },
+      {
+        "position": 110,
+        "name": "Customer Type 5"
+      },
+      {
+        "position": 111,
+        "name": "Provider Guarantee No 6"
+      },
+      {
+        "position": 112,
+        "name": "Provider Subject No (Guarantor 6)"
+      },
+      {
+        "position": 113,
+        "name": "Guarantor Name 6"
+      },
+      {
+        "position": 114,
+        "name": "Guaranteed Amount 6"
+      },
+      {
+        "position": 115,
+        "name": "Currency 6"
+      },
+      {
+        "position": 116,
+        "name": "Validity Start Date 6"
+      },
+      {
+        "position": 117,
+        "name": "Validity End Date 6"
+      },
+      {
+        "position": 118,
+        "name": "Guarantee Type 6"
+      },
+      {
+        "position": 119,
+        "name": "Asset Code 6"
+      },
+      {
+        "position": 120,
+        "name": "Asset Description 6"
+      },
+      {
+        "position": 121,
+        "name": "Asset Location 6"
+      },
+      {
+        "position": 122,
+        "name": "Asset Appraised Value 6"
+      },
+      {
+        "position": 123,
+        "name": "Asset Registry External Link 6"
+      },
+      {
+        "position": 124,
+        "name": "Customer Type 6"
+      },
+      {
+        "position": 125,
+        "name": "Provider Subject No (Linked Subject 1)"
+      },
+      {
+        "position": 126,
+        "name": "Role (Linked Subject 1)"
+      },
+      {
+        "position": 127,
+        "name": "Name of the Linked Subject 1"
+      },
+      {
+        "position": 128,
+        "name": "Provider Subject No (Linked Subject 2)"
+      },
+      {
+        "position": 129,
+        "name": "Role (Linked Subject 2)"
+      },
+      {
+        "position": 130,
+        "name": "Name of the Linked Subject 2"
+      },
+      {
+        "position": 131,
+        "name": "Provider Subject No (Linked Subject 3)"
+      },
+      {
+        "position": 132,
+        "name": "Role (Linked Subject 3)"
+      },
+      {
+        "position": 133,
+        "name": "Name of the Linked Subject 3"
+      },
+      {
+        "position": 134,
+        "name": "Provider Subject No (Linked Subject 4)"
+      },
+      {
+        "position": 135,
+        "name": "Role (Linked Subject 4)"
+      },
+      {
+        "position": 136,
+        "name": "Name of the Linked Subject 4"
+      },
+      {
+        "position": 137,
+        "name": "Provider Subject No (Linked Subject 5)"
+      },
+      {
+        "position": 138,
+        "name": "Role (Linked Subject 5)"
+      },
+      {
+        "position": 139,
+        "name": "Name of the Linked Subject 5"
+      },
+      {
+        "position": 140,
+        "name": "Provider Subject No (Linked Subject 6)"
+      },
+      {
+        "position": 141,
+        "name": "Role (Linked Subject 6)"
+      },
+      {
+        "position": 142,
+        "name": "Name of the Linked Subject 6"
+      }
+    ]
+  },
+  "CS": {
+    "record_type_code": "CS",
+    "field_count": 29,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Contract Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Role"
+      },
+      {
+        "position": 6,
+        "name": "Provider Contract No"
+      },
+      {
+        "position": 7,
+        "name": "Contract Type"
+      },
+      {
+        "position": 8,
+        "name": "Contract Phase"
+      },
+      {
+        "position": 9,
+        "name": "Contract Status"
+      },
+      {
+        "position": 10,
+        "name": "Currency"
+      },
+      {
+        "position": 11,
+        "name": "Original Currency"
+      },
+      {
+        "position": 12,
+        "name": "Contract Start Date"
+      },
+      {
+        "position": 13,
+        "name": "Contract Request Date"
+      },
+      {
+        "position": 14,
+        "name": "Contract End Planned Date"
+      },
+      {
+        "position": 15,
+        "name": "Contract End Actual Date"
+      },
+      {
+        "position": 16,
+        "name": "Last Payment Date"
+      },
+      {
+        "position": 17,
+        "name": "Payment Periodicity"
+      },
+      {
+        "position": 18,
+        "name": "Payment Method"
+      },
+      {
+        "position": 19,
+        "name": "Next Payment Date"
+      },
+      {
+        "position": 20,
+        "name": "Next Payment"
+      },
+      {
+        "position": 21,
+        "name": "Billed Amount"
+      },
+      {
+        "position": 22,
+        "name": "Outstanding Balance"
+      },
+      {
+        "position": 23,
+        "name": "Overdue Payments Number"
+      },
+      {
+        "position": 24,
+        "name": "Overdue Payments Amount"
+      },
+      {
+        "position": 25,
+        "name": "Overdue Days"
+      },
+      {
+        "position": 26,
+        "name": "Services/ Lines Number"
+      },
+      {
+        "position": 27,
+        "name": "Holder Liability"
+      },
+      {
+        "position": 28,
+        "name": "Installment Type"
+      }
+    ]
+  },
+  "NE": {
+    "record_type_code": "NE",
+    "field_count": 10,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Negative Event Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No"
+      },
+      {
+        "position": 5,
+        "name": "Event Code"
+      },
+      {
+        "position": 6,
+        "name": "Event Detail"
+      },
+      {
+        "position": 7,
+        "name": "Event Date"
+      },
+      {
+        "position": 8,
+        "name": "Event Status"
+      },
+      {
+        "position": 9,
+        "name": "Event Status Date"
+      }
+    ]
+  },
+  "SL": {
+    "record_type_code": "SL",
+    "field_count": 7,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "Branch Code"
+      },
+      {
+        "position": 3,
+        "name": "Subject Link Reference Date"
+      },
+      {
+        "position": 4,
+        "name": "Provider Subject No (Parent)"
+      },
+      {
+        "position": 5,
+        "name": "Role of the Parent"
+      },
+      {
+        "position": 6,
+        "name": "Provider Subject No (Child)"
+      }
+    ]
+  },
+  "FT": {
+    "record_type_code": "FT",
+    "field_count": 4,
+    "fields": [
+      {
+        "position": 0,
+        "name": "Record Type"
+      },
+      {
+        "position": 1,
+        "name": "Provider Code"
+      },
+      {
+        "position": 2,
+        "name": "File Reference Date"
+      },
+      {
+        "position": 3,
+        "name": "No. of records"
+      }
+    ]
+  }
+}

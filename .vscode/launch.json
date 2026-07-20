@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run GUI",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_gui.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Run CLI (sample)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_cli.py",
+            "args": [
+                "Raw Samples/sample data.txt",
+                "-r",
+                "report.txt"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Run Tests",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "tests",
+                "-v"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

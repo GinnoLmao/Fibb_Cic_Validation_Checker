@@ -1,0 +1,2202 @@
+[
+  {
+    "error_code": "10-003",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER' not found in schema"
+  },
+  {
+    "error_code": "10-006",
+    "description": "FIELD 'COUNTRY OF BIRTH' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COUNTRY OF BIRTH' not found in schema"
+  },
+  {
+    "error_code": "10-008",
+    "description": "FIELD 'COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COUNTRY OF ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "10-009",
+    "description": "FIELD 'TYPE OF IDENTIFICATION CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'TYPE OF IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "1-001",
+    "description": "FIELDS 'ROLE' AND 'COMPANY ROLE' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-010",
+    "description": "FIELD 'ID TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-011",
+    "description": "FIELD 'ID ISSUE DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUE DATE' not found in schema"
+  },
+  {
+    "error_code": "10-012",
+    "description": "FIELD 'ID ISSUE COUNTRY' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUE COUNTRY' not found in schema"
+  },
+  {
+    "error_code": "10-013",
+    "description": "FIELD 'ID EXPIRY DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID EXPIRY DATE' not found in schema"
+  },
+  {
+    "error_code": "10-017",
+    "description": "FIELD 'SOLE TRADER ADDRESS TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-018",
+    "description": "FIELD 'SOLE TRADER COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER COUNTRY OF ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "10-019",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER IDENTIFICATION TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-020",
+    "description": "FIELD 'SOLE TRADER CONTACT TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER CONTACT TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-039",
+    "description": "FIELD 'STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'STREET + NUMBER' not found in schema"
+  },
+  {
+    "error_code": "10-040",
+    "description": "FIELD 'ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS CITY' not found in schema"
+  },
+  {
+    "error_code": "10-044",
+    "description": "FIELD 'ID NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID NUMBER' not found in schema"
+  },
+  {
+    "error_code": "10-045",
+    "description": "FIELD 'CONTACT' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CONTACT' not found in schema"
+  },
+  {
+    "error_code": "10-048",
+    "description": "FIELD 'EMPLOYER TRADE NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'EMPLOYER TRADE NAME' not found in schema"
+  },
+  {
+    "error_code": "10-050",
+    "description": "FIELD 'SOLE TRADER FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER FULL ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "10-051",
+    "description": "FIELD 'SOLE TRADER STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER STREET + NUMBER' not found in schema"
+  },
+  {
+    "error_code": "10-052",
+    "description": "FIELD 'SOLE TRADER ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS CITY' not found in schema"
+  },
+  {
+    "error_code": "10-055",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER IDENTIFICATION NUMBER' not found in schema"
+  },
+  {
+    "error_code": "10-056",
+    "description": "FIELD 'SOLE TRADER CONTACT' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER CONTACT' not found in schema"
+  },
+  {
+    "error_code": "1-006",
+    "description": "FIELD 'COUNTRY OF BIRTH' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COUNTRY OF BIRTH' not found in schema"
+  },
+  {
+    "error_code": "10-063",
+    "description": "'SUBJECT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-065",
+    "description": "MORE THAN ONE 'ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-066",
+    "description": "MORE THAN ONE 'SOLE TRADER ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-067",
+    "description": "MORE THAN ONE 'IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-068",
+    "description": "MORE THAN ONE 'SOLE TRADER IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-069",
+    "description": "FIELDS 'IDENTIFICATION TYPE' AND 'IDENTIFICATION CODE' MUST BE EITHER EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-070",
+    "description": "MORE THAN ONE 'ID TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-071",
+    "description": "MORE THAN ONE 'CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-072",
+    "description": "MORE THAN ONE 'SOLE TRADER CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-073",
+    "description": "FIELDS 'SOLE TRADER IDENTIFICATION TYPE' AND 'SOLE TRADER IDENTIFICATION CODE' MUST BE EITHER EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-074",
+    "description": "FIELDS 'CONTACT TYPE' AND 'CONTACT VALUE' MUST BE EITHER EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-075",
+    "description": "FIELDS 'SOLE TRADER CONTACT TYPE' AND 'SOLE TRADER CONTACT VALUE' MUST BE EITHER EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-077",
+    "description": "FIELD 'SOLE TRADER POSTAL CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER POSTAL CODE' not found in schema"
+  },
+  {
+    "error_code": "10-078",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE GROSS INCOME IS EMPTY (INDIVIDUAL)",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "1-008",
+    "description": "FIELD 'COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COUNTRY OF ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "1-009",
+    "description": "FIELD 'TYPE OF IDENTIFICATION CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'TYPE OF IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "10-090",
+    "description": "THE SAME 'PROVIDER SUBJECT NO' IS ALREADY ASSIGNED TO ANOTHER SUBJECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-010",
+    "description": "FIELD 'ID TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID TYPE' not found in schema"
+  },
+  {
+    "error_code": "1-011",
+    "description": "FIELD 'ID ISSUE DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUE DATE' not found in schema"
+  },
+  {
+    "error_code": "10-111",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COMPANY ROLE' not found in schema"
+  },
+  {
+    "error_code": "1-012",
+    "description": "FIELD 'ID ISSUE COUNTRY' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUE COUNTRY' not found in schema"
+  },
+  {
+    "error_code": "10-120",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-013",
+    "description": "FIELD 'ID EXPIRY DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID EXPIRY DATE' not found in schema"
+  },
+  {
+    "error_code": "10-130",
+    "description": "WARNING - FIELDS 'ID TYPE' AND 'ID NUMBER' MUST BE EITHER EMPTY OR FILLED IN: FIELD HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-151",
+    "description": "FIELD 'PROVIDER CONTRACT NUMBER' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER CONTRACT NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-016",
+    "description": "FIELD 'HIRE DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'HIRE DATE' not found in schema"
+  },
+  {
+    "error_code": "1-017",
+    "description": "FIELD 'SOLE TRADER ADDRESS TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-179",
+    "description": "FIELD 'UTILIZATION AMOUNT' IS MANDATORY IF PHASE IS ACTIVE, CLOSED OR CLOSED IN ADVANCE",
+    "reason_unmapped": "Field 'UTILIZATION AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "1-018",
+    "description": "FIELD 'SOLE TRADER COUNTRY OF ADDRESS' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER COUNTRY OF ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "10-180",
+    "description": "FIELD 'UTILIZATION AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'UTILIZATION AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "10-182",
+    "description": "FIELD 'CHARGED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CHARGED AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "10-188",
+    "description": "FIELD 'CUSTOMER TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'CUSTOMER TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-189",
+    "description": "FIELD 'PROVIDER GUARANTEE NUMBER' IS NOT CORRECT",
+    "reason_unmapped": "Field 'PROVIDER GUARANTEE NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-019",
+    "description": "FIELD 'SOLE TRADER ID TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ID TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-190",
+    "description": "FIELD 'GUARANTOR NAME' IS NOT CORRECT",
+    "reason_unmapped": "Field 'GUARANTOR NAME' not found in schema"
+  },
+  {
+    "error_code": "10-191",
+    "description": "FIELD 'GUARANTEED AMOUNT' IS MANDATORY",
+    "reason_unmapped": "Field 'GUARANTEED AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "10-192",
+    "description": "FIELD 'GUARANTEED AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'GUARANTEED AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "10-193",
+    "description": "FIELD 'VALIDITY START DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'VALIDITY START DATE' not found in schema"
+  },
+  {
+    "error_code": "10-194",
+    "description": "FIELD 'VALIDITY END DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'VALIDITY END DATE' not found in schema"
+  },
+  {
+    "error_code": "10-195",
+    "description": "FIELD 'GUARANTEE CODE' IS MANDATORY",
+    "reason_unmapped": "Field 'GUARANTEE CODE' not found in schema"
+  },
+  {
+    "error_code": "10-196",
+    "description": "FIELD 'GUARANTEE CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'GUARANTEE CODE' not found in schema"
+  },
+  {
+    "error_code": "10-197",
+    "description": "FIELD 'ASSET CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ASSET CODE' not found in schema"
+  },
+  {
+    "error_code": "1-020",
+    "description": "FIELD 'SOLE TRADER CONTACT TYPE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER CONTACT TYPE' not found in schema"
+  },
+  {
+    "error_code": "10-204",
+    "description": "FIELD 'COMPANY LINK REFERENCE DATE' IS MANDATORY",
+    "reason_unmapped": "Field 'COMPANY LINK REFERENCE DATE' not found in schema"
+  },
+  {
+    "error_code": "10-205",
+    "description": "FIELD 'COMPANY LINK REFERENCE DATE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COMPANY LINK REFERENCE DATE' not found in schema"
+  },
+  {
+    "error_code": "10-206",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (CHILD)' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER (CHILD)' not found in schema"
+  },
+  {
+    "error_code": "10-207",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (CHILD)' IS NOT CORRECT",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER (CHILD)' not found in schema"
+  },
+  {
+    "error_code": "10-208",
+    "description": "FIELD 'COMPANY ROLE' IS MANDATORY",
+    "reason_unmapped": "Field 'COMPANY ROLE' not found in schema"
+  },
+  {
+    "error_code": "10-209",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (PARENT)' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER (PARENT)' not found in schema"
+  },
+  {
+    "error_code": "10-210",
+    "description": "FIELD 'PROVIDER SUBJECT NUMBER (PARENT)' IS NOT CORRECT",
+    "reason_unmapped": "Field 'PROVIDER SUBJECT NUMBER (PARENT)' not found in schema"
+  },
+  {
+    "error_code": "10-213",
+    "description": "FIELD 'ASSET DESCRIPTION' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ASSET DESCRIPTION' not found in schema"
+  },
+  {
+    "error_code": "10-247",
+    "description": "WARNING - 'GUARANTEE CODE' IS EMPTY: 'ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE', 'ASSET REGISTRY EXTERNAL LINK' AND 'CUSTOMER TYPE' HAVE BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-248",
+    "description": "WARNING - 'GUARANTEE CODE' IS 'REAL' AND 'CUSTOMER TYPE' IS FILLED: 'CUSTOMER TYPE' HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-249",
+    "description": "WARNING - 'GUARANTEE CODE' IS 'PERSONAL' AND AT LEAST ONE BETWEEN ('ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE' AND 'ASSET REGISTRY EXTERNAL LINK') IS FILLED: 'ASSETCODE', 'ASSETCODE DESCRIPTION', 'ASSET LOCATION', 'ASSET APPREAISED VALUE' AND 'ASSET REGISTRY EXTERNAL LINK' HAVE BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-250",
+    "description": "'CONTRACT REFERENCE DATE' IS LESS THAN 'LAST PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-251",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT START DATE' IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-252",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT END PLANNED DATE' IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-253",
+    "description": "'CONTRACT PHASE' IN (CL,CA) AND 'CONTRACT END ACTUAL DATE' IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-254",
+    "description": "'CONTRACT REQUEST DATE' HAS BEEN SET EQUAL TO 'CONTRACT START DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-255",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'CONTRACT END PLANNED DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-256",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'CONTRACT END ACTUAL DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-257",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'LAST PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-258",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'FIRST PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-259",
+    "description": "'CONTRACT PHASE' IN (CL,CA) AND NEXTPAYMENTDATE IS NOT EMPTY'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-260",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-261",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-262",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'NEXT PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-263",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-264",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'NEXT PAYMENT DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-265",
+    "description": "'CONTRACT START DATE' IS GREATER THAN 'LAST CHARGE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-266",
+    "description": "'CONTRACT END ACTUAL DATE' IS LESS THAN 'LAST CHARGE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-267",
+    "description": "'CONTRACT END PLANNED DATE' IS LESS THAN 'LAST CHARGE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-268",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'MONTHLY PAYMENT AMOUNT' IS EMPTY OR 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-269",
+    "description": "'CONTRACT PHASE' IN ('CL','CA') AND 'NEXT PAYMENT' IS NOT (EMPTY OR 0)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-270",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING PAYMENTS NUMBER' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-272",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING BALANCE' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-274",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'OUTSTANDING PAYMENTS NUMBER' = (0 OR EMPTY) AND 'OUTSTANDING BALANCE' > 0 OR 'OUTSTANDING PAYMENTS NUMBER' > 0 AND 'OUTSTANDING BALANCE' = (0 OR EMPTY)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-275",
+    "description": "'CONTRACT TYPE IS CREDIT CARD AND INSTALLMENT TYPE IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-276",
+    "description": "'CONTRACT TYPE IS CREDIT CARD AND PAYMENT PERIODICITY IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-277",
+    "description": "'CONTRACT PHASE' IN (RQ,RF,RN) AND 'OVERDUE PAYMENTS NUMBER' > 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-278",
+    "description": "'CONTRACT PHASE' IN (RQ,RF,RN) AND 'OVERDUE PAYMENTS AMOUNT' > 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-280",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OVERDUE PAYMENTS NUMBER' = (0 OR EMPTY) AND 'OVERDUE PAYMENTS AMOUNT' > 0 OR 'OVERDUE PAYMENTS NUMBER' > 0 AND 'OVERDUE PAYMENTS AMOUNT' = (0 OR EMPTY)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-281",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'CONTRACT TYPE' IS CREDIT CARD AND 'OVERDUE PAYMENTS NUMBER' IS (0 OR EMPTY) AND 'OVERDUE PAYMENTS AMOUNT' > 0, OR 'OVERDUE PAYMENTS NUMBER' > 0 AND 'OVERDUE PAYMENTS AMOUNT' IS (0 OR EMPTY)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-282",
+    "description": "'CONTRACTTYPE' IS (CREDIT CARD) AND 'FLAG CARD USED' IS 0 AND 'TIMES CARD USED' > 0, OR 'FLAG CARD USED' > 0 AND 'TIMES CARD USED' IS 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-283",
+    "description": "'VALIDITY START DATE' IS GREATER THAN 'VALIDITY END DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-284",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MIN PAYMENT PERCENTAGE IS NOT EMPTY AND MIN PAYMENT PERCENTAGE IS NOT EQUAL TO 100%",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-285",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MONTHLY PAYMENT AMOUNT IS NOT EMPTY, THEN MONTHLY PAYMENT AMOUNT HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-286",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND OVERDUE PAYMENTS NUMBER IS NOT EMPTY, THEN OVERDUE PAYMENTS NUMBER HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-287",
+    "description": "CONTRACT TYPE IS CHARGE CARD AND MIN PAYMENT INDICATOR IS NOT EMPTY, THEN MIN PAYMENT INDICATOR HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-288",
+    "description": "WARNING - 'CONTRACT TYPE' IS CREDIT CARD, INSTALLMENTS TYPE IS FIXED AND 'MIN PAYMENT INDICATOR' IS NOT EMPTY, THEN 'MIN PAYMENT INDICATOR' HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-289",
+    "description": "WARNING - 'CONTRACT TYPE' IS CREDIT CARD, INSTALLMENTS TYPE IS FIXED AND 'MIN PAYMENT PERCENTAGE' IS NOT EMPTY, THEN 'MIN PAYMENT PERCENTAGE' HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-290",
+    "description": "'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT START DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-291",
+    "description": "'CONTRACT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-292",
+    "description": "'NEGATIVE EVENT REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-293",
+    "description": "'COMPANY LINK REFERENCE DATE' IS GREATER THAN 'FILE REFERENCE DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-294",
+    "description": "IF 'GUARANTEE CODE' IS NOT EMPTY, THEN AT LEAST ONE BETWEEN 'PROVIDER SUBJECT NO' OR 'GUARANTOR NAME 'SHOULD BE PROVIDED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-295",
+    "description": "'GUARANTEED AMOUNT' IS NOT EMPTY, AND 'CURRENCY' IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-296",
+    "description": "('GUARANTEED AMOUNT' IS (EMPTY) AND 'GUARANTEE CODE' IS NOT EMPTY) OR ('GUARANTEED AMOUNT' IS NOT EMPTY AND 'GUARANTEE CODE' IS EMPTY)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-298",
+    "description": "SUBMISSION TYPE - HISTORICAL (1): CONTRACT CANNOT BE REORGANIZED WITH SUBMISSION TYPE = 1",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-299",
+    "description": "WARNING - 'PROVIDER SUBJECT NO' AND 'GUARANTOR NAME' CANNOT BE BOTH FILLED IN: 'GUARANTOR NAME' HAS BEEN CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-300",
+    "description": "STANDALONE SUBJECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-301",
+    "description": "SUBMISSION TYPE - STANDARD (0): CONTRACT WITH MORE RECENT REFERENCE DATE ALREADY IN DB, IT IS NOT POSSIBLE TO UPDATE IT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-302",
+    "description": "CONTRACT IS ALREADY IN DATABASE WITH PHASE CLOSED OR CLOSED IN ADVANCE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-303",
+    "description": "CONTRACT IS ALREADY IN DATABASE WITH A DIFFERENT CONTRACT CATEGORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-304",
+    "description": "CONTRACT REORGANIZED: CONTRACT IN INPUT SHOULD BE ACTIVE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-305",
+    "description": "CONTRACT REORGANIZED: THE CONTRACT TO BE REORGANIZED DOESN’T EXIST IN DATABASE AND WITH ACTIVE PHASE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-306",
+    "description": "CONTRACT REORGANIZED: CONTRACT IS ALREADY IN DATABASE WITH A DIFFERENT CONTRACT CATEGORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-307",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS LINKED SUBJECT DOESN’T EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-308",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS LINKED SUBJECTS (BORROWER OR CO-BORROWER) HAS ERRORS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-309",
+    "description": "CONTRACT IS NOT VALID BECAUSE THE SAME SUBJECT IS LINKED MORE THAN ONCE TO IT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-310",
+    "description": "CONTRACT IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES OF THE SAME CONTRACT WITH NOT CONSISTENT VALUES",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-311",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS GUARANTEE IS LINKED TO A NOT EXISTING SUBJECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-312",
+    "description": "CONTRACT IS NOT VALID BECAUSE AT LEAST ONE OF ITS GUARANTEE IS LINKED TO A SUBJECT WITH ERRORS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-314",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES WITH THE SAME EVENTTYPE FOR THE SAME SUBJECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-315",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE THE SUBJECT LINKED DOESN’T EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-316",
+    "description": "SUBJECT INFORMATION IS NOT VALID BECAUSE ITS LINKED SUBJECT HAS ERRORS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-317",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE THERE ARE MORE OCCURENCES FOR THE SAME PARENT-CHILD",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-318",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE AT LEAST ONE BETWEEN PARENT AND CHILD SUBJECT DOESN’T EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-319",
+    "description": "COMPANY LINK IS NOT VALID BECAUSE AT LEAST ONE BETWEEN PARENT AND CHILD SUBJECT HAS ERRORS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "10-320",
+    "description": "'CHILD PROVIDERSUBJECT NO' - 'PARENT PROVIDERSUBJECT NO' CANNOT BE THE SAME",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-033",
+    "description": "FIELD 'FULL NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'FULL NAME' not found in schema"
+  },
+  {
+    "error_code": "1-039",
+    "description": "FIELD 'STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'STREET + NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-040",
+    "description": "FIELD 'ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS CITY' not found in schema"
+  },
+  {
+    "error_code": "1-041",
+    "description": "FIELD 'ADDRESS DISTRICT' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS DISTRICT' not found in schema"
+  },
+  {
+    "error_code": "1-042",
+    "description": "FIELD 'ADDRESS REGION' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS REGION' not found in schema"
+  },
+  {
+    "error_code": "1-044",
+    "description": "FIELD 'ID NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-045",
+    "description": "FIELD 'CONTACT' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CONTACT' not found in schema"
+  },
+  {
+    "error_code": "1-048",
+    "description": "FIELD 'EMPLOYER TRADE NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'EMPLOYER TRADE NAME' not found in schema"
+  },
+  {
+    "error_code": "1-050",
+    "description": "FIELD 'SOLE TRADER FULL ADDRESS' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER FULL ADDRESS' not found in schema"
+  },
+  {
+    "error_code": "1-051",
+    "description": "FIELD 'SOLE TRADER STREET + NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER STREET + NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-052",
+    "description": "FIELD 'SOLE TRADER ADDRESS CITY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS CITY' not found in schema"
+  },
+  {
+    "error_code": "1-055",
+    "description": "FIELD 'SOLE TRADER IDENTIFICATION NUMBER' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER IDENTIFICATION NUMBER' not found in schema"
+  },
+  {
+    "error_code": "1-056",
+    "description": "FIELD 'SOLE TRADER CONTACT' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER CONTACT' not found in schema"
+  },
+  {
+    "error_code": "1-060",
+    "description": "FIELD 'MONTHLY INSTALLMENT AMOUNT' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MONTHLY INSTALLMENT AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "1-063",
+    "description": "FIELD 'PROVIDER APPLICATION NO' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'PROVIDER APPLICATION NO' not found in schema"
+  },
+  {
+    "error_code": "1-064",
+    "description": "FIELD 'CIC CONTRACT CODE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CIC CONTRACT CODE' not found in schema"
+  },
+  {
+    "error_code": "1-065",
+    "description": "MORE THAN ONE 'ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-066",
+    "description": "MORE THAN ONE 'SOLE TRADER ADDRESS TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-067",
+    "description": "MORE THAN ONE 'IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-068",
+    "description": "MORE THAN ONE 'SOLE TRADER IDENTIFICATION TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-069",
+    "description": "FIELDS 'IDENTIFICATION TYPE' AND 'IDENTIFICATION CODE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-070",
+    "description": "MORE THAN ONE 'ID TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-071",
+    "description": "MORE THAN ONE 'CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-072",
+    "description": "MORE THAN ONE 'SOLE TRADER CONTACT TYPE' WITH THE SAME VALUE ARE NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-073",
+    "description": "FIELDS 'SOLE TRADER IDENTIFICATION TYPE' AND 'SOLE TRADER IDENTIFICATION CODE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-074",
+    "description": "FIELDS 'CONTACT TYPE' AND 'CONTACT VALUE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-075",
+    "description": "FIELDS 'SOLE TRADER CONTACT TYPE' AND 'SOLE TRADER CONTACT VALUE' MUST BE OR BOTH EMPTY OR BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-077",
+    "description": "FIELD 'SOLE TRADER POSTAL CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER POSTAL CODE' not found in schema"
+  },
+  {
+    "error_code": "1-078",
+    "description": "IN 'CONTRACT PHASE' FIELD, ONLY 'RQ' VALUE IS ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-079",
+    "description": "FIELDS 'FINANCED AMOUNT' AND 'MONTHLY PAYMENT AMOUNT' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-080",
+    "description": "IF 'CBCONTRACTCODE' IS FILLED IN, THEN BOTH 'PROVIDER APPLICATION NO' AND 'PROVIDER CONTRACT NO' MUST BE EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-081",
+    "description": "'PROVIDER APPLICATION NO' OR 'PROVIDER CONTRACT NO' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-082",
+    "description": "THE 'CONTRACT REQUEST DATE' MUST BE MINUS OR EQUAL TO CURRENT DATE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-083",
+    "description": "THE ENQUIRED 'CONTRACT TYPE' IS NOT ENABLED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-084",
+    "description": "FIELD 'MESSAGE ID' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MESSAGE ID' not found in schema"
+  },
+  {
+    "error_code": "1-085",
+    "description": "CONTRACT WITH ENQUIRED ‘PROVIDER CONTRACT CODE’ DOES NOT EXIST OR IS NOT ACCESSIBLE - APPLICATION DATA ARE MANDATORY FOR A NEW APPLICATION ENQUIRY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-086",
+    "description": "APPLICATION DATA MUST BE CONGRUENT WITH THOSE ALREADY IN DB",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-087",
+    "description": "CONTRACT WITH ENQUIRED ‘CIC CONTRACT CODE’ DOES NOT EXIST OR IS NOT ACCESSIBLE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-088",
+    "description": "CONTRACT DOES NOT EXIST OR IS NOT ACCESSIBLE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-089",
+    "description": "THE SUBJECT IS ALREADY LINKED TO THE CONTRACT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-090",
+    "description": "PROVIDER SUBJECT NO ALREADY ASSIGNED TO ANOTHER SUBJECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-091",
+    "description": "SUBJECT NOT ACCESSIBLE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-092",
+    "description": "THE AMOUNT TO UPDATE IS NOT FILLED IN THE DB APPLICATION",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-093",
+    "description": "FIELD 'CIC SUBJECT CODE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CIC SUBJECT CODE' not found in schema"
+  },
+  {
+    "error_code": "1-094",
+    "description": "INDIVIDUAL AND COMPANY CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-095",
+    "description": "ONLY ONE TYPE OF CONTRACT, BETWEEN INSTALLMENT, NON INSTALLMENT AND CREDIT CARD CAN BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-096",
+    "description": "SUBJECT DATA AND CODES CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-097",
+    "description": "FIELDS 'PROVIDER SUBJECT NO' AND 'CIC SUBJECT CODE' CANNOT BE BOTH EMPTY OR BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-098",
+    "description": "MORE SUBJECTS MATCHED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-099",
+    "description": "ENQUIRED PROVIDER SUBJECT NO DOES NOT EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-100",
+    "description": "NO SUBJECT FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-101",
+    "description": "ENQUIRED CIC SUBJECT CODE DOES NOT EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-103",
+    "description": "FIELD 'CANCELLATION FLAG' IS NOT CORRECT",
+    "reason_unmapped": "Field 'CANCELLATION FLAG' not found in schema"
+  },
+  {
+    "error_code": "1-104",
+    "description": "IN 'CONTRACT PHASE' FIELD, ONLY 'RQ', 'AC', 'RF', 'RN' VALUE ARE ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-105",
+    "description": "ONLY ONE, BUT AT LEAST ONE BETWEEN 'PROVIDER CONTRACT NO', 'PROVIDER APPLICATION NO' AND 'CIC CONTRACT CODE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-106",
+    "description": "THE APPLICATION IS TERMINATED AND IT CANNOT BE UPDATED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-107",
+    "description": "IF 'CURRENCY' IS FILLED IN, THEN ALSO AMOUNTS SHOULD BE FILLED IN (OTHERWISE LEAVE IT EMPTY)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-108",
+    "description": "PLEASE INDICATE THE FIELDS TO UPDATE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-111",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COMPANY ROLE' not found in schema"
+  },
+  {
+    "error_code": "1-112",
+    "description": "THE SUBJECT CANNOT BE ENQUIRED WITH THE SET ROLE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-119",
+    "description": "FIELDS 'CIC CONTRACT CODE' AND 'PROVIDER CODE' CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-120",
+    "description": "WHEN 'PROVIDER CONTRACT NO' IS FILLED IN ALSO THE 'PROVIDER CODE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-121",
+    "description": "WHEN 'PROVIDER APPLICATION NO' IS FILLED IN ALSO THE 'PROVIDER CODE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-122",
+    "description": "FIELD 'FUNCTION CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'FUNCTION CODE' not found in schema"
+  },
+  {
+    "error_code": "1-123",
+    "description": "FIELD 'FLAG TO BE MERGED FLAG' IS MISSING",
+    "reason_unmapped": "Field 'FLAG TO BE MERGED FLAG' not found in schema"
+  },
+  {
+    "error_code": "1-124",
+    "description": "FIELD 'FLAG TO BE MERGED FLAG' IS NOT CORRECT",
+    "reason_unmapped": "Field 'FLAG TO BE MERGED FLAG' not found in schema"
+  },
+  {
+    "error_code": "1-125",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CANNOT BE UPDATED FOR THE SPECIFIED CONTRACT",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "1-128",
+    "description": "'PROVIDER SUBJECT NUMBER' AND 'PROVIDER CODE' MUST BE BOTH FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "1-999",
+    "description": "PROCESS RAISED AN EXCEPTION",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-004",
+    "description": "FIELD 'BIRTH DATE' IS MANDATORY",
+    "reason_unmapped": "Field 'BIRTH DATE' not found in schema"
+  },
+  {
+    "error_code": "20-005",
+    "description": "FIELD 'NUMBER OF DEPENDANTS' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'NUMBER OF DEPENDANTS' not found in schema"
+  },
+  {
+    "error_code": "20-009",
+    "description": "FIELD 'FORMER LAST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'FORMER LAST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-013",
+    "description": "FIELD 'MOTHER MAIDEN FIRST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN FIRST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-014",
+    "description": "FIELD 'MOTHER MAIDEN LAST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN LAST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-015",
+    "description": "FIELD 'MOTHER MAIDEN MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN MIDDLE NAME' not found in schema"
+  },
+  {
+    "error_code": "20-020",
+    "description": "FIELD 'ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS SUBDIVISION' not found in schema"
+  },
+  {
+    "error_code": "20-021",
+    "description": "FIELD 'ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS BARANGAY' not found in schema"
+  },
+  {
+    "error_code": "20-022",
+    "description": "FIELD 'ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS PROVINCE' not found in schema"
+  },
+  {
+    "error_code": "20-023",
+    "description": "FIELD 'ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS OCCUPIED SINCE' not found in schema"
+  },
+  {
+    "error_code": "20-024",
+    "description": "FIELD 'ID ISSUED BY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUED BY' not found in schema"
+  },
+  {
+    "error_code": "20-025",
+    "description": "FIELD 'EMPLOYMENT TIN' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-029",
+    "description": "FIELD 'SOLE TRADER ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS SUBDIVISION' not found in schema"
+  },
+  {
+    "error_code": "20-030",
+    "description": "FIELD 'SOLE TRADER ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS BARANGAY' not found in schema"
+  },
+  {
+    "error_code": "20-031",
+    "description": "FIELD 'SOLE TRADER ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS PROVINCE' not found in schema"
+  },
+  {
+    "error_code": "20-032",
+    "description": "FIELD 'SOLE TRADER ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS OCCUPIED SINCE' not found in schema"
+  },
+  {
+    "error_code": "2-004",
+    "description": "FIELD 'BIRTH DATE' IS MANDATORY",
+    "reason_unmapped": "Field 'BIRTH DATE' not found in schema"
+  },
+  {
+    "error_code": "20-044",
+    "description": "FIELD 'ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS HOUSE OWNER LESSEE' not found in schema"
+  },
+  {
+    "error_code": "20-047",
+    "description": "FIELD 'PSOC' IS NOT CORRECT",
+    "reason_unmapped": "Field 'PSOC' not found in schema"
+  },
+  {
+    "error_code": "20-048",
+    "description": "FIELD 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' not found in schema"
+  },
+  {
+    "error_code": "2-005",
+    "description": "FIELD 'NUMBER OF DEPENDANTS' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'NUMBER OF DEPENDANTS' not found in schema"
+  },
+  {
+    "error_code": "20-050",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "20-051",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'SSS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =10, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "20-052",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'GSIS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =11, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "20-053",
+    "description": "IF FIELD 'SOLE TRADER IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'SOLE TRADER IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "2-006",
+    "description": "FIELD 'CARS OWNED NO' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'CARS OWNED NO' not found in schema"
+  },
+  {
+    "error_code": "20-061",
+    "description": "FIELD 'TYPE OF TRANSACTION' IS NOT CORRECT",
+    "reason_unmapped": "Field 'TYPE OF TRANSACTION' not found in schema"
+  },
+  {
+    "error_code": "20-065",
+    "description": "FIELD 'TYPE OF TRANSACTION' IS MANDATORY",
+    "reason_unmapped": "Field 'TYPE OF TRANSACTION' not found in schema"
+  },
+  {
+    "error_code": "20-066",
+    "description": "FIELD BILLED AMOUNT IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-069",
+    "description": "FIELD 'SERVICE LINE NUMBER' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SERVICE LINE NUMBER' not found in schema"
+  },
+  {
+    "error_code": "20-070",
+    "description": "FIELD 'ASSET LOCATION' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ASSET LOCATION' not found in schema"
+  },
+  {
+    "error_code": "20-071",
+    "description": "FIELD 'ASSET APPRAISED VALUE' IS NOT NUMERIC OR LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ASSET APPRAISED VALUE' not found in schema"
+  },
+  {
+    "error_code": "20-072",
+    "description": "FIELD 'ASSET REGISTRY EXTERNAL LINK' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ASSET REGISTRY EXTERNAL LINK' not found in schema"
+  },
+  {
+    "error_code": "20-080",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE ALL AMOUNTS ARE EMPTY (COMPANY)",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-081",
+    "description": "FIELD CURRENCY CANNOT BE FILLED IF THE NET TAXABLE INCOME IS EMPTY - FIELD CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-082",
+    "description": "FIELD 'REFERENCE NUMBER' IS NOT CORRECT",
+    "reason_unmapped": "Field 'REFERENCE NUMBER' not found in schema"
+  },
+  {
+    "error_code": "20-083",
+    "description": "FIELD 'PROVIDER TYPE' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER TYPE' not found in schema"
+  },
+  {
+    "error_code": "20-084",
+    "description": "FIELD 'PROVIDER TYPE' IS NOT CORECT",
+    "reason_unmapped": "Field 'PROVIDER TYPE' not found in schema"
+  },
+  {
+    "error_code": "20-088",
+    "description": "NEGATIVE EVENT REFERENCE DATE' SHOULD BE GREATER THAN 'EVENT STATUS DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-089",
+    "description": "IF 'CONTRACT PHASE' IN (AC,CL,CA), 'LAST PAYMENT AMOUNT' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-009",
+    "description": "FIELD 'FORMER LAST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'FORMER LAST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-090",
+    "description": "IF 'CONTRACT PHASE' IN (AC,CL,CA), 'OVERDUE DAYS' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-092",
+    "description": "IF 'CONTRACT PHASE' IN (AC), 'NEXT PAYMENT AMOUNT' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-093",
+    "description": "IF 'CONTRACT TYPE' IS CREDITCARD OR UTILITY, THE 'ROLE' = 'G' IS NOT ALLOWED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-094",
+    "description": "FIELD 'FULLADDRESS' REPLACED WITH 'SINGLE' ADDRESS FIELDS CONCATENATION IF IN ADDRESS THE SINGLE FIELDS ARE FILLED IN",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-096",
+    "description": "FIELD 'LINKED SUBJECT NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'LINKED SUBJECT NAME' not found in schema"
+  },
+  {
+    "error_code": "20-097",
+    "description": "IF 'PROVIDER SUBJECT NO' OR 'LINKED SUBJECTY NAME' FIELDS ARE PROVIDED, ALSO 'ROLE' FIELD SHOULD BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-098",
+    "description": "IF 'ROLE' FIELD IS FILLED IN, THE FIELD 'PROVIDER SUBJECT NO' SHOULD BE FILLED, OR THE FIELD 'LINKED SUBJECTY NAME' IN CASE ALL REQUIRED SUBJECT DATA ARE NOT AVAILABLE",
+    "reason_unmapped": "One or more fields not found in schema: ['LINKED SUBJECTY NAME']"
+  },
+  {
+    "error_code": "20-099",
+    "description": "WARNING - FIELD 'PROVIDER SUBJECT NO' AND 'LINKED SUBJECT NAME' CANNOT BE BOTH FILLED IN: FIELD 'LINKED SUBJECT NAME' HAS BEEN CLEANED",
+    "reason_unmapped": "One or more fields not found in schema: ['LINKED SUBJECT NAME']"
+  },
+  {
+    "error_code": "20-100",
+    "description": "AT LEAST ONE PAIR OF FIELDS 'PROVIDER SUBJECT NO'-'ROLE' BETWEEN ALL PAIRS MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-101",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'SOLETRADER IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-102",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-103",
+    "description": "FIELD 'CURRENCY' MUST HAVE PHP DOMAIN-VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-104",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'CONTACT:TYPE' SHOULD BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-105",
+    "description": "THE PROVIDERTYPE IS NOT MFI,BUT NO ONE BETWEEN CONTRACT 1: TYPE AND CONTRACT 2: TYPEIS FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-106",
+    "description": "FIELD 'OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'OCCUPIED SINCE DATE' not found in schema"
+  },
+  {
+    "error_code": "20-110",
+    "description": "FIELD 'EXISTENCE TERM' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'EXISTENCE TERM' not found in schema"
+  },
+  {
+    "error_code": "20-112",
+    "description": "FIELD 'SUBJECTREFDATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'SUBJECTREFDATE' not found in schema"
+  },
+  {
+    "error_code": "20-114",
+    "description": "FIELD 'GROSS INCOME' CAN'T NOT HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-116",
+    "description": "FIELD 'MONTHLY EXPENSES' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-117",
+    "description": "FIELD 'NET TAXABLE INCOME' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-118",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN (FOR MF)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-119",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-120",
+    "description": "FIELD 'SOLETRADERDATA/OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'SOLETRADERDATA/OCCUPIED SINCE DATE' not found in schema"
+  },
+  {
+    "error_code": "20-123",
+    "description": "THE FIELD BIRTHDATA_PLACE MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-124",
+    "description": "THE FIELD GENERALDATAINDIVIDUAL_NATIONALITY MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-125",
+    "description": "FIELD 'BIRTH DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'BIRTH DATE' not found in schema"
+  },
+  {
+    "error_code": "20-128",
+    "description": "IN SUBJECT_INDIVIDUAL_ADDRESS, IF THE PROVIDERTYPE IS NOT MFI, THEN THE FIELD STREETNO MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-129",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' OR 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-013",
+    "description": "FIELD 'MOTHER MAIDEN FIRST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN FIRST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-130",
+    "description": "ALL 'ADDRESS:TYPE' MUST BE FILLED IN. TWO ADDRESSES MUST BE PROVIDED.",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-137",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-138",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-014",
+    "description": "FIELD 'MOTHER MAIDEN LAST NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN LAST NAME' not found in schema"
+  },
+  {
+    "error_code": "20-140",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'SOLETRADER ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-142",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL INDIVIDUAL ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-143",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL COMPANY ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-015",
+    "description": "FIELD 'MOTHER MAIDEN MIDDLE NAME' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'MOTHER MAIDEN MIDDLE NAME' not found in schema"
+  },
+  {
+    "error_code": "2-020",
+    "description": "FIELD 'ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS SUBDIVISION' not found in schema"
+  },
+  {
+    "error_code": "20-200",
+    "description": "FIELD 'ASSET APPRAISED VALUE' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Field 'ASSET APPRAISED VALUE' not found in schema"
+  },
+  {
+    "error_code": "20-201",
+    "description": "FIELD 'LASTPAYMENTAMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-203",
+    "description": "FIELD 'NEXT PAYMENT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-204",
+    "description": "FIELD 'BILLED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-205",
+    "description": "FIELD 'OUTSTANDING BALANCE' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-206",
+    "description": "FIELD 'OVERDUE PAYMENTS AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-207",
+    "description": "FIELD 'OVERDUE PAYMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-209",
+    "description": "FIELD 'NEGATIVE EVENT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'NEGATIVE EVENT REF DATE' not found in schema"
+  },
+  {
+    "error_code": "2-021",
+    "description": "FIELD 'ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS BARANGAY' not found in schema"
+  },
+  {
+    "error_code": "20-212",
+    "description": "FIELD 'COMPANY LINK REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'COMPANY LINK REF DATE' not found in schema"
+  },
+  {
+    "error_code": "20-213",
+    "description": "FIELD 'CHARGED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Field 'CHARGED AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "20-214",
+    "description": "FIELD 'CREDITLIMIT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-215",
+    "description": "FIELD 'MONTHLY PAYMENT AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-216",
+    "description": "FIELD 'OUTSTANDING PAYMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-217",
+    "description": "FIELD 'TIMES CARD USED' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-218",
+    "description": "FIELD 'GUARANTEED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Field 'GUARANTEED AMOUNT' not found in schema"
+  },
+  {
+    "error_code": "20-219",
+    "description": "FIELD 'UTILIZATION' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Field 'UTILIZATION' not found in schema"
+  },
+  {
+    "error_code": "2-022",
+    "description": "FIELD 'ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS PROVINCE' not found in schema"
+  },
+  {
+    "error_code": "20-220",
+    "description": "FIELD 'GOODVALUE' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-221",
+    "description": "FIELD 'MIN PAYMENT PERCENTAGE' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-222",
+    "description": "FIELD 'FINANCED AMOUNT' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-223",
+    "description": "FIELD 'INSTALLMENTS NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-224",
+    "description": "FIELD 'CONTRACT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'CONTRACT REF DATE' not found in schema"
+  },
+  {
+    "error_code": "20-225",
+    "description": "FIELD 'SERVICES-LINES NUMBER' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-226",
+    "description": "FIELD OUTSTANDING BALANCE UNBILLED IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-227",
+    "description": "FIELD 'OUTSTANDING BALANCE UNBILLED' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "20-228",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OUSTANDINGPAYMENTSNUMBER' >0 AND 'OUTSTANDINGPAYMENTSNUMBER' > 'INSTALLMENTSNUMBER'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "20-229",
+    "description": "'CONTRACT PHASE' IN (AC,CL,CA) AND 'OVERDUEPAYMENTSNUMBER' >0 AND 'OVERDUEPAYMENTSNUMBER' > 'INSTALLMENTSNUMBER'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-023",
+    "description": "FIELD 'ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS OCCUPIED SINCE' not found in schema"
+  },
+  {
+    "error_code": "20-231",
+    "description": "'CONTRACT PHASE' IN (AC) AND 'BILLED AMOUNT' IS EMPTY AND 'CONTRACT REFERENCE DATE' IS LESS THAN 'CONTRACT END PLANNED DATE'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-024",
+    "description": "FIELD 'ID ISSUED BY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'ID ISSUED BY' not found in schema"
+  },
+  {
+    "error_code": "2-025",
+    "description": "FIELD 'EMPLOYMENT TIN' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-029",
+    "description": "FIELD 'SOLE TRADER ADDRESS SUBDIVISION' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS SUBDIVISION' not found in schema"
+  },
+  {
+    "error_code": "2-030",
+    "description": "FIELD 'SOLE TRADER ADDRESS BARANGAY' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS BARANGAY' not found in schema"
+  },
+  {
+    "error_code": "2-031",
+    "description": "FIELD 'SOLE TRADER ADDRESS PROVINCE' LENGTH IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS PROVINCE' not found in schema"
+  },
+  {
+    "error_code": "20-310",
+    "description": "MORE THAN ONE CONTRACT WITH THE SAME PROVIDER CONTRACT NUMBER AND REFERENCE DATE IS PRESENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-032",
+    "description": "FIELD 'SOLE TRADER ADDRESS OCCUPIED SINCE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS OCCUPIED SINCE' not found in schema"
+  },
+  {
+    "error_code": "2-044",
+    "description": "FIELD 'ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ADDRESS HOUSE OWNER LESSEE' not found in schema"
+  },
+  {
+    "error_code": "2-047",
+    "description": "FIELD 'PSOC' IS NOT CORRECT",
+    "reason_unmapped": "Field 'PSOC' not found in schema"
+  },
+  {
+    "error_code": "2-048",
+    "description": "FIELD 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'SOLE TRADER ADDRESS HOUSE OWNER LESSEE' not found in schema"
+  },
+  {
+    "error_code": "2-051",
+    "description": "FIELD 'PROVIDER TYPE' IS MANDATORY",
+    "reason_unmapped": "Field 'PROVIDER TYPE' not found in schema"
+  },
+  {
+    "error_code": "2-052",
+    "description": "FIELD 'PROVIDER TYPE' IS NOT CORECT",
+    "reason_unmapped": "Field 'PROVIDER TYPE' not found in schema"
+  },
+  {
+    "error_code": "2-053",
+    "description": "FIELD 'FULLADDRESS' REPLACED WITH 'SINGLE' ADDRESS FIELDS CONCATENATION IF IN ADDRESS THE SINGLE FIELDS ARE FILLED IN",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-060",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "2-061",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'SSS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =10, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "2-062",
+    "description": "IF FIELD 'IDENTIFICATION CODE' IS 'GSIS', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH =11, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "2-063",
+    "description": "IF FIELD 'SOLE TRADER IDENTIFICATION CODE' IS 'TIN', THE 'IDENTIFICATON NUMBER' LENGTH MUST HAVE A LENGTH >=9 AND <=12, AND ONLY NUMBERS ARE ALLOWED",
+    "reason_unmapped": "Field 'SOLE TRADER IDENTIFICATION CODE' not found in schema"
+  },
+  {
+    "error_code": "2-100",
+    "description": "AT LEAST FIELDS 'ID TYPE' AND 'ID NUMBER' MUST BE BOTH FILLED IN - FIELDS CLEANED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-101",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'SOLETRADER IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-102",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'IDENTIFICATIONCODE:TYPE' SHOULD HAVE 'TIN' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-103",
+    "description": "FIELD 'CURRENCY' MUST HAVE PHP DOMAIN-VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-104",
+    "description": "AT LEAST ONE BETWEEN ALL FIELDS 'CONTACT:TYPE' SHOULD BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-105",
+    "description": "PROVIDER TYPE IS NOT MFI,BUT NO ONE BETWEEN CONTRACT 1: TYPE AND CONTRACT 2: TYPEIS FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-106",
+    "description": "FIELD 'OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'OCCUPIED SINCE DATE' not found in schema"
+  },
+  {
+    "error_code": "2-110",
+    "description": "FIELD 'EXISTENCE TERM' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'EXISTENCE TERM' not found in schema"
+  },
+  {
+    "error_code": "2-112",
+    "description": "FIELD 'SUBJECT REF DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'SUBJECT REF DATE' not found in schema"
+  },
+  {
+    "error_code": "2-114",
+    "description": "FIELD 'GROSS INCOME' CAN'T NOT HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-116",
+    "description": "FIELD 'MONTHLY EXPENSES' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-117",
+    "description": "FIELD 'NET TAXABLE INCOME' CAN'T HAVE A NEGATIVE VALUE",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-118",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN (FOR MF)",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-119",
+    "description": "AT LEAST ONE BETWEEN ALL 'ADDRESS:TYPE ' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-120",
+    "description": "FIELD 'SOLE TRADER OCCUPIED SINCE DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'SOLE TRADER OCCUPIED SINCE DATE' not found in schema"
+  },
+  {
+    "error_code": "2-123",
+    "description": "THE FIELD BIRTH DATA_PLACE MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-124",
+    "description": "THE FIELD GENERAL DATA INDIVIDUAL_NATIONALITY MUST BE FILLED IN IF THE PROVIDERTYPE IS NOT MFI",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-125",
+    "description": "FIELD 'BIRTH DATE' MUST BE GREATER THAN 01-01-1900",
+    "reason_unmapped": "Field 'BIRTH DATE' not found in schema"
+  },
+  {
+    "error_code": "2-128",
+    "description": "IN 'SUBJECT INDIVIDUAL ADDRESS', IF THE PROVIDERTYPE IS NOT MF, THEN THE FIELD 'STREET NO' MUST BE FILLED IN",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "2-129",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' or 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-130",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' SHOULD BE 'TIN'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-135",
+    "description": "CONTRACT TYPE AND THE PROVIDED CONTRACT SHOULD BE CONGRUENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-137",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-138",
+    "description": "IF AT LEAST ONE BETWEEN ALL THE 'ADDRESS' FIELDS IS FILLED IN, THEN ALSO 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-140",
+    "description": "IF AT LEAST ONE BETWEEN 'SUBJECT INDIVIDUAL SOLETRADER ADDRESS' FIELDS IS FILLED IN, THEN 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-142",
+    "description": "IF AT LEAST ONE BETWEEN 'SUBJECT COMPANY ADDRESS' FIELDS IS FILLED IN, THEN 'ADDRESS:TYPE' MUST BE FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-143",
+    "description": "IN SUBJECT_COMPANY_ADDRESS, IF THE FIELD ADDRESS TYPE IS FILLED IN, IF AT LEAST ONE BETWEEN STREETNO,POSTALCODE,SUBDIVISION,BARANGAY,CITY,PROVINCE,COUNTRY FIELDS IS FILLED IN, THEN IT IS MANDATORY TO FILL IN THE FIELDS SUBDIVISION,CITY,PROVINCE (FOR MFI) OR STREETNO,CITY,PROVINCE (FOR NON-MFI), OTHERWISE THE FIELD FULLADDRESS IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-144",
+    "description": "ALL 'ADDRESS:TYPE' MUST BE FILLED IN. TWO ADDRESSES MUST BE PROVIDED.",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-147",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL INDIVIDUAL ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "2-149",
+    "description": "AT LEAST ONE OCCURRENCE BETWEEN ALL COMPANY ADDRESSES MUST BE 'MAIN ADDRESS'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-001",
+    "description": "FILE SPECIFIED DOES NOT EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-007",
+    "description": "'FILE REFERENCE DATE' INTO THE HEADER/FOOTER IS NOT VALID OR IT IS GREATER THAN SYSDATE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-008",
+    "description": "'NO OF RECORDS' SPECIFIED IN THE FOOTER IS NOT VALID",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-009",
+    "description": "'RECORD TYPE' IS NOT VALID",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-001",
+    "description": "FILE SPECIFIED DOES NOT EXIST",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-011",
+    "description": "NUMBER OF RECORDS BETWEEN HEADER AND FOOTER IS NOT VALID",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-012",
+    "description": "ANOTHER ELABORATION FROM THE SAME 'PROVIDER CODE' IS RUNNING",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-016",
+    "description": "FILE SPECIFIED IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-019",
+    "description": "'FILE REFERENCE DATE' IN THE FOOTER IS DIFFERENT FROM DATE IN THE HEADER",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-020",
+    "description": "'CONTRACT TYPE' IS MISSING OR INVALID",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-022",
+    "description": "'PROVIDER SUBJECT NO' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-023",
+    "description": "'PROVIDER SUBJECT NO (PARENT)' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-024",
+    "description": "'PROVIDER CONTRACT NO' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-025",
+    "description": "'EVENT CODE' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-027",
+    "description": "MORE THAN ONE FOOTER ROW FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-028",
+    "description": "'PROVIDER TYPE' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-029",
+    "description": "'ROLE' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "30-030",
+    "description": "'PROVIDER CODE' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-007",
+    "description": "FIELD 'ENQUIRY CODE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'ENQUIRY CODE' not found in schema"
+  },
+  {
+    "error_code": "3-009",
+    "description": "FIELD 'RECORD TYPE' IS NOT VALID",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "3-011",
+    "description": "NUMBER OF RECORDS AFTER THE HEADER IS NOT VALID",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-012",
+    "description": "ANOTHER ELABORATION FROM THE SAME 'PROVIDER CODE' IS RUNNING",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-016",
+    "description": "FILE SPECIFIED IS EMPTY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-019",
+    "description": "FIELD OUTPUT TYPE IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "3-020",
+    "description": "FIELD 'OUTPUT TYPE' IN THE HEADER RECORD IS NOT CORRECT",
+    "reason_unmapped": "Field 'OUTPUT TYPE' not found in schema"
+  },
+  {
+    "error_code": "3-028",
+    "description": "'PROVIDER TYPE' IS MANDATORY",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "40-001",
+    "description": "THE NAME OF THE COMPRESSED FILE DOES NOT FOLLOW THE NAMING CONVENTION",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "40-002",
+    "description": "THE EXTENSION OF THE SUBMITTED FILE SHOULD BE .ZIP OR .GPG",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "40-003",
+    "description": "THE CONTENT OF THE COMPRESSED FILE DOES NOT FOLLOW THE NAMING CONVENTION",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "40-004",
+    "description": "THE FILE CANNOT BE PROCESSED",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "40-005",
+    "description": "THE NAME OF THE .ZIP FILE AND THE NAME OF THE .TXT FILE ARE DIFFERENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-001",
+    "description": "A SOURCE MUST BE DEFINED. FLAG ONLINE SOURCE AND FLAG BATCH SOURCE CANNOT BE BOTH 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-002",
+    "description": "CREDIT PROVIDER AND CREDIT PROVIDER SUBJECT CODES MUST BE UNIQUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-003",
+    "description": "THERE IS A LINKED CONTRACT FOR SPECIFIC CREDIT PROVIDER, THERE MUST BE AT LEAST ONE PROVIDER SUBJECT LINK FOR IT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-004",
+    "description": "THERE IS A CONTRACT LINK WITH THE FLAG BATCH SOURCE ACTIVE, THERE MUST BE AT LEAST ONE PROVIDER LINK WITH FLAG BATCH SOURCE ACTIVE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-005",
+    "description": "THE SUBJECT MUST EXIST IN THE DB AND HE MUST BE COMPLIANT WITH CONTRACT’ CONTRIBUTION SOURCE AND CREDIT PROVIDER",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-006",
+    "description": "THE CONTRACT MUST EXIST IN THE DB AND IT MUST BE COMPLIANT WITH LINK’ CONTRIBUTION SOURCE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-007",
+    "description": "DUPLICATED RECORD IN THE TABLE THAT LINK THE SUBJECT TO THE CONTRACT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-008",
+    "description": "CREDIT PROVIDER CODE NOT FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-009",
+    "description": "FIELD 'COMPANY ROLE' IS NOT CORRECT",
+    "reason_unmapped": "Field 'COMPANY ROLE' not found in schema"
+  },
+  {
+    "error_code": "50-010",
+    "description": "COMPANY’S SUBJECT CODE NOT FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-011",
+    "description": "SUBJECT CODE NOT FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-014",
+    "description": "FIELD ‘FIRST REFERENCE DATE’ IS NOT CORRECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-015",
+    "description": "FIELD ‘LAST REFERENCE DATE’ IS NOT CORRECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-016",
+    "description": "NO CANDIDATES FOUND",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-017",
+    "description": "INSERTED CIC SUBJECT CODE CORRESPOND TO DIFFERENT SUBJECT TYPES",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-018",
+    "description": "SUBJECT ALREADY WAITING TO BE MERGED. PLEASE ACCESS TO THE TO BE MERGED REPORT TO PROCEED WITH THE MERGING",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-019",
+    "description": "THE FOLLOWING SUBJECTS: <CBSUBJECTCODE (FROM 1 TO N)> ARE ALREADY WAITING TO BE MERGED. PLEASE ACCESS TO THE TO BE MERGED REPORT TO PROCEED WITH THE MERGING",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-020",
+    "description": "ONE OF THE SELECTED SUBJECT IS PRESENT MULTIPLE TIME IN THE TO BE MERGED REPORT. ARE YOU SURE YOU WANT TO PROCEED WITH THE MERGING?",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-021",
+    "description": "SUBJECT <CODESUBJECTCODE> NOT FOUND IN THE DATABASE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-022",
+    "description": "ONLY ONE FLAG CURRENT=1 CONTRIBUTION IS ALLOWED, BUT AT LEAST ONE MUST BE PRESENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-023",
+    "description": "ONLY THE MOST RECENT CONTRIBUTION CAN HAVE THE FLAG CURRENT=1",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-024",
+    "description": "DISCREPANCIES BETEWEEN CONTRACT STATUS AND CONTRACT - SUBJECT LINKS STATUS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-025",
+    "description": "AT LEAST ONE CREDIT PROVIDER LINK MUST BE PRESENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-026",
+    "description": "FOR PROVIDER SUBJECT LINK A SOURCE MUST BE DEFINED. FLAG ONLINE SOURCE AND FLAG BATCH SOURCE CANNOT BE BOTH 0",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-027",
+    "description": "CONTRACT NOT FOUND IN THE DATABASE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-028",
+    "description": "THERE MUST BE AT LEAST ONE, BUT ONLY ONE RECORD FOR ATTRIBUTE TYPE WITH FLAG CURRENT=1",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-029",
+    "description": "CONTRACT SUBJECT LINK - SUBJECT ROLE IS NOT CORRECT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-030",
+    "description": "CBSUBJECTCODE AND GUARANTOR NAME CANNOT BE BOTH EMPTY OR FILLED IN",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-031",
+    "description": "COMPANY LINK -LINKED SUBJECTS CANNOT BE THE SAME",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-032",
+    "description": "NEGATIVE EVENT – FIELD 'PROVIDER CODE' MUST BE COMPLIANT WITH PROVIDER SUBJECT LINK",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "50-033",
+    "description": "NEGATIVE EVENT – FIELD ‘REFERENCE DATE ' IS NOT CORRECT.",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "50-034",
+    "description": "GURANTEE - FIELD 'SUBJECT CODE' MUST BE COMPLIANT WITH CONTRACT PROVIDER OWNER CODE",
+    "reason_unmapped": "Field 'SUBJECT CODE' not found in schema"
+  },
+  {
+    "error_code": "60-005",
+    "description": "INDIVIDUAL AGE SHOULD BE BETWEEN 18 AND 100 YEARS",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "60-008",
+    "description": "WARNING - FIELD 'CURRENCY' HAS BEEN CLEANED BECAUSE ALL AMOUNTS ARE EMPTY (COMPANY)",
+    "reason_unmapped": "Could not infer primitive from description"
+  },
+  {
+    "error_code": "60-009",
+    "description": "AT LEAST ONE 'ADDRESS' OCCURRENCE MUST BE THE 'MAIN ADDRESS'",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "60-010",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' OR 'SSS' OR 'GSIS' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "60-011",
+    "description": "AT LEAST ONE BETWEEN ALL 'IDENTIFICATION CODE:TYPE' MUST HAVE 'TIN' DOMAIN-VALUE",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "60-012",
+    "description": "AT LEAST ONE 'CONTACT' OCCURRENCE MUST BE PRESENT",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "99-001",
+    "description": "STAGE EXCEPTION - UNEXPECTED ERROR",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  },
+  {
+    "error_code": "99-002",
+    "description": "GENERIC CONVERSION ERROR",
+    "reason_unmapped": "No FIELD '...' name found in description"
+  }
+]
